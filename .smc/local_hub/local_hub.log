@@ -1,0 +1,58 @@
+2017-03-14T00:49:57.192Z - debug: '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc-DEBUG' does not exist; minimal logging
+2017-03-14T00:49:57.212Z - debug: writing info.json
+2017-03-14T00:49:57.225Z - debug: initializing secret token
+2017-03-14T00:49:57.225Z - debug: read the secret token file...
+2017-03-14T00:49:57.226Z - debug: create '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc/secret_token'
+2017-03-14T00:49:57.226Z - debug: got secret token = 18oWYtDiTVZyNYUNUR5+bo221uWWZ2afILHNSCDFvrJtrQH52Ag26PpHTS/ckEJ63RcMn/eqp19FE89CUK39jQitWusg3X4jeELg8yCuuU2pLkuA7SZc2w6X82Wy4LqdLqcFOJkHjPJXS57kiYCHCN9DXyjl5s0ppsIK1PbluhI=
+2017-03-14T00:49:57.227Z - info: starting tcp server: project <--> hub...
+2017-03-14T00:49:57.232Z - info: tcp_server listening 0.0.0.0:44501
+2017-03-14T00:49:57.233Z - info: starting raw http server...
+2017-03-14T00:49:57.739Z - info: raw server: port=35085, host='10.240.0.31', base='/da4b09c7-73a7-4027-ac2d-5fed6d409acf/raw/'
+2017-03-14T00:49:57.743Z - debug: Successfully started servers.
+2017-03-14T00:50:04.137Z - debug: received new connection
+2017-03-14T00:50:04.194Z - debug: hello from hub -- sending back our version = 1488327214
+2017-03-14T00:50:04.292Z - debug: open_syncstrings: 0; recent_syncstrings: 0
+2017-03-14T00:52:11.512Z - debug: open_syncstrings: 0; recent_syncstrings: 1
+2017-03-14T00:52:11.609Z - debug: open_syncstrings: 1; recent_syncstrings: 1
+2017-03-14T00:52:11.717Z - debug: jupyter_port: undefined
+2017-03-14T00:52:11.717Z - debug: jupyter_port: checking jupyter status
+2017-03-14T00:52:12.433Z - debug: jupyter_port: got status={"status":"stopped"}
+2017-03-14T00:52:12.434Z - debug: jupyter_port: not running, so start it running
+2017-03-14T00:52:15.127Z - debug: jupyter_port: after starting, got status=undefined
+2017-03-14T00:52:15.127Z - debug: jupyter_port: finished; (err=error parsing smc-jupyter startup output -- SyntaxError: Unexpected token / in JSON at position 0, {misc.to_json(out)}); now sending resp
+2017-03-14T00:52:15.997Z - debug: jupyter_port: undefined
+2017-03-14T00:52:15.997Z - debug: jupyter_port: checking jupyter status
+2017-03-14T00:52:16.561Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":26180,"port":6309}
+2017-03-14T00:52:16.561Z - debug: jupyter_port: already running; nothing more to do
+2017-03-14T00:52:16.561Z - debug: jupyter_port: finished; (err=null); now sending resp
+2017-03-14T00:52:24.141Z - debug: jupyter_port: undefined
+2017-03-14T00:52:24.141Z - debug: jupyter_port: checking jupyter status
+2017-03-14T00:52:24.941Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":26180,"port":6309}
+2017-03-14T00:52:24.941Z - debug: jupyter_port: already running; nothing more to do
+2017-03-14T00:52:24.941Z - debug: jupyter_port: finished; (err=null); now sending resp
+2017-03-14T00:55:56.621Z - debug: handle_save_blob_message: da39a3ee-5e6b-44b0-9325-5bfef9560189
+2017-03-14T00:55:56.789Z - debug: received new connection
+2017-03-14T00:55:56.829Z - debug: connect_to_session -- type='console'
+2017-03-14T00:55:56.830Z - debug: get_session: console session d7590ad2-0ff9-4e81-982f-9524adc8f182
+2017-03-14T00:55:56.830Z - debug: console session not yet created -- put on stack
+2017-03-14T00:55:56.830Z - debug: console session does not exist or is not running, so we make a new session
+2017-03-14T00:55:56.831Z - debug: couldn't determine console server port; probably console server not running -- try restarting it
+2017-03-14T00:55:56.832Z - debug: restart_console_server: undefined
+2017-03-14T00:55:56.832Z - debug: restart_console_server: "restarting daemon"
+2017-03-14T00:55:56.832Z - debug: restart_console_server: "remove port_file=/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc/console_server/console_server.port"
+2017-03-14T00:55:56.832Z - debug: restart_console_server: "restart console server"
+2017-03-14T00:55:57.661Z - debug: restart_console_server: "wait a little to see if /projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc/console_server/console_server.port appears, and if so read it and return port"
+2017-03-14T00:56:01.008Z - debug: restart_console_server: "finished trying to restart console_server"
+2017-03-14T00:56:01.008Z - debug: restarted console server, then got port = 46769
+2017-03-14T00:56:01.008Z - debug: console: Got port -- now create the new session
+2017-03-14T00:56:01.008Z - debug: _new_session: defined by {"event":"connect_to_session","id":"d32c5b3f-2cc7-4237-b37e-640a7a053d97","type":"console","project_id":"da4b09c7-73a7-4027-ac2d-5fed6d409acf","session_uuid":"d7590ad2-0ff9-4e81-982f-9524adc8f182","params":{"command":"bash","path":"./","filename":"2017-03-13-215550.term"}}
+2017-03-14T01:01:50.509Z - debug: handle_save_blob_message: da39a3ee-5e6b-44b0-9325-5bfef9560189
+2017-03-14T01:01:50.753Z - debug: received new connection
+2017-03-14T01:01:50.805Z - debug: connect_to_session -- type='console'
+2017-03-14T01:01:50.806Z - debug: get_session: console session b9f6f7b0-e42b-4095-b7b6-582fbdc1e0ca
+2017-03-14T01:01:50.806Z - debug: console session not yet created -- put on stack
+2017-03-14T01:01:50.806Z - debug: console session does not exist or is not running, so we make a new session
+2017-03-14T01:01:50.810Z - debug: got console server port = 46769
+2017-03-14T01:01:50.810Z - debug: console: Got port -- now create the new session
+2017-03-14T01:01:50.810Z - debug: _new_session: defined by {"event":"connect_to_session","id":"5477a6a5-943a-46df-8480-b5b24e567067","type":"console","project_id":"da4b09c7-73a7-4027-ac2d-5fed6d409acf","session_uuid":"b9f6f7b0-e42b-4095-b7b6-582fbdc1e0ca","params":{"command":"bash","path":"./aula13.03","filename":"aula13.03/2017-03-13-220143.term"}}
+2017-03-14T01:06:37.879Z - debug: a console session client socket ended -- session_uuid=d7590ad2-0ff9-4e81-982f-9524adc8f182

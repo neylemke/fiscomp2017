@@ -1,0 +1,3 @@
+info: listening on port 46769
+info: start_session {"event":"connect_to_session","id":"d32c5b3f-2cc7-4237-b37e-640a7a053d97","type":"console","project_id":"da4b09c7-73a7-4027-ac2d-5fed6d409acf","session_uuid":"d7590ad2-0ff9-4e81-982f-9524adc8f182","params":{"command":"bash","path":"./","filename":"2017-03-13-215550.term"}}
+info: start_session {"event":"connect_to_session","id":"5477a6a5-943a-46df-8480-b5b24e567067","type":"console","project_id":"da4b09c7-73a7-4027-ac2d-5fed6d409acf","session_uuid":"b9f6f7b0-e42b-4095-b7b6-582fbdc1e0ca","params":{"command":"bash","path":"./aula13.03","filename":"aula13.03/2017-03-13-220143.term"}}

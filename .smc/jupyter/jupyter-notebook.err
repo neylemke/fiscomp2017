@@ -1,0 +1,66 @@
+[TerminalIPythonApp] WARNING | Subcommand `ipython notebook` is deprecated and will be removed in future versions.
+[TerminalIPythonApp] WARNING | You likely want to use `jupyter notebook` in the future
+[W 00:52:15.179 NotebookApp] Config option `token` not recognized by `NotebookApp`.
+[W 00:52:15.180 NotebookApp] Config option `base_kernel_url` not recognized by `NotebookApp`.  Did you mean one of: `base_project_url, base_url`?
+[I 00:52:15.181 NotebookApp] Using MathJax: /static/mathjax/MathJax.js
+[I 00:52:15.209 NotebookApp] Using MathJax: nbextensions/mathjax/MathJax.js
+[W 00:52:15.211 NotebookApp] Config option `token` not recognized by `NotebookApp`.
+[W 00:52:15.212 NotebookApp] Config option `base_kernel_url` not recognized by `NotebookApp`.  Did you mean one of: `base_project_url, base_url`?
+[I 00:52:15.213 NotebookApp] Using MathJax: /static/mathjax/MathJax.js
+[I 00:52:15.295 NotebookApp] Serving notebooks from local directory: /projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf
+[I 00:52:15.295 NotebookApp] 0 active kernels 
+[I 00:52:15.295 NotebookApp] The Jupyter Notebook is running at: http://10.240.0.31:6309/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/
+[I 00:52:15.295 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 00:52:16.573 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/ (10.247.106.9) 1.91ms
+[W 00:52:21.923 NotebookApp] Notebook aula13.03/Parte1.Historia.ipynb is not trusted
+[I 00:52:23.309 NotebookApp] Kernel started: 90d31b41-f9d9-4374-8d00-93bee91911d3
+[I 00:52:23.316 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/aula13.03/Pocket_slide_rule.jpg (10.247.106.9) 1.35ms
+[I 00:52:23.329 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/aula13.03/tut8.png (10.247.106.9) 1.24ms
+[I 00:52:23.333 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/aula13.03/tut9.png (10.247.106.9) 0.84ms
+[I 00:52:23.334 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/aula13.03/article-1165535-0412A762000005DC-835_962x657.jpg (10.247.106.9) 0.83ms
+[I 00:52:23.338 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/aula13.03/Abacus_6.png (10.247.106.9) 1.68ms
+[I 00:52:23.340 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/aula13.03/800px-Hp-35_1972.jpg (10.247.106.9) 1.26ms
+[I 00:52:23.344 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/aula13.03/eniac-the-second-electronic-calculator-los-alamos-national-laboratory.jpg (10.247.106.9) 1.51ms
+[I 00:52:23.347 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/aula13.03/cray.jpg (10.247.106.9) 1.60ms
+[I 00:52:49.101 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
+[W 00:52:49.102 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
+[I 00:53:34.948 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
+[W 00:53:34.948 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
+[I 00:54:19.925 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
+[W 00:54:19.925 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
+[I 00:55:05.021 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
+[W 00:55:05.022 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
+[I 00:55:49.913 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
+[W 00:55:49.914 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
+[I 00:56:34.919 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
+[W 00:56:34.919 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
+[I 00:57:18.912 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
+[W 00:57:18.912 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
+[I 00:58:04.576 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
+[W 00:58:04.577 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
+[I 00:58:48.914 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
+[W 00:58:48.914 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
+[I 00:59:33.914 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
+[W 00:59:33.915 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
+[I 01:00:18.972 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
+[W 01:00:18.972 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
+[I 01:01:04.930 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
+[W 01:01:04.931 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
+[I 01:01:48.925 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
+[W 01:01:48.926 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
+[I 01:02:34.582 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
+[W 01:02:34.582 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
+[I 01:03:18.893 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
+[W 01:03:18.894 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
+[I 01:04:03.922 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
+[W 01:04:03.923 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
+[I 01:04:48.924 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
+[W 01:04:48.925 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
+[I 01:05:33.915 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
+[W 01:05:33.915 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
+[I 01:06:18.895 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
+[W 01:06:18.895 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
+[I 01:07:03.932 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
+[W 01:07:03.933 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
+[I 01:07:48.878 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
+[W 01:07:48.879 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
