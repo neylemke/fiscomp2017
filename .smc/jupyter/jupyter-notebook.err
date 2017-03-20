@@ -1,66 +1,50 @@
 [TerminalIPythonApp] WARNING | Subcommand `ipython notebook` is deprecated and will be removed in future versions.
 [TerminalIPythonApp] WARNING | You likely want to use `jupyter notebook` in the future
-[W 00:52:15.179 NotebookApp] Config option `token` not recognized by `NotebookApp`.
-[W 00:52:15.180 NotebookApp] Config option `base_kernel_url` not recognized by `NotebookApp`.  Did you mean one of: `base_project_url, base_url`?
-[I 00:52:15.181 NotebookApp] Using MathJax: /static/mathjax/MathJax.js
-[I 00:52:15.209 NotebookApp] Using MathJax: nbextensions/mathjax/MathJax.js
-[W 00:52:15.211 NotebookApp] Config option `token` not recognized by `NotebookApp`.
-[W 00:52:15.212 NotebookApp] Config option `base_kernel_url` not recognized by `NotebookApp`.  Did you mean one of: `base_project_url, base_url`?
-[I 00:52:15.213 NotebookApp] Using MathJax: /static/mathjax/MathJax.js
-[I 00:52:15.295 NotebookApp] Serving notebooks from local directory: /projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf
-[I 00:52:15.295 NotebookApp] 0 active kernels 
-[I 00:52:15.295 NotebookApp] The Jupyter Notebook is running at: http://10.240.0.31:6309/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/
-[I 00:52:15.295 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[I 00:52:16.573 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/ (10.247.106.9) 1.91ms
-[W 00:52:21.923 NotebookApp] Notebook aula13.03/Parte1.Historia.ipynb is not trusted
-[I 00:52:23.309 NotebookApp] Kernel started: 90d31b41-f9d9-4374-8d00-93bee91911d3
-[I 00:52:23.316 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/aula13.03/Pocket_slide_rule.jpg (10.247.106.9) 1.35ms
-[I 00:52:23.329 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/aula13.03/tut8.png (10.247.106.9) 1.24ms
-[I 00:52:23.333 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/aula13.03/tut9.png (10.247.106.9) 0.84ms
-[I 00:52:23.334 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/aula13.03/article-1165535-0412A762000005DC-835_962x657.jpg (10.247.106.9) 0.83ms
-[I 00:52:23.338 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/aula13.03/Abacus_6.png (10.247.106.9) 1.68ms
-[I 00:52:23.340 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/aula13.03/800px-Hp-35_1972.jpg (10.247.106.9) 1.26ms
-[I 00:52:23.344 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/aula13.03/eniac-the-second-electronic-calculator-los-alamos-national-laboratory.jpg (10.247.106.9) 1.51ms
-[I 00:52:23.347 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/aula13.03/cray.jpg (10.247.106.9) 1.60ms
-[I 00:52:49.101 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
-[W 00:52:49.102 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
-[I 00:53:34.948 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
-[W 00:53:34.948 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
-[I 00:54:19.925 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
-[W 00:54:19.925 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
-[I 00:55:05.021 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
-[W 00:55:05.022 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
-[I 00:55:49.913 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
-[W 00:55:49.914 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
-[I 00:56:34.919 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
-[W 00:56:34.919 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
-[I 00:57:18.912 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
-[W 00:57:18.912 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
-[I 00:58:04.576 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
-[W 00:58:04.577 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
-[I 00:58:48.914 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
-[W 00:58:48.914 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
-[I 00:59:33.914 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
-[W 00:59:33.915 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
-[I 01:00:18.972 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
-[W 01:00:18.972 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
-[I 01:01:04.930 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
-[W 01:01:04.931 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
-[I 01:01:48.925 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
-[W 01:01:48.926 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
-[I 01:02:34.582 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
-[W 01:02:34.582 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
-[I 01:03:18.893 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
-[W 01:03:18.894 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
-[I 01:04:03.922 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
-[W 01:04:03.923 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
-[I 01:04:48.924 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
-[W 01:04:48.925 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
-[I 01:05:33.915 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
-[W 01:05:33.915 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
-[I 01:06:18.895 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
-[W 01:06:18.895 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
-[I 01:07:03.932 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
-[W 01:07:03.933 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
-[I 01:07:48.878 NotebookApp] Saving file at /aula13.03/Parte1.Historia.ipynb
-[W 01:07:48.879 NotebookApp] Saving untrusted notebook aula13.03/Parte1.Historia.ipynb
+[W 15:30:40.869 NotebookApp] Config option `token` not recognized by `NotebookApp`.
+[W 15:30:40.869 NotebookApp] Config option `base_kernel_url` not recognized by `NotebookApp`.  Did you mean one of: `base_project_url, base_url`?
+[I 15:30:40.870 NotebookApp] Using MathJax: /static/mathjax/MathJax.js
+[I 15:30:40.873 NotebookApp] Using MathJax: nbextensions/mathjax/MathJax.js
+[W 15:30:40.874 NotebookApp] Config option `token` not recognized by `NotebookApp`.
+[W 15:30:40.875 NotebookApp] Config option `base_kernel_url` not recognized by `NotebookApp`.  Did you mean one of: `base_project_url, base_url`?
+[I 15:30:40.876 NotebookApp] Using MathJax: /static/mathjax/MathJax.js
+[I 15:30:40.990 NotebookApp] Serving notebooks from local directory: /projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf
+[I 15:30:40.990 NotebookApp] 0 active kernels 
+[I 15:30:40.990 NotebookApp] The Jupyter Notebook is running at: http://10.240.0.31:15130/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/
+[I 15:30:40.990 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 15:30:41.057 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/ (10.247.210.7) 1.52ms
+[W 15:30:42.465 NotebookApp] 404 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/aula13.03/Parte1.Historia.ipynb (10.247.210.7): No such file or directory: aula13.03/Parte1.Historia.ipynb
+[W 15:30:42.475 NotebookApp] 404 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/aula13.03/Parte1.Historia.ipynb (10.247.210.7) 11.80ms referer=https://cloud.sagemath.com/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/files/aula13.03/Parte1.Historia.ipynb
+[I 15:33:02.192 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/ (10.247.204.6) 0.95ms
+[W 15:33:35.041 NotebookApp] Notebook Aula20.03.2017/Paradigmas.ipynb is not trusted
+[I 15:33:36.075 NotebookApp] Kernel started: 9a9fbc6c-b20a-4cb7-b0c3-5be0536329b0
+[I 15:33:39.545 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/ (10.247.204.6) 1.51ms
+[W 15:33:50.455 NotebookApp] Notebook Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb is not trusted
+[I 15:33:53.052 NotebookApp] Kernel started: 0edb058c-4a8d-48e3-8fec-e024c61c00ae
+[I 15:33:53.078 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/tut3.png (10.247.204.6) 1.52ms
+[I 15:33:53.092 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/tut5.png (10.247.204.6) 1.47ms
+[I 15:33:53.102 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/tut2.png (10.247.204.6) 1.40ms
+[I 15:33:53.105 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/tut7.png (10.247.204.6) 1.27ms
+[I 15:33:53.108 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/m2.png (10.247.204.6) 1.29ms
+[I 15:33:53.110 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/tut6.png (10.247.204.6) 1.69ms
+[I 15:33:53.112 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/tut4.png (10.247.204.6) 1.27ms
+[I 15:33:53.114 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/m1.png (10.247.204.6) 1.19ms
+[I 15:33:53.116 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/m3.png (10.247.204.6) 1.18ms
+[I 15:33:53.118 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/tutjupyter1.png (10.247.204.6) 1.14ms
+[I 15:33:53.156 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/exc5.png (10.247.204.6) 1.07ms
+[I 15:33:53.657 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/ (10.247.204.6) 1.41ms
+[I 15:33:56.095 NotebookApp] Saving file at /Aula20.03.2017/Paradigmas.ipynb
+[I 15:34:16.167 NotebookApp] Saving file at /Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[W 15:34:16.168 NotebookApp] Saving untrusted notebook Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[W 15:34:17.832 NotebookApp] Notebook Aula20.03.2017/Linguagens de Programação.ipynb is not trusted
+[I 15:34:18.823 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/linguagens.png (10.247.204.6) 0.98ms
+[I 15:34:18.840 NotebookApp] Kernel started: d90dc386-1074-435b-9578-f71a53fa0c19
+[I 15:34:18.845 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/pythonxc.jpg (10.247.204.6) 1.42ms
+[I 15:34:18.846 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/lispxkcd.jpg (10.247.204.6) 0.70ms
+[I 15:34:41.423 NotebookApp] Saving file at /Aula20.03.2017/Paradigmas.ipynb
+[I 15:34:41.588 NotebookApp] Saving file at /Aula20.03.2017/Linguagens de Programação.ipynb
+[I 15:35:01.957 NotebookApp] Saving file at /Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[W 15:35:01.959 NotebookApp] Saving untrusted notebook Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[I 15:35:26.267 NotebookApp] Saving file at /Aula20.03.2017/Paradigmas.ipynb
+[I 15:35:26.436 NotebookApp] Saving file at /Aula20.03.2017/Linguagens de Programação.ipynb
+[I 15:35:48.165 NotebookApp] Saving file at /Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[W 15:35:48.166 NotebookApp] Saving untrusted notebook Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb

@@ -1,58 +1,120 @@
-2017-03-14T00:49:57.192Z - debug: '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc-DEBUG' does not exist; minimal logging
-2017-03-14T00:49:57.212Z - debug: writing info.json
-2017-03-14T00:49:57.225Z - debug: initializing secret token
-2017-03-14T00:49:57.225Z - debug: read the secret token file...
-2017-03-14T00:49:57.226Z - debug: create '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc/secret_token'
-2017-03-14T00:49:57.226Z - debug: got secret token = 18oWYtDiTVZyNYUNUR5+bo221uWWZ2afILHNSCDFvrJtrQH52Ag26PpHTS/ckEJ63RcMn/eqp19FE89CUK39jQitWusg3X4jeELg8yCuuU2pLkuA7SZc2w6X82Wy4LqdLqcFOJkHjPJXS57kiYCHCN9DXyjl5s0ppsIK1PbluhI=
-2017-03-14T00:49:57.227Z - info: starting tcp server: project <--> hub...
-2017-03-14T00:49:57.232Z - info: tcp_server listening 0.0.0.0:44501
-2017-03-14T00:49:57.233Z - info: starting raw http server...
-2017-03-14T00:49:57.739Z - info: raw server: port=35085, host='10.240.0.31', base='/da4b09c7-73a7-4027-ac2d-5fed6d409acf/raw/'
-2017-03-14T00:49:57.743Z - debug: Successfully started servers.
-2017-03-14T00:50:04.137Z - debug: received new connection
-2017-03-14T00:50:04.194Z - debug: hello from hub -- sending back our version = 1488327214
-2017-03-14T00:50:04.292Z - debug: open_syncstrings: 0; recent_syncstrings: 0
-2017-03-14T00:52:11.512Z - debug: open_syncstrings: 0; recent_syncstrings: 1
-2017-03-14T00:52:11.609Z - debug: open_syncstrings: 1; recent_syncstrings: 1
-2017-03-14T00:52:11.717Z - debug: jupyter_port: undefined
-2017-03-14T00:52:11.717Z - debug: jupyter_port: checking jupyter status
-2017-03-14T00:52:12.433Z - debug: jupyter_port: got status={"status":"stopped"}
-2017-03-14T00:52:12.434Z - debug: jupyter_port: not running, so start it running
-2017-03-14T00:52:15.127Z - debug: jupyter_port: after starting, got status=undefined
-2017-03-14T00:52:15.127Z - debug: jupyter_port: finished; (err=error parsing smc-jupyter startup output -- SyntaxError: Unexpected token / in JSON at position 0, {misc.to_json(out)}); now sending resp
-2017-03-14T00:52:15.997Z - debug: jupyter_port: undefined
-2017-03-14T00:52:15.997Z - debug: jupyter_port: checking jupyter status
-2017-03-14T00:52:16.561Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":26180,"port":6309}
-2017-03-14T00:52:16.561Z - debug: jupyter_port: already running; nothing more to do
-2017-03-14T00:52:16.561Z - debug: jupyter_port: finished; (err=null); now sending resp
-2017-03-14T00:52:24.141Z - debug: jupyter_port: undefined
-2017-03-14T00:52:24.141Z - debug: jupyter_port: checking jupyter status
-2017-03-14T00:52:24.941Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":26180,"port":6309}
-2017-03-14T00:52:24.941Z - debug: jupyter_port: already running; nothing more to do
-2017-03-14T00:52:24.941Z - debug: jupyter_port: finished; (err=null); now sending resp
-2017-03-14T00:55:56.621Z - debug: handle_save_blob_message: da39a3ee-5e6b-44b0-9325-5bfef9560189
-2017-03-14T00:55:56.789Z - debug: received new connection
-2017-03-14T00:55:56.829Z - debug: connect_to_session -- type='console'
-2017-03-14T00:55:56.830Z - debug: get_session: console session d7590ad2-0ff9-4e81-982f-9524adc8f182
-2017-03-14T00:55:56.830Z - debug: console session not yet created -- put on stack
-2017-03-14T00:55:56.830Z - debug: console session does not exist or is not running, so we make a new session
-2017-03-14T00:55:56.831Z - debug: couldn't determine console server port; probably console server not running -- try restarting it
-2017-03-14T00:55:56.832Z - debug: restart_console_server: undefined
-2017-03-14T00:55:56.832Z - debug: restart_console_server: "restarting daemon"
-2017-03-14T00:55:56.832Z - debug: restart_console_server: "remove port_file=/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc/console_server/console_server.port"
-2017-03-14T00:55:56.832Z - debug: restart_console_server: "restart console server"
-2017-03-14T00:55:57.661Z - debug: restart_console_server: "wait a little to see if /projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc/console_server/console_server.port appears, and if so read it and return port"
-2017-03-14T00:56:01.008Z - debug: restart_console_server: "finished trying to restart console_server"
-2017-03-14T00:56:01.008Z - debug: restarted console server, then got port = 46769
-2017-03-14T00:56:01.008Z - debug: console: Got port -- now create the new session
-2017-03-14T00:56:01.008Z - debug: _new_session: defined by {"event":"connect_to_session","id":"d32c5b3f-2cc7-4237-b37e-640a7a053d97","type":"console","project_id":"da4b09c7-73a7-4027-ac2d-5fed6d409acf","session_uuid":"d7590ad2-0ff9-4e81-982f-9524adc8f182","params":{"command":"bash","path":"./","filename":"2017-03-13-215550.term"}}
-2017-03-14T01:01:50.509Z - debug: handle_save_blob_message: da39a3ee-5e6b-44b0-9325-5bfef9560189
-2017-03-14T01:01:50.753Z - debug: received new connection
-2017-03-14T01:01:50.805Z - debug: connect_to_session -- type='console'
-2017-03-14T01:01:50.806Z - debug: get_session: console session b9f6f7b0-e42b-4095-b7b6-582fbdc1e0ca
-2017-03-14T01:01:50.806Z - debug: console session not yet created -- put on stack
-2017-03-14T01:01:50.806Z - debug: console session does not exist or is not running, so we make a new session
-2017-03-14T01:01:50.810Z - debug: got console server port = 46769
-2017-03-14T01:01:50.810Z - debug: console: Got port -- now create the new session
-2017-03-14T01:01:50.810Z - debug: _new_session: defined by {"event":"connect_to_session","id":"5477a6a5-943a-46df-8480-b5b24e567067","type":"console","project_id":"da4b09c7-73a7-4027-ac2d-5fed6d409acf","session_uuid":"b9f6f7b0-e42b-4095-b7b6-582fbdc1e0ca","params":{"command":"bash","path":"./aula13.03","filename":"aula13.03/2017-03-13-220143.term"}}
-2017-03-14T01:06:37.879Z - debug: a console session client socket ended -- session_uuid=d7590ad2-0ff9-4e81-982f-9524adc8f182
+2017-03-20T15:21:25.493Z - debug: '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc-DEBUG' does not exist; minimal logging
+2017-03-20T15:21:25.498Z - debug: writing info.json
+2017-03-20T15:21:25.519Z - debug: initializing secret token
+2017-03-20T15:21:25.519Z - debug: read the secret token file...
+2017-03-20T15:21:25.520Z - debug: create '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc/secret_token'
+2017-03-20T15:21:25.521Z - debug: got secret token = S8OpZ/noJsr1y6+DMPC9AvxEsyLR/0mHJlClKZmM+yam9Bag+MNW+VO1n6KQmgv7ftlbpRbzvU6iyHLaIR4cBmI5R8PRBgQGSD3bb0PyQjSeVUEjCJ8ULtOZ+7RdTWuJ2Yc+90qc6F2s+VImnTTTj2kBtuBMvJWwfIXJoxAGtvM=
+2017-03-20T15:21:25.521Z - info: starting tcp server: project <--> hub...
+2017-03-20T15:21:25.529Z - info: tcp_server listening 0.0.0.0:33088
+2017-03-20T15:21:25.539Z - info: starting raw http server...
+2017-03-20T15:21:26.055Z - info: raw server: port=36993, host='10.240.0.31', base='/da4b09c7-73a7-4027-ac2d-5fed6d409acf/raw/'
+2017-03-20T15:21:26.059Z - debug: Successfully started servers.
+2017-03-20T15:22:13.768Z - debug: received new connection
+2017-03-20T15:22:13.818Z - debug: hello from hub -- sending back our version = 1489935488
+2017-03-20T15:22:13.918Z - debug: open_syncstrings: 0; recent_syncstrings: 1
+2017-03-20T15:22:14.777Z - debug: open_syncstrings: 1; recent_syncstrings: 1
+2017-03-20T15:30:19.577Z - debug: received new connection
+2017-03-20T15:30:19.615Z - debug: hello from hub -- sending back our version = 1489935488
+2017-03-20T15:30:19.802Z - debug: open_syncstrings: 1; recent_syncstrings: 2
+2017-03-20T15:30:19.828Z - debug: open_syncstrings: 2; recent_syncstrings: 2
+2017-03-20T15:30:20.054Z - debug: BUG ****************************************************************************
+2017-03-20T15:30:20.054Z - debug: Uncaught exception: TypeError: _this.get_doc(...).slice is not a function
+2017-03-20T15:30:20.056Z - debug: TypeError: _this.get_doc(...).slice is not a function
+    at Object._this._client.path_exists.cb (/usr/lib/node_modules/smc-util/syncstring.coffee:1515:118)
+    at /usr/lib/node_modules/smc-project/client.coffee:606:18
+    at FSReqWrap.cb [as oncomplete] (fs.js:257:19)
+
+2017-03-20T15:30:20.056Z - debug: BUG ****************************************************************************
+Trace
+    at process.<anonymous> (/usr/lib/node_modules/smc-project/local_hub.coffee:341:22)
+    at emitOne (events.js:96:13)
+    at process.emit (events.js:188:7)
+    at process._fatalException (bootstrap_node.js:254:26)
+
+2017-03-20T15:30:23.049Z - debug: received new connection
+2017-03-20T15:30:23.087Z - debug: hello from hub -- sending back our version = 1489935488
+2017-03-20T15:30:37.527Z - debug: jupyter_port: undefined
+2017-03-20T15:30:37.527Z - debug: jupyter_port: checking jupyter status
+2017-03-20T15:30:37.895Z - debug: jupyter_port: got status={"status":"stopped"}
+2017-03-20T15:30:37.895Z - debug: jupyter_port: not running, so start it running
+2017-03-20T15:30:39.515Z - debug: jupyter_port: after starting, got status=undefined
+2017-03-20T15:30:39.515Z - debug: jupyter_port: finished; (err=error parsing smc-jupyter startup output -- SyntaxError: Unexpected token / in JSON at position 0, {misc.to_json(out)}); now sending resp
+2017-03-20T15:30:40.340Z - debug: jupyter_port: undefined
+2017-03-20T15:30:40.340Z - debug: jupyter_port: checking jupyter status
+2017-03-20T15:30:41.013Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":7659,"port":15130}
+2017-03-20T15:30:41.013Z - debug: jupyter_port: already running; nothing more to do
+2017-03-20T15:30:41.014Z - debug: jupyter_port: finished; (err=null); now sending resp
+2017-03-20T15:33:01.815Z - debug: jupyter_port: undefined
+2017-03-20T15:33:01.815Z - debug: jupyter_port: checking jupyter status
+2017-03-20T15:33:02.179Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":7659,"port":15130}
+2017-03-20T15:33:02.179Z - debug: jupyter_port: already running; nothing more to do
+2017-03-20T15:33:02.179Z - debug: jupyter_port: finished; (err=null); now sending resp
+2017-03-20T15:33:02.224Z - debug: open_syncstrings: 2; recent_syncstrings: 3
+2017-03-20T15:33:02.362Z - debug: BUG ****************************************************************************
+2017-03-20T15:33:02.362Z - debug: Uncaught exception: TypeError: _this.get_doc(...).slice is not a function
+2017-03-20T15:33:02.362Z - debug: TypeError: _this.get_doc(...).slice is not a function
+    at Object._this._client.path_exists.cb (/usr/lib/node_modules/smc-util/syncstring.coffee:1515:118)
+    at /usr/lib/node_modules/smc-project/client.coffee:606:18
+    at FSReqWrap.cb [as oncomplete] (fs.js:257:19)
+
+2017-03-20T15:33:02.362Z - debug: BUG ****************************************************************************
+Trace
+    at process.<anonymous> (/usr/lib/node_modules/smc-project/local_hub.coffee:341:22)
+    at emitOne (events.js:96:13)
+    at process.emit (events.js:188:7)
+    at process._fatalException (bootstrap_node.js:254:26)
+
+2017-03-20T15:33:02.365Z - debug: open_syncstrings: 3; recent_syncstrings: 3
+2017-03-20T15:33:37.155Z - debug: jupyter_port: undefined
+2017-03-20T15:33:37.155Z - debug: jupyter_port: checking jupyter status
+2017-03-20T15:33:37.757Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":7659,"port":15130}
+2017-03-20T15:33:37.757Z - debug: jupyter_port: already running; nothing more to do
+2017-03-20T15:33:37.758Z - debug: jupyter_port: finished; (err=null); now sending resp
+2017-03-20T15:33:39.491Z - debug: open_syncstrings: 3; recent_syncstrings: 4
+2017-03-20T15:33:39.570Z - debug: open_syncstrings: 4; recent_syncstrings: 4
+2017-03-20T15:33:39.633Z - debug: BUG ****************************************************************************
+2017-03-20T15:33:39.633Z - debug: Uncaught exception: TypeError: _this.get_doc(...).slice is not a function
+2017-03-20T15:33:39.633Z - debug: TypeError: _this.get_doc(...).slice is not a function
+    at Object._this._client.path_exists.cb (/usr/lib/node_modules/smc-util/syncstring.coffee:1515:118)
+    at /usr/lib/node_modules/smc-project/client.coffee:606:18
+    at FSReqWrap.cb [as oncomplete] (fs.js:257:19)
+
+2017-03-20T15:33:39.633Z - debug: BUG ****************************************************************************
+Trace
+    at process.<anonymous> (/usr/lib/node_modules/smc-project/local_hub.coffee:341:22)
+    at emitOne (events.js:96:13)
+    at process.emit (events.js:188:7)
+    at process._fatalException (bootstrap_node.js:254:26)
+
+2017-03-20T15:33:53.355Z - debug: open_syncstrings: 4; recent_syncstrings: 5
+2017-03-20T15:33:53.458Z - debug: open_syncstrings: 5; recent_syncstrings: 5
+2017-03-20T15:33:53.555Z - debug: BUG ****************************************************************************
+2017-03-20T15:33:53.555Z - debug: Uncaught exception: TypeError: Cannot read property 'slice' of undefined
+2017-03-20T15:33:53.555Z - debug: TypeError: Cannot read property 'slice' of undefined
+    at Object._this._client.path_exists.cb (/usr/lib/node_modules/smc-util/syncstring.coffee:1515:117)
+    at /usr/lib/node_modules/smc-project/client.coffee:606:18
+    at FSReqWrap.cb [as oncomplete] (fs.js:257:19)
+
+2017-03-20T15:33:53.555Z - debug: BUG ****************************************************************************
+Trace
+    at process.<anonymous> (/usr/lib/node_modules/smc-project/local_hub.coffee:341:22)
+    at emitOne (events.js:96:13)
+    at process.emit (events.js:188:7)
+    at process._fatalException (bootstrap_node.js:254:26)
+
+2017-03-20T15:35:28.455Z - debug: handle_save_blob_message: da39a3ee-5e6b-44b0-9325-5bfef9560189
+2017-03-20T15:35:28.567Z - debug: received new connection
+2017-03-20T15:35:28.607Z - debug: connect_to_session -- type='console'
+2017-03-20T15:35:28.608Z - debug: get_session: console session 0d3c756c-87ed-46c4-9d6f-4227c1a0d2bf
+2017-03-20T15:35:28.608Z - debug: console session not yet created -- put on stack
+2017-03-20T15:35:28.608Z - debug: console session does not exist or is not running, so we make a new session
+2017-03-20T15:35:28.609Z - debug: couldn't determine console server port; probably console server not running -- try restarting it
+2017-03-20T15:35:28.610Z - debug: restart_console_server: undefined
+2017-03-20T15:35:28.610Z - debug: restart_console_server: "restarting daemon"
+2017-03-20T15:35:28.610Z - debug: restart_console_server: "remove port_file=/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc/console_server/console_server.port"
+2017-03-20T15:35:28.611Z - debug: restart_console_server: "restart console server"
+2017-03-20T15:35:29.409Z - debug: restart_console_server: "wait a little to see if /projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc/console_server/console_server.port appears, and if so read it and return port"
+2017-03-20T15:35:31.709Z - debug: restart_console_server: "finished trying to restart console_server"
+2017-03-20T15:35:31.709Z - debug: restarted console server, then got port = 35870
+2017-03-20T15:35:31.709Z - debug: console: Got port -- now create the new session
+2017-03-20T15:35:31.710Z - debug: _new_session: defined by {"event":"connect_to_session","id":"dd536d13-cf86-493c-a3e6-5b217bc296ae","type":"console","project_id":"da4b09c7-73a7-4027-ac2d-5fed6d409acf","session_uuid":"0d3c756c-87ed-46c4-9d6f-4227c1a0d2bf","params":{"command":"bash","path":"./","filename":"2017-03-20-124019.term"}}
