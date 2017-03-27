@@ -131,3 +131,831 @@
     
     On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
         {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:30:34.679 NotebookApp] Uploading file to /Aula27.03.2017/Interfacejupyter.parte2-1.ipynb
+[E 16:30:34.708 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:31:19.708 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2-1.ipynb
+[E 16:31:19.735 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:32:04.665 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2-1.ipynb
+[E 16:32:04.694 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:32:49.658 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2-1.ipynb
+[E 16:32:49.685 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:33:35.438 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2-1.ipynb
+[E 16:33:35.477 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:34:20.177 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2-1.ipynb
+[E 16:34:20.203 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:35:05.472 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2-1.ipynb
+[E 16:35:05.499 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:35:50.460 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2-1.ipynb
+[E 16:35:50.488 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:36:35.174 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2-1.ipynb
+[E 16:36:35.202 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:37:20.138 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2-1.ipynb
+[E 16:37:20.165 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:38:05.449 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2-1.ipynb
+[E 16:38:05.496 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:38:20.499 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/ (10.247.210.9) 1.39ms
+[E 16:38:42.151 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:38:50.415 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2-1.ipynb
+[E 16:38:50.444 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:38:55.096 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/m1.png (10.247.210.9) 1.02ms
+[I 16:38:55.495 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/atrib.png (10.247.210.9) 0.90ms
+[I 16:38:55.637 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/exc5.png (10.247.210.9) 0.87ms
+[I 16:38:56.055 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/m3.png (10.247.210.9) 1.37ms
+[I 16:38:56.232 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/m2.png (10.247.210.9) 1.42ms
+[I 16:38:57.012 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/op.png (10.247.210.9) 1.56ms
+[I 16:39:25.508 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 16:39:25.545 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:39:35.429 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2-1.ipynb
+[E 16:39:35.461 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:40:11.194 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 16:40:11.231 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:40:20.581 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2-1.ipynb
+[E 16:40:20.613 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:40:53.956 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 16:40:54.039 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:41:05.591 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2-1.ipynb
+[E 16:41:05.638 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:41:41.002 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 16:41:41.034 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:41:50.546 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2-1.ipynb
+[E 16:41:50.576 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:42:35.439 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2-1.ipynb
+[E 16:42:35.467 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:43:20.428 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2-1.ipynb
+[E 16:43:20.466 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:53:39.225 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/ (10.247.106.8) 0.84ms
+[E 16:53:43.016 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:53:44.878 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/atrib.png (10.247.106.8) 0.92ms
+[I 16:53:44.917 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/m3.png (10.247.106.8) 0.72ms
+[I 16:53:44.918 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/m1.png (10.247.106.8) 0.77ms
+[I 16:53:44.920 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/exc5.png (10.247.106.8) 0.71ms
+[I 16:53:44.922 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/op.png (10.247.106.8) 0.74ms
+[I 16:53:44.983 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/m2.png (10.247.106.8) 0.61ms
+[I 16:54:03.643 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 16:54:03.681 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:54:48.395 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 16:54:48.424 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[E 16:54:56.496 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:54:57.973 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/nbconvert/html/Aula27.03.2017/m2.png (10.247.106.8) 8.82ms
+[I 16:54:57.980 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/nbconvert/html/Aula27.03.2017/op.png (10.247.106.8) 6.40ms
+[I 16:54:57.987 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/nbconvert/html/Aula27.03.2017/atrib.png (10.247.106.8) 6.56ms
+[W 16:54:57.994 NotebookApp] 404 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/nbconvert/html/Aula27.03.2017/custom.css (10.247.106.8): No such file or directory: Aula27.03.2017/custom.css
+[W 16:54:58.000 NotebookApp] 404 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/nbconvert/html/Aula27.03.2017/custom.css (10.247.106.8) 11.84ms referer=https://cloud.sagemath.com/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/nbconvert/html/Aula27.03.2017/Interfacejupyter.parte2.ipynb?download=false
+[I 16:54:58.007 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/nbconvert/html/Aula27.03.2017/m1.png (10.247.106.8) 6.49ms
+[I 16:54:58.014 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/nbconvert/html/Aula27.03.2017/m3.png (10.247.106.8) 6.24ms
+[I 16:54:58.021 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/nbconvert/html/Aula27.03.2017/exc5.png (10.247.106.8) 6.30ms
+[I 16:55:33.387 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 16:55:33.434 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:56:18.418 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 16:56:18.445 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:57:03.373 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 16:57:03.404 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:57:48.389 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 16:57:48.443 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:58:33.381 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 16:58:33.409 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:59:18.384 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 16:59:18.419 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:00:03.384 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:00:03.432 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:00:48.440 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:00:48.598 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:01:33.378 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:01:33.432 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:02:18.398 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:02:18.430 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:03:03.384 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:03:03.583 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:03:48.391 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:03:48.445 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:04:33.402 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:04:33.429 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:05:18.392 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:05:18.468 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:06:03.400 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:06:03.443 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:06:48.392 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:06:48.437 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:07:33.377 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:07:33.405 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:08:18.445 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:08:18.473 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:09:03.397 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:09:03.425 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:09:47.945 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:09:47.988 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:10:33.396 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:10:33.431 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:11:18.399 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:11:18.425 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:12:03.374 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:12:03.420 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:12:48.423 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:12:48.454 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:13:33.401 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:13:33.429 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:14:18.393 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:14:18.419 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:15:03.409 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:15:03.437 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:15:48.414 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:15:48.453 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:16:33.413 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:16:33.447 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:17:19.233 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:17:19.259 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:18:03.416 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:18:03.468 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:18:48.787 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:18:48.825 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:19:33.416 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:19:33.483 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:20:03.407 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/ (10.247.106.8) 0.90ms
+[W 17:20:07.603 NotebookApp] Notebook Aula27.03.2017/2017-03-27-141959.ipynb is not trusted
+[I 17:20:08.482 NotebookApp] Kernel started: dbb7227e-d47d-4d58-bac2-7a34046ba7b9
+[W 17:20:17.888 NotebookApp] Replacing stale connection: dbb7227e-d47d-4d58-bac2-7a34046ba7b9:A2BC36F4D5C043C68B49AE2D67C1CFE0
+[I 17:20:18.397 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:20:18.427 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[W 17:20:19.218 NotebookApp] Timeout waiting for kernel_info reply from dbb7227e-d47d-4d58-bac2-7a34046ba7b9
+[I 17:21:03.218 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:21:03.440 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:21:03.499 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:21:48.206 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:21:48.520 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:21:48.548 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:22:33.231 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:22:33.425 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:22:33.452 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:23:18.273 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:23:18.426 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:23:18.453 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:24:03.230 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:24:03.420 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:24:03.449 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:24:48.204 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:24:48.439 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:24:48.468 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:25:33.185 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:25:33.422 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 17:25:33.451 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 17:26:18.185 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:26:18.497 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:27:03.202 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:27:03.496 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:27:48.205 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:27:48.436 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/nbconvert/html/Aula27.03.2017/atrib.png (10.247.106.8) 30.77ms
+[I 17:27:48.455 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/nbconvert/html/Aula27.03.2017/m2.png (10.247.106.8) 18.63ms
+[W 17:27:48.462 NotebookApp] 404 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/nbconvert/html/Aula27.03.2017/custom.css (10.247.106.8): No such file or directory: Aula27.03.2017/custom.css
+[W 17:27:48.464 NotebookApp] 404 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/nbconvert/html/Aula27.03.2017/custom.css (10.247.106.8) 7.84ms referer=https://cloud.sagemath.com/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/nbconvert/html/Aula27.03.2017/Interfacejupyter.parte2.ipynb?download=false
+[I 17:27:48.472 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/nbconvert/html/Aula27.03.2017/m3.png (10.247.106.8) 7.91ms
+[I 17:27:48.481 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/nbconvert/html/Aula27.03.2017/op.png (10.247.106.8) 8.47ms
+[I 17:27:48.500 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/nbconvert/html/Aula27.03.2017/exc5.png (10.247.106.8) 18.70ms
+[I 17:27:48.513 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/nbconvert/html/Aula27.03.2017/m1.png (10.247.106.8) 11.46ms
+[I 17:27:48.517 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:28:33.977 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:28:34.040 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:29:18.200 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:29:18.492 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:30:03.205 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:30:03.515 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:30:48.210 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:30:48.522 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:31:33.203 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:31:33.510 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:32:18.203 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:32:18.492 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:33:03.207 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:33:03.541 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:33:48.204 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:33:48.531 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:34:33.225 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:34:33.516 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:35:18.222 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:35:18.514 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:36:03.191 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:36:03.519 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:36:48.197 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:36:48.498 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:37:33.203 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:37:33.519 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:38:18.203 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:38:18.699 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:39:03.205 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:39:03.668 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:39:16.829 NotebookApp] Kernel interrupted: dbb7227e-d47d-4d58-bac2-7a34046ba7b9
+[I 17:39:28.354 NotebookApp] Kernel restarted: dbb7227e-d47d-4d58-bac2-7a34046ba7b9
+[I 17:39:48.245 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:39:48.577 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+ERROR:root:Cell magic `%%lsmagics` not found.
+[I 17:40:35.068 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:40:35.092 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:41:18.228 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:41:18.508 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:42:03.356 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:42:03.507 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:42:48.241 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:42:48.544 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:43:33.255 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:43:33.529 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:44:18.222 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:44:18.560 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:45:03.227 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:45:03.530 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:45:48.230 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:45:48.558 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:46:33.224 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:46:33.524 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:47:18.233 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:47:18.550 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:48:03.234 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:48:03.523 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:48:48.229 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:48:48.559 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:49:33.212 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:49:33.534 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:50:18.218 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:50:18.521 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:51:03.233 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:51:03.513 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:51:48.219 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:51:48.548 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:52:33.218 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:52:33.506 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:53:19.021 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:53:21.747 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:54:03.267 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:54:03.588 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:54:48.299 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:54:48.526 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:55:33.239 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:55:33.535 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:56:18.236 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:56:18.530 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:57:03.238 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:57:03.542 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:57:48.226 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:57:48.565 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:58:33.229 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:58:33.534 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 17:59:18.221 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 17:59:18.529 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:00:03.232 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:00:03.552 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:00:48.232 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:00:48.536 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:01:33.277 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:01:33.736 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:02:18.263 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:02:18.717 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:03:03.313 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:03:03.708 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:03:48.245 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:03:48.722 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:04:33.269 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:04:33.748 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:05:18.315 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:05:18.767 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:06:03.267 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:06:03.766 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:06:48.232 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:06:48.722 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:07:33.241 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:07:33.729 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:08:18.233 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:08:18.732 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:09:03.242 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:09:03.601 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:09:48.231 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:09:48.732 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:10:33.247 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:10:33.741 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:11:18.252 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:11:18.723 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:12:03.270 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:12:03.713 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:12:48.251 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:12:48.725 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:13:33.257 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:13:33.728 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:14:18.256 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:14:18.756 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:15:03.704 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:15:03.761 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:15:48.243 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:15:48.745 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:16:33.252 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:16:33.733 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:17:18.311 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:17:18.715 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:18:03.259 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:18:03.753 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:18:48.263 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:18:48.723 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:19:33.265 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:19:33.730 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:20:18.254 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:20:18.740 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:21:03.248 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:21:03.744 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:21:48.240 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:21:48.698 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:22:33.259 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:22:33.720 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:23:18.310 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:23:18.785 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:24:03.250 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:24:03.758 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:24:48.387 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:24:48.698 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:25:33.255 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:25:33.718 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:26:18.248 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:26:18.743 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:27:03.300 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:27:03.724 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:27:48.264 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:27:48.547 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:28:33.263 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:28:33.550 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:29:18.253 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:29:18.554 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:30:03.285 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:30:03.788 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[I 18:30:48.325 NotebookApp] Saving file at /Aula27.03.2017/2017-03-27-141959.ipynb
+[I 18:30:48.733 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb

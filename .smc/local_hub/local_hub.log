@@ -64,3 +64,72 @@ Trace
     at process.emit (events.js:188:7)
     at process._fatalException (bootstrap_node.js:254:26)
 
+2017-03-27T16:30:47.079Z - debug: open_syncstrings: 3; recent_syncstrings: 4
+2017-03-27T16:30:47.590Z - debug: open_syncstrings: 4; recent_syncstrings: 4
+2017-03-27T16:32:51.613Z - debug: open_syncstrings: 4; recent_syncstrings: 5
+2017-03-27T16:32:51.775Z - debug: open_syncstrings: 5; recent_syncstrings: 5
+2017-03-27T16:38:11.503Z - debug: received new connection
+2017-03-27T16:38:11.542Z - debug: hello from hub -- sending back our version = 1490566209
+2017-03-27T16:38:19.378Z - debug: jupyter_port: undefined
+2017-03-27T16:38:19.378Z - debug: jupyter_port: checking jupyter status
+2017-03-27T16:38:20.459Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":19761,"port":55130}
+2017-03-27T16:38:20.459Z - debug: jupyter_port: already running; nothing more to do
+2017-03-27T16:38:20.459Z - debug: jupyter_port: finished; (err=null); now sending resp
+2017-03-27T16:38:55.398Z - debug: jupyter_port: undefined
+2017-03-27T16:38:55.398Z - debug: jupyter_port: checking jupyter status
+2017-03-27T16:38:55.813Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":19761,"port":55130}
+2017-03-27T16:38:55.814Z - debug: jupyter_port: already running; nothing more to do
+2017-03-27T16:38:55.814Z - debug: jupyter_port: finished; (err=null); now sending resp
+2017-03-27T16:40:51.919Z - debug: open_syncstrings: 4; recent_syncstrings: 5
+2017-03-27T16:43:33.779Z - debug: a console session client socket ended -- session_uuid=d7590ad2-0ff9-4e81-982f-9524adc8f182
+2017-03-27T16:53:28.213Z - debug: received new connection
+2017-03-27T16:53:28.254Z - debug: hello from hub -- sending back our version = 1490566209
+2017-03-27T16:53:38.838Z - debug: jupyter_port: undefined
+2017-03-27T16:53:38.838Z - debug: jupyter_port: checking jupyter status
+2017-03-27T16:53:39.209Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":19761,"port":55130}
+2017-03-27T16:53:39.209Z - debug: jupyter_port: already running; nothing more to do
+2017-03-27T16:53:39.209Z - debug: jupyter_port: finished; (err=null); now sending resp
+2017-03-27T16:53:45.751Z - debug: jupyter_port: undefined
+2017-03-27T16:53:45.751Z - debug: jupyter_port: checking jupyter status
+2017-03-27T16:53:46.117Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":19761,"port":55130}
+2017-03-27T16:53:46.117Z - debug: jupyter_port: already running; nothing more to do
+2017-03-27T16:53:46.117Z - debug: jupyter_port: finished; (err=null); now sending resp
+2017-03-27T16:58:48.642Z - debug: open_syncstrings: 3; recent_syncstrings: 5
+2017-03-27T17:02:52.672Z - debug: open_syncstrings: 2; recent_syncstrings: 5
+2017-03-27T17:20:02.934Z - debug: open_syncstrings: 2; recent_syncstrings: 6
+2017-03-27T17:20:03.113Z - debug: BUG ****************************************************************************
+2017-03-27T17:20:03.113Z - debug: Uncaught exception: TypeError: _this.get_doc(...).slice is not a function
+2017-03-27T17:20:03.114Z - debug: TypeError: _this.get_doc(...).slice is not a function
+    at Object._this._client.path_exists.cb (/usr/lib/node_modules/smc-util/syncstring.coffee:1515:118)
+    at /usr/lib/node_modules/smc-project/client.coffee:606:18
+    at FSReqWrap.cb [as oncomplete] (fs.js:257:19)
+
+2017-03-27T17:20:03.114Z - debug: BUG ****************************************************************************
+Trace
+    at process.<anonymous> (/usr/lib/node_modules/smc-project/local_hub.coffee:341:22)
+    at emitOne (events.js:96:13)
+    at process.emit (events.js:188:7)
+    at process._fatalException (bootstrap_node.js:254:26)
+
+2017-03-27T17:20:03.117Z - debug: open_syncstrings: 3; recent_syncstrings: 6
+2017-03-27T17:53:18.464Z - debug: jupyter_port: undefined
+2017-03-27T17:53:18.465Z - debug: jupyter_port: checking jupyter status
+2017-03-27T17:53:19.006Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":19761,"port":55130}
+2017-03-27T17:53:19.007Z - debug: jupyter_port: already running; nothing more to do
+2017-03-27T17:53:19.007Z - debug: jupyter_port: finished; (err=null); now sending resp
+2017-03-27T17:53:21.339Z - debug: received new connection
+2017-03-27T17:53:21.378Z - debug: hello from hub -- sending back our version = 1490566209
+2017-03-27T17:53:21.379Z - debug: jupyter_port: undefined
+2017-03-27T17:53:21.379Z - debug: jupyter_port: checking jupyter status
+2017-03-27T17:53:21.736Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":19761,"port":55130}
+2017-03-27T17:53:21.736Z - debug: jupyter_port: already running; nothing more to do
+2017-03-27T17:53:21.736Z - debug: jupyter_port: finished; (err=null); now sending resp
+2017-03-27T18:30:39.213Z - debug: handle_save_blob_message: da39a3ee-5e6b-44b0-9325-5bfef9560189
+2017-03-27T18:30:39.350Z - debug: received new connection
+2017-03-27T18:30:39.394Z - debug: connect_to_session -- type='console'
+2017-03-27T18:30:39.395Z - debug: get_session: console session 0b7d7c8d-01f1-426a-8377-0ff67ce5f0e2
+2017-03-27T18:30:39.395Z - debug: console session not yet created -- put on stack
+2017-03-27T18:30:39.395Z - debug: console session does not exist or is not running, so we make a new session
+2017-03-27T18:30:39.398Z - debug: got console server port = 35967
+2017-03-27T18:30:39.399Z - debug: console: Got port -- now create the new session
+2017-03-27T18:30:39.399Z - debug: _new_session: defined by {"event":"connect_to_session","id":"837299f9-714f-4026-aa98-062c2ec349c9","type":"console","project_id":"da4b09c7-73a7-4027-ac2d-5fed6d409acf","session_uuid":"0b7d7c8d-01f1-426a-8377-0ff67ce5f0e2","params":{"command":"bash","path":"./Aula27.03.2017","filename":"Aula27.03.2017/2017-03-27-153033.term"}}
