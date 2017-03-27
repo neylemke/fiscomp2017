@@ -23,3 +23,45 @@ git config --global user,name  "neylemke"
 git config --global user.name  "neylemke"  
 git commit -m "Initial commit."
 git push -u origin master
+ls
+git add -A
+git commit -m   * Ubuntu
+** Shell 
+*** Comandos linux 
+**** Arquivos
+***** ls
+***** cp
+***** mv
+***** rm
+***** mkdir
+***** cd 
+***** zip, gzip 
+***** file
+***** Gerenciamento do Sage
+**** Visualização de arquivos 
+***** more
+***** less
+***** wc
+***** head 
+***** tail
+***** grep 
+**** Redes 
+***** ping 
+***** ifconfig
+***** ssh
+***** scp 
+**** Redirecionamento 
+***** > 
+***** |  ***** <
+**** Editor 
+***** nano 
+***** Editor do Sage
+**** Ajuda 
+***** man
+**** Processos
+***** top 
+***** kill 
+***** Ctrl-C
+***** Ctrl-Z
+git commit -m "aula3"
+git push
