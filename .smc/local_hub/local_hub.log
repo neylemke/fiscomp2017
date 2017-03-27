@@ -28,3 +28,39 @@
 2017-03-27T16:12:46.885Z - debug: restarted console server, then got port = 35967
 2017-03-27T16:12:46.885Z - debug: console: Got port -- now create the new session
 2017-03-27T16:12:46.885Z - debug: _new_session: defined by {"event":"connect_to_session","id":"2ffce270-53c0-4745-b735-97a6e2533032","type":"console","project_id":"da4b09c7-73a7-4027-ac2d-5fed6d409acf","session_uuid":"d7590ad2-0ff9-4e81-982f-9524adc8f182","params":{"command":"bash","path":"./","filename":"2017-03-13-215550.term"}}
+2017-03-27T16:20:52.009Z - debug: open_syncstrings: 0; recent_syncstrings: 1
+2017-03-27T16:20:52.222Z - debug: open_syncstrings: 1; recent_syncstrings: 1
+2017-03-27T16:20:52.517Z - debug: jupyter_port: undefined
+2017-03-27T16:20:52.518Z - debug: jupyter_port: checking jupyter status
+2017-03-27T16:20:52.873Z - debug: jupyter_port: got status={"status":"stopped"}
+2017-03-27T16:20:52.873Z - debug: jupyter_port: not running, so start it running
+2017-03-27T16:20:54.285Z - debug: jupyter_port: after starting, got status=undefined
+2017-03-27T16:20:54.285Z - debug: jupyter_port: finished; (err=error parsing smc-jupyter startup output -- SyntaxError: Unexpected token / in JSON at position 0, {misc.to_json(out)}); now sending resp
+2017-03-27T16:20:55.114Z - debug: jupyter_port: undefined
+2017-03-27T16:20:55.114Z - debug: jupyter_port: checking jupyter status
+2017-03-27T16:20:55.545Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":19761,"port":55130}
+2017-03-27T16:20:55.545Z - debug: jupyter_port: already running; nothing more to do
+2017-03-27T16:20:55.545Z - debug: jupyter_port: finished; (err=null); now sending resp
+2017-03-27T16:21:03.220Z - debug: jupyter_port: undefined
+2017-03-27T16:21:03.220Z - debug: jupyter_port: checking jupyter status
+2017-03-27T16:21:04.427Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":19761,"port":55130}
+2017-03-27T16:21:04.427Z - debug: jupyter_port: already running; nothing more to do
+2017-03-27T16:21:04.427Z - debug: jupyter_port: finished; (err=null); now sending resp
+2017-03-27T16:25:55.458Z - debug: open_syncstrings: 1; recent_syncstrings: 2
+2017-03-27T16:25:55.526Z - debug: open_syncstrings: 2; recent_syncstrings: 2
+2017-03-27T16:28:47.593Z - debug: open_syncstrings: 2; recent_syncstrings: 3
+2017-03-27T16:28:47.631Z - debug: open_syncstrings: 3; recent_syncstrings: 3
+2017-03-27T16:28:47.742Z - debug: BUG ****************************************************************************
+2017-03-27T16:28:47.743Z - debug: Uncaught exception: TypeError: _this.get_doc(...).slice is not a function
+2017-03-27T16:28:47.746Z - debug: TypeError: _this.get_doc(...).slice is not a function
+    at Object._this._client.path_exists.cb (/usr/lib/node_modules/smc-util/syncstring.coffee:1515:118)
+    at /usr/lib/node_modules/smc-project/client.coffee:606:18
+    at FSReqWrap.cb [as oncomplete] (fs.js:257:19)
+
+2017-03-27T16:28:47.746Z - debug: BUG ****************************************************************************
+Trace
+    at process.<anonymous> (/usr/lib/node_modules/smc-project/local_hub.coffee:341:22)
+    at emitOne (events.js:96:13)
+    at process.emit (events.js:188:7)
+    at process._fatalException (bootstrap_node.js:254:26)
+

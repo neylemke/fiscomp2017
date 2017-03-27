@@ -1,0 +1,133 @@
+[TerminalIPythonApp] WARNING | Subcommand `ipython notebook` is deprecated and will be removed in future versions.
+[TerminalIPythonApp] WARNING | You likely want to use `jupyter notebook` in the future
+[W 16:20:55.116 NotebookApp] Config option `token` not recognized by `NotebookApp`.
+[W 16:20:55.117 NotebookApp] Config option `base_kernel_url` not recognized by `NotebookApp`.  Did you mean one of: `base_project_url, base_url`?
+[I 16:20:55.117 NotebookApp] Using MathJax: /static/mathjax/MathJax.js
+[I 16:20:55.120 NotebookApp] Using MathJax: nbextensions/mathjax/MathJax.js
+[W 16:20:55.121 NotebookApp] Config option `token` not recognized by `NotebookApp`.
+[W 16:20:55.122 NotebookApp] Config option `base_kernel_url` not recognized by `NotebookApp`.  Did you mean one of: `base_project_url, base_url`?
+[I 16:20:55.122 NotebookApp] Using MathJax: /static/mathjax/MathJax.js
+[I 16:20:55.218 NotebookApp] Serving notebooks from local directory: /projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf
+[I 16:20:55.218 NotebookApp] 0 active kernels 
+[I 16:20:55.219 NotebookApp] The Jupyter Notebook is running at: http://10.240.0.31:55130/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/
+[I 16:20:55.219 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 16:20:55.555 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/ (10.247.203.3) 2.14ms
+[W 16:21:00.455 NotebookApp] Notebook Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb is not trusted
+[I 16:21:02.417 NotebookApp] Kernel started: 0d131444-974a-40e2-b60c-b9185cd4a2c8
+[I 16:21:02.563 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/exc5.png (10.247.203.3) 1.58ms
+[I 16:21:02.579 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/tut4.png (10.247.203.3) 5.63ms
+[I 16:21:02.581 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/tut5.png (10.247.203.3) 1.17ms
+[I 16:21:02.583 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/tut6.png (10.247.203.3) 1.26ms
+[I 16:21:02.630 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/tutjupyter1.png (10.247.203.3) 1.26ms
+[I 16:21:02.632 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/m3.png (10.247.203.3) 0.76ms
+[I 16:21:02.633 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/tut2.png (10.247.203.3) 0.81ms
+[I 16:21:02.634 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/tut3.png (10.247.203.3) 0.65ms
+[I 16:21:02.636 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/m1.png (10.247.203.3) 0.92ms
+[I 16:21:02.637 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/tut7.png (10.247.203.3) 0.71ms
+[I 16:21:02.638 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula20.03.2017/m2.png (10.247.203.3) 0.79ms
+[I 16:21:34.720 NotebookApp] Saving file at /Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[W 16:21:34.722 NotebookApp] Saving untrusted notebook Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[I 16:22:19.708 NotebookApp] Saving file at /Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[W 16:22:19.709 NotebookApp] Saving untrusted notebook Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[I 16:23:05.514 NotebookApp] Saving file at /Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[W 16:23:05.515 NotebookApp] Saving untrusted notebook Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[I 16:23:49.695 NotebookApp] Saving file at /Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[W 16:23:49.696 NotebookApp] Saving untrusted notebook Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[I 16:24:35.501 NotebookApp] Saving file at /Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[W 16:24:35.502 NotebookApp] Saving untrusted notebook Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[I 16:25:19.695 NotebookApp] Saving file at /Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[W 16:25:19.696 NotebookApp] Saving untrusted notebook Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[I 16:25:56.020 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/ (10.247.203.3) 1.00ms
+[E 16:25:59.828 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:26:01.630 NotebookApp] Kernel started: a58d956c-ced2-43bf-8144-745211d44e1a
+[I 16:26:01.750 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/atrib.png (10.247.203.3) 1.09ms
+[I 16:26:01.752 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/m2.png (10.247.203.3) 0.77ms
+[I 16:26:01.754 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/m3.png (10.247.203.3) 0.75ms
+[I 16:26:01.755 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/op.png (10.247.203.3) 0.72ms
+[I 16:26:01.756 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/exc5.png (10.247.203.3) 0.73ms
+[I 16:26:01.757 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/m1.png (10.247.203.3) 0.70ms
+[I 16:26:04.610 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 16:26:04.638 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:26:04.705 NotebookApp] Saving file at /Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[W 16:26:04.706 NotebookApp] Saving untrusted notebook Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[I 16:26:49.607 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 16:26:49.634 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:26:49.708 NotebookApp] Saving file at /Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[W 16:26:49.709 NotebookApp] Saving untrusted notebook Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[I 16:27:34.616 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 16:27:34.642 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:27:34.703 NotebookApp] Saving file at /Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[W 16:27:34.704 NotebookApp] Saving untrusted notebook Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[I 16:28:19.594 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2.ipynb
+[E 16:28:19.620 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:28:19.700 NotebookApp] Saving file at /Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[W 16:28:19.701 NotebookApp] Saving untrusted notebook Aula20.03.2017/jupyter.interfaceSagemathcloud.ipynb
+[I 16:28:48.079 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/ (10.247.203.3) 0.88ms
+[E 16:28:51.800 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:28:53.352 NotebookApp] Kernel started: 683fb964-0146-471b-8f27-72baea9be42f
+[I 16:28:53.439 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/m3.png (10.247.203.3) 0.78ms
+[I 16:28:53.449 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/m1.png (10.247.203.3) 0.73ms
+[I 16:28:53.450 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/m2.png (10.247.203.3) 0.73ms
+[I 16:28:53.453 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/op.png (10.247.203.3) 0.66ms
+[I 16:28:53.455 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/exc5.png (10.247.203.3) 0.80ms
+[I 16:28:53.456 NotebookApp] 302 GET /da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/notebooks/Aula27.03.2017/atrib.png (10.247.203.3) 0.66ms
+[I 16:29:04.607 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2-1.ipynb
+[E 16:29:04.634 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
+[I 16:29:49.623 NotebookApp] Saving file at /Aula27.03.2017/Interfacejupyter.parte2-1.ipynb
+[E 16:29:49.653 NotebookApp] Notebook JSON is invalid: {u'model_id': u'3363401973f04e0784c406d7c3308eab'} is not valid under any of the given schemas
+    
+    Failed validating u'oneOf' in schema[u'properties'][u'data'][u'patternProperties'][u'^(?!application/json$)[a-zA-Z0-9]+/[a-zA-Z0-9\\-\\+\\.]+$']:
+        {u'oneOf': [{u'type': u'string'},
+                    {u'items': {u'type': u'string'}, u'type': u'array'}]}
+    
+    On instance[u'data'][u'application/vnd.jupyter.widget-view+json']:
+        {u'model_id': u'3363401973f04e0784c406d7c3308eab'}
