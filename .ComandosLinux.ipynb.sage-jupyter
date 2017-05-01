@@ -1,0 +1,23 @@
+{"kernelspec":{"display_name":"Python 2 (SageMath)","language":"python","name":"python2"},"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.13"}}
+{"cell_type":"markdown","metadata":{},"source":"# Ubuntu\n"}
+{"cell_type":"markdown","metadata":{},"source":"## Shell "}
+{"cell_type":"markdown","metadata":{},"source":"### Comandos linux "}
+{"cell_type":"markdown","metadata":{},"source":"#### Arquivos\n##### ls\nLista os arquivos em um diretório\n##### cp\n##### mv\n##### rm\n##### mkdir\n##### cd \n##### zip, gzip \n##### file"}
+{"cell_type":"markdown","metadata":{},"source":"#### Visualização de arquivos \n##### more\n##### less\n##### wc\n##### head \n##### tail\n##### grep "}
+{"cell_type":"markdown","metadata":{},"source":"#### Redes \n##### ping \n##### ifconfig\n##### ssh\n##### scp "}
+{"cell_type":"markdown","metadata":{},"source":"#### Redirecionamento \n##### >\n##### >>\n##### | \n##### <\n#### `command`"}
+{"cell_type":"markdown","metadata":{},"source":"#### Editor \n##### nano \n##### Editor do Sage"}
+{"cell_type":"markdown","metadata":{},"source":""}
+{"cell_type":"markdown","metadata":{},"source":"#### Ajuda \n##### man"}
+{"cell_type":"markdown","metadata":{},"source":"#### Processos\n##### top \n##### kill \n##### Ctrl-C\n##### Ctrl-Z\n##### shutdown \n##### ps "}
+{"cell_type":"markdown","metadata":{},"source":"#### Variados \n##### find \n##### date \n##### echo \n##### yes "}
+{"cell_type":"markdown","metadata":{},"source":"#### wildcards\n##### *\n##### ?"}
+{"cell_type":"markdown","metadata":{"collapsed":true},"source":"*Exercício:* Liste os arquivos de um diretório por data de modificação, inicie pelo mais atual.\n"}
+{"cell_type":"markdown","metadata":{},"source":"*Exercício:* Gere um arquivo com 20 linhas. Imprima as linhas 3 até 10."}
+{"cell_type":"markdown","metadata":{},"source":"*Exercício* Use o comando date para salvar o resultado do comando ls em um arquivo chamado lista_min_seg. Onde min e seg são o minuto e o segundo. "}
+{"cell_type":"code","execution_count":2,"metadata":{"collapsed":false,"trusted":true},"outputs":[{"name":"stdout","output_type":"stream","text":"1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n"}],"source":"for i in range(1,20,1):\n    print i"}
+{"cell_type":"code","execution_count":5,"metadata":{"collapsed":false,"trusted":true},"outputs":[{"name":"stdout","output_type":"stream","text":"Writing lisnum.txt\n"}],"source":"%%writefile lisnum.txt\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19"}
+{"cell_type":"code","execution_count":6,"metadata":{"collapsed":false,"trusted":true},"outputs":[{"name":"stdout","output_type":"stream","text":"2017-03-13-113856.zip\tAula06.03.2017\t     FisicaComputacional2017-collect\r\n2017-03-13-215550.term\tAula13.03.2017\t     FisicaComputacional2017.course\r\n2017-03-20-124019.term\tAula20.03.2017\t     lis_0305\r\n2017-03-20-152613.zip\tAula27.03.2017\t     lisnum.txt\r\n2017-03-30-085947.term\tComandosLinux.ipynb  README.md\r\n"}],"source":"!ls"}
+{"cell_type":"code","execution_count":7,"metadata":{"collapsed":false,"trusted":true},"outputs":[{"name":"stdout","output_type":"stream","text":"2017-03-13-113856.zip   \u001b[0m\u001b[01;34mAula06.03.2017\u001b[0m/      \u001b[01;34mFisicaComputacional2017-collect\u001b[0m/\r\n2017-03-13-215550.term  \u001b[01;34mAula13.03.2017\u001b[0m/      FisicaComputacional2017.course\r\n2017-03-20-124019.term  \u001b[01;34mAula20.03.2017\u001b[0m/      lis_0305\r\n2017-03-20-152613.zip   \u001b[01;34mAula27.03.2017\u001b[0m/      lisnum.txt\r\n2017-03-30-085947.term  ComandosLinux.ipynb  README.md\r\n"}],"source":"ls"}
+{"cell_type":"code","execution_count":8,"metadata":{"collapsed":false,"trusted":true},"outputs":[{"name":"stdout","output_type":"stream","text":"README.md                         ComandosLinux.ipynb  2017-03-30-085947.term\r\nlisnum.txt                        \u001b[0m\u001b[01;34mAula27.03.2017\u001b[0m/      2017-03-20-152613.zip\r\nlis_0305                          \u001b[01;34mAula20.03.2017\u001b[0m/      2017-03-20-124019.term\r\nFisicaComputacional2017.course    \u001b[01;34mAula13.03.2017\u001b[0m/      2017-03-13-215550.term\r\n\u001b[01;34mFisicaComputacional2017-collect\u001b[0m/  \u001b[01;34mAula06.03.2017\u001b[0m/      2017-03-13-113856.zip\r\n"}],"source":"ls-r"}
+{"cell_type":"code","execution_count":null,"metadata":{"collapsed":true,"trusted":true},"outputs":[],"source":""}

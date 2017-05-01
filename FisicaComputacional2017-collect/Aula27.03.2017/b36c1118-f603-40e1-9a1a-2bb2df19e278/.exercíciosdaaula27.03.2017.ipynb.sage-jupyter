@@ -1,0 +1,6 @@
+{"kernelspec":{"display_name":"Python 2 (SageMath)","language":"python","name":"python2"},"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.13"}}
+{"cell_type":"markdown","metadata":{"collapsed":false,"trusted":false},"source":"# Física Computacional 2017"}
+{"cell_type":"markdown","metadata":{},"source":"## Explorando a interface do SageMathCloud"}
+{"cell_type":"markdown","metadata":{},"source":"$$\\gamma=\\frac{1}{\\sqrt{1-\\frac{v^2}{c^2}}}$$"}
+{"cell_type":"markdown","metadata":{},"source":"![qwerty](pipi.png)"}
+{"cell_type":"code","execution_count":2,"metadata":{"collapsed":false,"trusted":true},"outputs":[{"name":"stdout","output_type":"stream","text":"Writing text.txt\n"}],"source":"%%writefile text.txt\nfisica computacional 2017!"}

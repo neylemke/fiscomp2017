@@ -1,0 +1,8 @@
+{"kernelspec":{"display_name":"Python 2 (SageMath)","language":"python","name":"python2"},"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.13"}}
+{"cell_type":"code","execution_count":14,"metadata":{"collapsed":false,"trusted":true},"outputs":[],"source":"import os\nimport sys\nnb_dir = os.path.split(os.getcwd())[0]\nif nb_dir not in sys.path:\n    sys.path.append(nb_dir)\nimport pandas as pd"}
+{"cell_type":"code","execution_count":11,"metadata":{"collapsed":false,"trusted":true},"outputs":[],"source":"from FisicaComputacional2017 import *"}
+{"cell_type":"code","execution_count":15,"metadata":{"collapsed":false,"trusted":true},"outputs":[],"source":"df=pd.DataFrame(students)"}
+{"cell_type":"code","execution_count":17,"metadata":{"collapsed":false,"trusted":true},"outputs":[{"data":{"text/plain":"smc-blob::8a9e9cf6-30e4-401c-9788-09ee612a15cf"},"execution_count":17,"metadata":{},"output_type":"execute_result"}],"source":"df['grades']"}
+{"cell_type":"code","execution_count":21,"metadata":{"collapsed":false,"trusted":true},"outputs":[],"source":"df2=pd.read_csv(\"FisicaComputacional2017.csv\")"}
+{"cell_type":"code","execution_count":22,"metadata":{"collapsed":false,"trusted":true},"outputs":[{"data":{"text/html":"smc-blob::5274f117-b728-4cfe-9d37-e23bc9b6c47c","text/plain":"smc-blob::84157fa5-ecd5-4703-85af-f366fdb40e67"},"execution_count":22,"metadata":{},"output_type":"execute_result"}],"source":"df2"}
+{"cell_type":"code","execution_count":null,"metadata":{"collapsed":true,"trusted":true},"outputs":[],"source":""}

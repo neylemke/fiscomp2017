@@ -1,0 +1,6 @@
+{"kernelspec":{"display_name":"Python 2 (SageMath)","language":"python","name":"python2"},"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.13"}}
+{"cell_type":"markdown","metadata":{"collapsed":false},"source":"# Física Computacional 2017 \n## Explorando a interface do SageMathCloud"}
+{"cell_type":"markdown","metadata":{},"source":"$\\gamma=\\frac{1}{\\sqrt{1-\\frac{v²}{c²}}}$"}
+{"cell_type":"markdown","metadata":{"collapsed":true,"trusted":false},"source":"![Prisma](prisma.jpg)"}
+{"cell_type":"code","execution_count":6,"metadata":{"collapsed":false,"trusted":true},"outputs":[{"name":"stdout","output_type":"stream","text":"Overwriting test.txt\n"}],"source":"%%writefile test.txt\nFisica Computacional 2017"}
+{"cell_type":"code","execution_count":null,"metadata":{"collapsed":true,"trusted":true},"outputs":[],"source":""}

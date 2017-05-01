@@ -1,0 +1,7 @@
+{"kernelspec":{"display_name":"Python 2 (SageMath)","language":"python","name":"python2"},"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.13"}}
+{"cell_type":"markdown","metadata":{"collapsed":false},"source":"# Fisica Computacional 2017"}
+{"cell_type":"markdown","metadata":{},"source":"## Explorando a interface do SageMathCloud"}
+{"cell_type":"markdown","metadata":{},"source":"$\\gamma = \\frac{1}{\\sqrt{1-\\frac{V^{2}}{C^{2}}}}$\n"}
+{"cell_type":"markdown","metadata":{},"source":"![titulo](00325924.jpg)"}
+{"cell_type":"code","execution_count":1,"metadata":{"collapsed":false,"trusted":false},"outputs":[{"name":"stdout","output_type":"stream","text":"Writing mino.txt\n"}],"source":"%%writefile mino.txt\nfisica computacional 2017"}
+{"cell_type":"code","execution_count":null,"metadata":{"collapsed":true,"trusted":false},"outputs":[],"source":""}

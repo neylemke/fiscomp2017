@@ -1,3 +1,3 @@
-info: listening on port 35967
-info: start_session {"event":"connect_to_session","id":"2ffce270-53c0-4745-b735-97a6e2533032","type":"console","project_id":"da4b09c7-73a7-4027-ac2d-5fed6d409acf","session_uuid":"d7590ad2-0ff9-4e81-982f-9524adc8f182","params":{"command":"bash","path":"./","filename":"2017-03-13-215550.term"}}
-info: start_session {"event":"connect_to_session","id":"837299f9-714f-4026-aa98-062c2ec349c9","type":"console","project_id":"da4b09c7-73a7-4027-ac2d-5fed6d409acf","session_uuid":"0b7d7c8d-01f1-426a-8377-0ff67ce5f0e2","params":{"command":"bash","path":"./Aula27.03.2017","filename":"Aula27.03.2017/2017-03-27-153033.term"}}
+info: listening on port 43788
+info: start_session {"event":"connect_to_session","id":"d8773615-cae3-4999-b3fc-ef734d8e5bd3","type":"console","project_id":"da4b09c7-73a7-4027-ac2d-5fed6d409acf","session_uuid":"b8262988-f142-4d6b-b9aa-48151572dd93","params":{"command":"bash","path":"./","filename":"2017-05-01-175050.term"}}
+info: start_session {"event":"connect_to_session","id":"b885d2d5-d736-4ba4-9448-4c2383b682ee","type":"console","project_id":"da4b09c7-73a7-4027-ac2d-5fed6d409acf","session_uuid":"61cca054-c44e-4784-b6b1-6cd547e54a98","params":{"command":"bash","path":"./","filename":"2017-05-01-180142.term"}}

@@ -65,3 +65,30 @@ git commit -m   * Ubuntu
 ***** Ctrl-Z
 git commit -m "aula3"
 git push
+git add -A
+git commit -m "4 aula"
+git push
+git add -A
+git commit -m "aula4"
+git push
+git add -A
+git commit -m "aula4"
+git push
+man ls
+man ls
+tail -n 3
+date "%m%s"
+man date
+date %m%s
+man date
+date +%m%s
+date +%m
+date +%s
+man date
+date +%S
+date +%m%S
+ls > lis_`date +%m%S`
+ls
+PS1='[PEXP\[\]ECT_PROMPT>' PS2='[PEXP\[\]ECT_PROMPT+' PROMPT_COMMAND=''
+export PAGER=cat
+display () {     TMPFILE=$(mktemp ${TMPDIR-/tmp}/bash_kernel.XXXXXXXXXX);     cat > $TMPFILE;     echo "bash_kernel: saved image data to: $TMPFILE" >&2; }
