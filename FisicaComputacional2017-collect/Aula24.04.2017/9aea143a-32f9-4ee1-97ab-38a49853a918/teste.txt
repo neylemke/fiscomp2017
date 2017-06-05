@@ -1,0 +1,33 @@
+total 428
+drwxr-x---  4 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e   4096 Apr 24 18:51 .
+drwx------ 20 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e   4096 Apr 24 18:22 ..
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e      8 Apr 24 18:21 abbb.txt
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e    319 Apr 24 17:52 Abril_verao.txt
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e   1983 Apr 24 17:53 Agosto_inverno.txt
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e   7131 Apr 23 16:59 .Analisedados.ipynb.sage-jupyter
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e   1407 Apr 24 18:02 arq_Dezembro_verao.txt
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e   1087 Apr 24 18:03 arq_Novembro_verao.txt
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e   4108 Apr 24 18:36 arq.zip
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e      4 Apr 24 18:21 a.txt
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e  19129 Apr 24 00:13 .Aula21.04.2017.ipynb.sage-jupyter
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e  17908 Apr 23 17:38 .Aula24.03.2017.ipynb.sage-jupyter
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e 218729 Apr 24 18:51 Aula24.04.2017.ipynb
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e  39476 Apr 24 18:37 .Aula24.04.2017.ipynb.sage-jupyter
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e      4 Apr 24 18:21 ayyy.txt
+drwxr-x---  4 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e   4096 Apr 24 15:33 cookbook-data
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e   1407 Apr 24 17:53 Dezembro_verao.txt
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e    594 Apr 24 18:51 Exercicio 24-04.ipynb
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e    416 Apr 24 17:35 .Exercicio 24-04.ipynb.sage-jupyter
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e    639 Apr 24 17:52 fevereiro_verao.txt
+drwxr-x---  2 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e   4096 Apr 24 17:35 .ipynb_checkpoints
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e    319 Apr 24 17:52 janeiro_verao.txt
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e   1727 Apr 24 17:52 Julho_inverno.txt
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e   1599 Apr 24 17:52 Junho_inverno.txt
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e    831 Apr 24 17:52 Maio_verao.txt
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e   1023 Apr 24 17:52 março_verao.txt
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e   1087 Apr 24 17:53 Novembro_verao.txt
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e    575 Apr 24 17:53 Outubro_verao.txt
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e  19127 Apr 23 19:48 .python.dados.pandas.ipynb.sage-jupyter
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e   1919 Apr 24 17:53 Setembro_verao.txt
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e      0 Apr 24 18:51 teste.txt
+-rw-r-----  1 188e65ecf78a464db7b0d399ec3e502e 188e65ecf78a464db7b0d399ec3e502e    219 Apr 24 17:43 texto.txt

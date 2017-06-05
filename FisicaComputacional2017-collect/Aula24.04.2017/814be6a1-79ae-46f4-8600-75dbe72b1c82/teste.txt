@@ -1,0 +1,37 @@
+total 412
+drwxr-x---  4 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076   4096 Apr 27 13:29 .
+drwx------ 18 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076   4096 Apr 27 13:00 ..
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076      0 Apr 24 17:39 2017-04-24-143438.txt
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076   7131 Apr 23 16:59 .Analisedados.ipynb.sage-jupyter
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076    587 Apr 24 18:08 arq_abr_outono.txt
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076    605 Apr 24 18:10 arq_ago_inverno.txt
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076    570 Apr 24 18:13 arq_dez_primavera.txt
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076   1226 Apr 24 18:06 arq_fev_verao.txt
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076   1124 Apr 24 18:05 arq_jan_verao.txt
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076    860 Apr 24 18:10 arq_jul_inverno.txt
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076    457 Apr 24 18:09 arq_jun_outono.txt
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076    898 Apr 24 18:08 arq_mai_outono.txt
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076    514 Apr 24 18:07 arq_mar_verao.txt
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076   3245 Apr 24 18:25 arq_mes_estacao.zip
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076    570 Apr 24 18:12 arq_nov_primavera.txt
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076    352 Apr 24 18:12 arq_out_primavera.txt
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076    499 Apr 24 18:11 arq_set_primavera.txt
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076  19129 Apr 24 00:13 .Aula21.04.2017.ipynb.sage-jupyter
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076  17908 Apr 23 17:38 .Aula24.03.2017.ipynb.sage-jupyter
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076 211250 Apr 27 13:29 Aula24.04.2017.ipynb
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076  23770 Apr 27 13:29 .Aula24.04.2017.ipynb.sage-jupyter
+drwxr-x---  4 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076   4096 Apr 24 15:33 cookbook-data
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076   1116 Apr 27 13:29 dicchar.csv
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076   2519 Apr 24 18:38 Exercicio1.ipynb
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076   1587 Apr 24 18:13 .Exercicio1.ipynb.sage-jupyter
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076   1176 Apr 27 13:29 Exercicio24.04.2017.ipynb
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076    883 Apr 27 13:02 .Exercicio24.04.2017.ipynb.sage-jupyter
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076   1587 Apr 24 18:15 .Exercicios.ipynb.sage-jupyter
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076    954 Apr 24 18:48 Exercicios teoria.ipynb
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076    670 Apr 24 18:47 .Exercicios teoria.ipynb.sage-jupyter
+drwxr-x---  2 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076   4096 Apr 24 18:41 .ipynb_checkpoints
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076     74 Apr 24 17:22 matriznum.csv
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076  19127 Apr 23 19:48 .python.dados.pandas.ipynb.sage-jupyter
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076     24 Apr 24 17:23 test.dat
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076      0 Apr 27 13:29 teste.txt
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076    219 Apr 24 17:22 texto.txt

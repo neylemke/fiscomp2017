@@ -1,0 +1,18 @@
+total 508
+drwxr-x---  3 9c09ec4d8c004b7ebccf45f7d5681853 9c09ec4d8c004b7ebccf45f7d5681853   4096 May 10 01:27 .
+drwx------ 25 9c09ec4d8c004b7ebccf45f7d5681853 9c09ec4d8c004b7ebccf45f7d5681853   4096 May 10 01:02 ..
+-rw-r-----  1 9c09ec4d8c004b7ebccf45f7d5681853 9c09ec4d8c004b7ebccf45f7d5681853      0 May  8 17:44 2017-05-08-144353.ipynb
+-rw-r-----  1 9c09ec4d8c004b7ebccf45f7d5681853 9c09ec4d8c004b7ebccf45f7d5681853      0 May  8 17:44 .2017-05-08-144353.ipynb.sage-jupyter2
+-rw-r-----  1 9c09ec4d8c004b7ebccf45f7d5681853 9c09ec4d8c004b7ebccf45f7d5681853      0 May  8 17:17 .Aula08.05.2017-1.ipynb.sage-jupyter2
+-rw-r-----  1 9c09ec4d8c004b7ebccf45f7d5681853 9c09ec4d8c004b7ebccf45f7d5681853      0 May  8 17:21 .Aula08.05.2017-2.ipynb.sage-jupyter2
+-rw-r-----  1 9c09ec4d8c004b7ebccf45f7d5681853 9c09ec4d8c004b7ebccf45f7d5681853      0 May  8 17:19 .Aula08.05.2017.ipynb.sage-jupyter2
+-rw-r-----  1 9c09ec4d8c004b7ebccf45f7d5681853 9c09ec4d8c004b7ebccf45f7d5681853 234990 May  8 11:41 Aula24.04.2017.ipynb
+-rw-r-----  1 9c09ec4d8c004b7ebccf45f7d5681853 9c09ec4d8c004b7ebccf45f7d5681853      0 May  8 11:42 .Aula24.04.2017.ipynb.sage-jupyter2
+-rw-r-----  1 9c09ec4d8c004b7ebccf45f7d5681853 9c09ec4d8c004b7ebccf45f7d5681853 168813 May 10 01:26 AulaDatas.ipynb
+-rw-r-----  1 9c09ec4d8c004b7ebccf45f7d5681853 9c09ec4d8c004b7ebccf45f7d5681853  78681 May 10 01:26 .AulaDatas.ipynb.sage-jupyter2
+drwxr-x---  3 9c09ec4d8c004b7ebccf45f7d5681853 9c09ec4d8c004b7ebccf45f7d5681853   4096 May  8 11:49 cookbook-data
+-rw-r-----  1 9c09ec4d8c004b7ebccf45f7d5681853 9c09ec4d8c004b7ebccf45f7d5681853   1133 May 10 01:25 dicchar.csv
+-rw-r-----  1 9c09ec4d8c004b7ebccf45f7d5681853 9c09ec4d8c004b7ebccf45f7d5681853     74 May  8 17:22 matriznum2.csv
+-rw-r-----  1 9c09ec4d8c004b7ebccf45f7d5681853 9c09ec4d8c004b7ebccf45f7d5681853     26 May  8 17:26 test.dat
+-rw-r-----  1 9c09ec4d8c004b7ebccf45f7d5681853 9c09ec4d8c004b7ebccf45f7d5681853      0 May 10 01:27 teste.txt
+-rw-r-----  1 9c09ec4d8c004b7ebccf45f7d5681853 9c09ec4d8c004b7ebccf45f7d5681853    219 May  8 17:22 texto.txt

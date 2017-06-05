@@ -1,0 +1,27 @@
+total 372
+drwxr-x---  4 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c   4096 Apr 24 18:52 .
+drwx------ 18 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c   4096 Apr 24 17:12 ..
+-rw-r-----  1 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c   7131 Apr 23 16:59 .Analisedados.ipynb.sage-jupyter
+-rw-r-----  1 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c   1134 Apr 24 18:36 arq_abril_inverno.txt
+-rw-r-----  1 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c   1134 Apr 24 18:36 arq_agosto_outono.txt
+-rw-r-----  1 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c   1156 Apr 24 18:36 arq_dezembro_primavera.txt
+-rw-r-----  1 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c    845 Apr 24 18:36 arq_fevereiro_verao.txt
+-rw-r-----  1 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c    693 Apr 24 18:36 arq_janeiro_verao.txt
+-rw-r-----  1 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c    868 Apr 24 18:36 arq_julho_outono.txt
+-rw-r-----  1 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c    756 Apr 24 18:36 arq_junho_inverno.txt
+-rw-r-----  1 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c    310 Apr 24 18:36 arq_maio_inverno.txt
+-rw-r-----  1 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c    305 Apr 24 18:36 arq_marco_verao.txt
+-rw-r-----  1 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c    476 Apr 24 18:36 arq_novembro_primavera.txt
+-rw-r-----  1 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c   1206 Apr 24 18:36 arq_outubro_primavera.txt
+-rw-r-----  1 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c    715 Apr 24 18:36 arq_setembro_outono.txt
+-rw-r-----  1 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c  19129 Apr 24 00:13 .Aula21.04.2017.ipynb.sage-jupyter
+-rw-r-----  1 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c  17908 Apr 23 17:38 .Aula24.03.2017.ipynb.sage-jupyter
+-rw-r-----  1 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c 197105 Apr 24 18:52 Aula24.04.2017.ipynb
+-rw-r-----  1 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c  21121 Apr 24 18:40 .Aula24.04.2017.ipynb.sage-jupyter
+drwxr-x---  4 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c   4096 Apr 24 15:33 cookbook-data
+-rw-r-----  1 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c   7021 Apr 24 18:52 ExercicioAula24.04.2017.ipynb
+-rw-r-----  1 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c   5717 Apr 24 18:53 .ExercicioAula24.04.2017.ipynb.sage-jupyter
+-rw-r-----  1 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c   2977 Apr 24 18:36 file.zip
+drwxr-x---  2 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c   4096 Apr 24 17:31 .ipynb_checkpoints
+-rw-r-----  1 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c  19127 Apr 23 19:48 .python.dados.pandas.ipynb.sage-jupyter
+-rw-r-----  1 199b0e097cd743e7bd42d0668ef57d4c 199b0e097cd743e7bd42d0668ef57d4c      0 Apr 24 18:53 teste.txt

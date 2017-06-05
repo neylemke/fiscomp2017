@@ -1,0 +1,5 @@
+primavera
+verao
+outono
+inverno
+writing esta.txt

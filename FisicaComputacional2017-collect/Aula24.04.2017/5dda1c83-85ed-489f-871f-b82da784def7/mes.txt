@@ -1,0 +1,14 @@
+Janeiro
+Fevereiro
+Marco
+Abril
+Maio
+Junho
+Julho
+Agosto
+Setembro
+Outubro
+Novembro
+Dezembro
+with open('mes.txt', 'r') as f:
+    print(f.read())

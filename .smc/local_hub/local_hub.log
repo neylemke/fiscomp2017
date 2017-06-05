@@ -1,229 +1,31 @@
-2017-05-01T14:28:25.022Z - debug: '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc-DEBUG' does not exist; minimal logging
-2017-05-01T14:28:25.026Z - debug: writing info.json
-2017-05-01T14:28:25.037Z - debug: initializing secret token
-2017-05-01T14:28:25.037Z - debug: read the secret token file...
-2017-05-01T14:28:25.038Z - debug: create '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc/secret_token'
-2017-05-01T14:28:25.039Z - debug: got secret token = ONIVMd7jQeOtepFpYNylCuKWN/s4RozBdc4HC4I2lOH0nw4c/mvgEyOJe7lnqynfQ5Mysn+C0KwX9EN4pYfntF29P4bRl+vUIttB2DIFtECc4rW/xoWyo35EeCqFxC4PTArSEnvnza4RxA4IACFkK/a7T9ItQYbatccu3LM2yug=
-2017-05-01T14:28:25.039Z - info: starting tcp server: project <--> hub...
-2017-05-01T14:28:25.044Z - info: tcp_server listening 0.0.0.0:44088
-2017-05-01T14:28:25.045Z - info: starting raw http server...
-2017-05-01T14:28:25.551Z - info: raw server: port=45248, host='10.240.0.16', base='/da4b09c7-73a7-4027-ac2d-5fed6d409acf/raw/'
-2017-05-01T14:28:25.555Z - debug: Successfully started servers.
-2017-05-01T14:28:31.976Z - debug: received new connection
-2017-05-01T14:28:31.980Z - debug: received new connection
-2017-05-01T14:28:32.021Z - debug: hello from hub -- sending back our version = 1492984140
-2017-05-01T14:28:32.025Z - debug: hello from hub -- sending back our version = 1492984140
-2017-05-01T14:28:32.105Z - debug: open_syncstrings: 0; recent_syncstrings: 0
-2017-05-01T14:28:50.887Z - debug: open_syncstrings: 0; recent_syncstrings: 1
-2017-05-01T14:28:50.895Z - debug: open_syncstrings: 1; recent_syncstrings: 2
-2017-05-01T14:28:50.897Z - debug: open_syncstrings: 2; recent_syncstrings: 3
-2017-05-01T14:28:50.902Z - debug: open_syncstrings: 3; recent_syncstrings: 4
-2017-05-01T14:28:51.052Z - debug: open_syncstrings: 4; recent_syncstrings: 4
-2017-05-01T14:28:51.444Z - debug: open_syncstrings: 4; recent_syncstrings: 3
-2017-05-01T14:28:51.744Z - debug: open_syncstrings: 3; recent_syncstrings: 3
-2017-05-01T14:29:02.978Z - debug: open_syncstrings: 3; recent_syncstrings: 4
-2017-05-01T14:29:02.988Z - debug: open_syncstrings: 4; recent_syncstrings: 5
-2017-05-01T14:29:03.184Z - debug: open_syncstrings: 5; recent_syncstrings: 5
-2017-05-01T14:29:55.949Z - debug: jupyter_port: undefined
-2017-05-01T14:29:55.949Z - debug: jupyter_port: checking jupyter status
-2017-05-01T14:29:56.234Z - debug: jupyter_port: undefined
-2017-05-01T14:29:56.234Z - debug: jupyter_port: already 2 requests -- return immediately
-2017-05-01T14:29:56.307Z - debug: jupyter_port: got status={"status":"stopped"}
-2017-05-01T14:29:56.308Z - debug: jupyter_port: not running, so start it running
-2017-05-01T14:29:57.711Z - debug: jupyter_port: after starting, got status=undefined
-2017-05-01T14:29:57.711Z - debug: jupyter_port: finished; (err=error parsing smc-jupyter startup output -- SyntaxError: Unexpected token / in JSON at position 0, {misc.to_json(out)}); now sending resp
-2017-05-01T14:29:57.725Z - debug: jupyter_port: undefined
-2017-05-01T14:29:57.725Z - debug: jupyter_port: checking jupyter status
-2017-05-01T14:29:58.425Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":14609,"port":39001}
-2017-05-01T14:29:58.425Z - debug: jupyter_port: already running; nothing more to do
-2017-05-01T14:29:58.425Z - debug: jupyter_port: finished; (err=null); now sending resp
-2017-05-01T14:48:05.521Z - debug: open_syncstrings: 3; recent_syncstrings: 5
-2017-05-01T14:48:05.825Z - debug: open_syncstrings: 2; recent_syncstrings: 5
-2017-05-01T14:48:16.685Z - debug: open_syncstrings: 1; recent_syncstrings: 5
-2017-05-01T14:49:57.123Z - debug: open_syncstrings: 0; recent_syncstrings: 5
-2017-05-01T14:59:44.661Z - debug: received new connection
-2017-05-01T14:59:44.702Z - debug: hello from hub -- sending back our version = 1492984140
-2017-05-01T14:59:44.703Z - debug: jupyter_port: undefined
-2017-05-01T14:59:44.703Z - debug: jupyter_port: checking jupyter status
-2017-05-01T14:59:44.703Z - debug: jupyter_port: undefined
-2017-05-01T14:59:44.703Z - debug: jupyter_port: already 2 requests -- return immediately
-2017-05-01T14:59:44.704Z - debug: jupyter_port: undefined
-2017-05-01T14:59:44.704Z - debug: jupyter_port: already 3 requests -- return immediately
-2017-05-01T14:59:45.071Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":14609,"port":39001}
-2017-05-01T14:59:45.071Z - debug: jupyter_port: already running; nothing more to do
-2017-05-01T14:59:45.071Z - debug: jupyter_port: finished; (err=null); now sending resp
-2017-05-01T15:01:59.883Z - debug: open_syncstrings: 1; recent_syncstrings: 5
-2017-05-01T15:02:02.234Z - debug: received new connection
-2017-05-01T15:02:02.274Z - debug: hello from hub -- sending back our version = 1492984140
-2017-05-01T15:02:02.275Z - debug: jupyter_port: undefined
-2017-05-01T15:02:02.275Z - debug: jupyter_port: checking jupyter status
-2017-05-01T15:02:02.275Z - debug: jupyter_port: undefined
-2017-05-01T15:02:02.275Z - debug: jupyter_port: already 2 requests -- return immediately
-2017-05-01T15:02:02.275Z - debug: jupyter_port: undefined
-2017-05-01T15:02:02.275Z - debug: jupyter_port: already 3 requests -- return immediately
-2017-05-01T15:02:02.625Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":14609,"port":39001}
-2017-05-01T15:02:02.625Z - debug: jupyter_port: already running; nothing more to do
-2017-05-01T15:02:02.625Z - debug: jupyter_port: finished; (err=null); now sending resp
-2017-05-01T15:05:09.373Z - debug: open_syncstrings: 2; recent_syncstrings: 5
-2017-05-01T15:06:51.007Z - debug: open_syncstrings: 3; recent_syncstrings: 5
-2017-05-01T15:07:13.013Z - debug: open_syncstrings: 4; recent_syncstrings: 5
-2017-05-01T15:09:11.807Z - debug: open_syncstrings: 5; recent_syncstrings: 5
-2017-05-01T15:59:47.474Z - debug: received new connection
-2017-05-01T15:59:47.522Z - debug: hello from hub -- sending back our version = 1492984140
-2017-05-01T15:59:47.524Z - debug: jupyter_port: undefined
-2017-05-01T15:59:47.525Z - debug: jupyter_port: checking jupyter status
-2017-05-01T15:59:47.528Z - debug: jupyter_port: undefined
-2017-05-01T15:59:47.528Z - debug: jupyter_port: already 2 requests -- return immediately
-2017-05-01T15:59:47.528Z - debug: jupyter_port: undefined
-2017-05-01T15:59:47.528Z - debug: jupyter_port: already 3 requests -- return immediately
-2017-05-01T15:59:47.920Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":14609,"port":39001}
-2017-05-01T15:59:47.921Z - debug: jupyter_port: already running; nothing more to do
-2017-05-01T15:59:47.921Z - debug: jupyter_port: finished; (err=null); now sending resp
-2017-05-01T16:02:01.940Z - debug: received new connection
-2017-05-01T16:02:01.942Z - debug: received new connection
-2017-05-01T16:02:01.943Z - debug: received new connection
-2017-05-01T16:02:01.978Z - debug: hello from hub -- sending back our version = 1492984140
-2017-05-01T16:02:01.979Z - debug: jupyter_port: undefined
-2017-05-01T16:02:01.979Z - debug: jupyter_port: checking jupyter status
-2017-05-01T16:02:02.010Z - debug: hello from hub -- sending back our version = 1492984140
-2017-05-01T16:02:02.010Z - debug: jupyter_port: undefined
-2017-05-01T16:02:02.010Z - debug: jupyter_port: already 2 requests -- return immediately
-2017-05-01T16:02:02.011Z - debug: hello from hub -- sending back our version = 1492984140
-2017-05-01T16:02:02.011Z - debug: jupyter_port: undefined
-2017-05-01T16:02:02.011Z - debug: jupyter_port: already 3 requests -- return immediately
-2017-05-01T16:02:02.392Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":14609,"port":39001}
-2017-05-01T16:02:02.392Z - debug: jupyter_port: already running; nothing more to do
-2017-05-01T16:02:02.392Z - debug: jupyter_port: finished; (err=null); now sending resp
-2017-05-01T16:40:59.292Z - debug: jupyter_port: undefined
-2017-05-01T16:40:59.296Z - debug: jupyter_port: checking jupyter status
-2017-05-01T16:40:59.694Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":14609,"port":39001}
-2017-05-01T16:40:59.694Z - debug: jupyter_port: already running; nothing more to do
-2017-05-01T16:40:59.695Z - debug: jupyter_port: finished; (err=null); now sending resp
-2017-05-01T16:41:03.313Z - debug: received new connection
-2017-05-01T16:41:03.354Z - debug: hello from hub -- sending back our version = 1492984140
-2017-05-01T16:41:03.354Z - debug: jupyter_port: undefined
-2017-05-01T16:41:03.354Z - debug: jupyter_port: checking jupyter status
-2017-05-01T16:41:03.706Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":14609,"port":39001}
-2017-05-01T16:41:03.706Z - debug: jupyter_port: already running; nothing more to do
-2017-05-01T16:41:03.706Z - debug: jupyter_port: finished; (err=null); now sending resp
-2017-05-01T16:56:46.906Z - debug: received new connection
-2017-05-01T16:56:46.946Z - debug: hello from hub -- sending back our version = 1492984140
-2017-05-01T16:56:46.946Z - debug: jupyter_port: undefined
-2017-05-01T16:56:46.946Z - debug: jupyter_port: checking jupyter status
-2017-05-01T16:56:46.947Z - debug: jupyter_port: undefined
-2017-05-01T16:56:46.947Z - debug: jupyter_port: already 2 requests -- return immediately
-2017-05-01T16:56:46.947Z - debug: jupyter_port: undefined
-2017-05-01T16:56:46.947Z - debug: jupyter_port: already 3 requests -- return immediately
-2017-05-01T16:56:47.304Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":14609,"port":39001}
-2017-05-01T16:56:47.304Z - debug: jupyter_port: already running; nothing more to do
-2017-05-01T16:56:47.304Z - debug: jupyter_port: finished; (err=null); now sending resp
-2017-05-01T17:00:55.865Z - debug: received new connection
-2017-05-01T17:00:55.906Z - debug: hello from hub -- sending back our version = 1492984140
-2017-05-01T17:00:55.906Z - debug: jupyter_port: undefined
-2017-05-01T17:00:55.906Z - debug: jupyter_port: checking jupyter status
-2017-05-01T17:00:55.907Z - debug: jupyter_port: undefined
-2017-05-01T17:00:55.907Z - debug: jupyter_port: already 2 requests -- return immediately
-2017-05-01T17:00:56.287Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":14609,"port":39001}
-2017-05-01T17:00:56.287Z - debug: jupyter_port: already running; nothing more to do
-2017-05-01T17:00:56.287Z - debug: jupyter_port: finished; (err=null); now sending resp
-2017-05-01T17:02:46.791Z - debug: received new connection
-2017-05-01T17:02:46.830Z - debug: hello from hub -- sending back our version = 1492984140
-2017-05-01T17:02:46.830Z - debug: jupyter_port: undefined
-2017-05-01T17:02:46.831Z - debug: jupyter_port: checking jupyter status
-2017-05-01T17:02:46.831Z - debug: jupyter_port: undefined
-2017-05-01T17:02:46.831Z - debug: jupyter_port: already 2 requests -- return immediately
-2017-05-01T17:02:46.831Z - debug: jupyter_port: undefined
-2017-05-01T17:02:46.831Z - debug: jupyter_port: already 3 requests -- return immediately
-2017-05-01T17:02:47.177Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":14609,"port":39001}
-2017-05-01T17:02:47.178Z - debug: jupyter_port: already running; nothing more to do
-2017-05-01T17:02:47.178Z - debug: jupyter_port: finished; (err=null); now sending resp
-2017-05-01T17:04:26.749Z - debug: received new connection
-2017-05-01T17:04:26.790Z - debug: hello from hub -- sending back our version = 1492984140
-2017-05-01T17:04:26.791Z - debug: jupyter_port: undefined
-2017-05-01T17:04:26.791Z - debug: jupyter_port: checking jupyter status
-2017-05-01T17:04:26.792Z - debug: jupyter_port: undefined
-2017-05-01T17:04:26.792Z - debug: jupyter_port: already 2 requests -- return immediately
-2017-05-01T17:04:26.792Z - debug: jupyter_port: undefined
-2017-05-01T17:04:26.792Z - debug: jupyter_port: already 3 requests -- return immediately
-2017-05-01T17:04:27.195Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":14609,"port":39001}
-2017-05-01T17:04:27.195Z - debug: jupyter_port: already running; nothing more to do
-2017-05-01T17:04:27.195Z - debug: jupyter_port: finished; (err=null); now sending resp
-2017-05-01T17:05:08.845Z - debug: open_syncstrings: 4; recent_syncstrings: 5
-2017-05-01T17:09:31.866Z - debug: received new connection
-2017-05-01T17:09:31.866Z - debug: received new connection
-2017-05-01T17:09:31.906Z - debug: hello from hub -- sending back our version = 1492984140
-2017-05-01T17:09:31.907Z - debug: jupyter_port: undefined
-2017-05-01T17:09:31.909Z - debug: jupyter_port: checking jupyter status
-2017-05-01T17:09:31.909Z - debug: hello from hub -- sending back our version = 1492984140
-2017-05-01T17:09:31.910Z - debug: jupyter_port: undefined
-2017-05-01T17:09:31.910Z - debug: jupyter_port: already 2 requests -- return immediately
-2017-05-01T17:09:31.910Z - debug: jupyter_port: undefined
-2017-05-01T17:09:31.910Z - debug: jupyter_port: already 3 requests -- return immediately
-2017-05-01T17:09:32.283Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":14609,"port":39001}
-2017-05-01T17:09:32.283Z - debug: jupyter_port: already running; nothing more to do
-2017-05-01T17:09:32.283Z - debug: jupyter_port: finished; (err=null); now sending resp
-2017-05-01T17:15:08.766Z - debug: open_syncstrings: 5; recent_syncstrings: 5
-2017-05-01T19:04:14.336Z - debug: jupyter_port: undefined
-2017-05-01T19:04:14.338Z - debug: jupyter_port: checking jupyter status
-2017-05-01T19:04:14.775Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":14609,"port":39001}
-2017-05-01T19:04:14.775Z - debug: jupyter_port: already running; nothing more to do
-2017-05-01T19:04:14.775Z - debug: jupyter_port: finished; (err=null); now sending resp
-2017-05-01T19:04:16.754Z - debug: received new connection
-2017-05-01T19:04:16.755Z - debug: received new connection
-2017-05-01T19:04:16.794Z - debug: hello from hub -- sending back our version = 1492984140
-2017-05-01T19:04:16.796Z - debug: jupyter_port: undefined
-2017-05-01T19:04:16.796Z - debug: jupyter_port: checking jupyter status
-2017-05-01T19:04:16.797Z - debug: hello from hub -- sending back our version = 1492984140
-2017-05-01T19:04:16.797Z - debug: jupyter_port: undefined
-2017-05-01T19:04:16.797Z - debug: jupyter_port: already 2 requests -- return immediately
-2017-05-01T19:04:17.140Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":14609,"port":39001}
-2017-05-01T19:04:17.140Z - debug: jupyter_port: already running; nothing more to do
-2017-05-01T19:04:17.140Z - debug: jupyter_port: finished; (err=null); now sending resp
-2017-05-01T20:05:01.831Z - debug: received new connection
-2017-05-01T20:05:01.834Z - debug: received new connection
-2017-05-01T20:05:01.875Z - debug: hello from hub -- sending back our version = 1492984140
-2017-05-01T20:05:01.877Z - debug: jupyter_port: undefined
-2017-05-01T20:05:01.878Z - debug: jupyter_port: checking jupyter status
-2017-05-01T20:05:01.883Z - debug: hello from hub -- sending back our version = 1492984140
-2017-05-01T20:05:01.884Z - debug: jupyter_port: undefined
-2017-05-01T20:05:01.884Z - debug: jupyter_port: already 2 requests -- return immediately
-2017-05-01T20:05:02.258Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":14609,"port":39001}
-2017-05-01T20:05:02.258Z - debug: jupyter_port: already running; nothing more to do
-2017-05-01T20:05:02.258Z - debug: jupyter_port: finished; (err=null); now sending resp
-2017-05-01T20:44:49.575Z - debug: received new connection
-2017-05-01T20:44:49.618Z - debug: hello from hub -- sending back our version = 1492984140
-2017-05-01T20:44:53.798Z - debug: jupyter_port: undefined
-2017-05-01T20:44:53.799Z - debug: jupyter_port: checking jupyter status
-2017-05-01T20:44:54.137Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":14609,"port":39001}
-2017-05-01T20:44:54.137Z - debug: jupyter_port: already running; nothing more to do
-2017-05-01T20:44:54.138Z - debug: jupyter_port: finished; (err=null); now sending resp
-2017-05-01T20:45:02.366Z - debug: jupyter_port: undefined
-2017-05-01T20:45:02.366Z - debug: jupyter_port: checking jupyter status
-2017-05-01T20:45:03.126Z - debug: jupyter_port: got status={"status":"running","base":" --NotebookApp.base_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ --NotebookApp.base_kernel_url=/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/ ","pid":14609,"port":39001}
-2017-05-01T20:45:03.127Z - debug: jupyter_port: already running; nothing more to do
-2017-05-01T20:45:03.127Z - debug: jupyter_port: finished; (err=null); now sending resp
-2017-05-01T20:50:54.094Z - debug: handle_save_blob_message: da39a3ee-5e6b-44b0-9325-5bfef9560189
-2017-05-01T20:50:54.269Z - debug: received new connection
-2017-05-01T20:50:54.310Z - debug: connect_to_session -- type='console'
-2017-05-01T20:50:54.311Z - debug: get_session: console session b8262988-f142-4d6b-b9aa-48151572dd93
-2017-05-01T20:50:54.311Z - debug: console session not yet created -- put on stack
-2017-05-01T20:50:54.311Z - debug: console session does not exist or is not running, so we make a new session
-2017-05-01T20:50:54.312Z - debug: couldn't determine console server port; probably console server not running -- try restarting it
-2017-05-01T20:50:54.313Z - debug: restart_console_server: undefined
-2017-05-01T20:50:54.313Z - debug: restart_console_server: "restarting daemon"
-2017-05-01T20:50:54.313Z - debug: restart_console_server: "remove port_file=/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc/console_server/console_server.port"
-2017-05-01T20:50:54.313Z - debug: restart_console_server: "restart console server"
-2017-05-01T20:50:55.115Z - debug: restart_console_server: "wait a little to see if /projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc/console_server/console_server.port appears, and if so read it and return port"
-2017-05-01T20:50:58.466Z - debug: restart_console_server: "finished trying to restart console_server"
-2017-05-01T20:50:58.466Z - debug: restarted console server, then got port = 43788
-2017-05-01T20:50:58.466Z - debug: console: Got port -- now create the new session
-2017-05-01T20:50:58.466Z - debug: _new_session: defined by {"event":"connect_to_session","id":"d8773615-cae3-4999-b3fc-ef734d8e5bd3","type":"console","project_id":"da4b09c7-73a7-4027-ac2d-5fed6d409acf","session_uuid":"b8262988-f142-4d6b-b9aa-48151572dd93","params":{"command":"bash","path":"./","filename":"2017-05-01-175050.term"}}
-2017-05-01T21:01:45.230Z - debug: handle_save_blob_message: da39a3ee-5e6b-44b0-9325-5bfef9560189
-2017-05-01T21:01:45.401Z - debug: received new connection
-2017-05-01T21:01:45.442Z - debug: connect_to_session -- type='console'
-2017-05-01T21:01:45.442Z - debug: get_session: console session 61cca054-c44e-4784-b6b1-6cd547e54a98
-2017-05-01T21:01:45.443Z - debug: console session not yet created -- put on stack
-2017-05-01T21:01:45.443Z - debug: console session does not exist or is not running, so we make a new session
-2017-05-01T21:01:45.443Z - debug: got console server port = 43788
-2017-05-01T21:01:45.443Z - debug: console: Got port -- now create the new session
-2017-05-01T21:01:45.444Z - debug: _new_session: defined by {"event":"connect_to_session","id":"b885d2d5-d736-4ba4-9448-4c2383b682ee","type":"console","project_id":"da4b09c7-73a7-4027-ac2d-5fed6d409acf","session_uuid":"61cca054-c44e-4784-b6b1-6cd547e54a98","params":{"command":"bash","path":"./","filename":"2017-05-01-180142.term"}}
+2017-06-05T18:44:10.572Z - debug: '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc-DEBUG' does not exist; minimal logging
+2017-06-05T18:44:10.578Z - debug: Writing 'info.json'
+2017-06-05T18:44:10.602Z - debug: initializing secret token
+2017-06-05T18:44:10.602Z - debug: read the secret token file...
+2017-06-05T18:44:10.604Z - debug: create '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc/secret_token'
+2017-06-05T18:44:10.605Z - debug: got secret token = 85kqQxn5Q2JiXPD2t3Ls3g+QcnoO3u0e5aT7l6oaMPGXO/qm3wLIlSUFM+Z1eDb15xviMGSGUySHqWhbMHopoUv4KSR36tDZjnY2FqewDMkLntW8PNEaJLyxDU3emAPiFYHG8LPsfVLO6qIfDdIVKlmLdcBTb0rTYk6YTSEZdIA=
+2017-06-05T18:44:10.610Z - info: starting tcp server: project <--> hub...
+2017-06-05T18:44:10.621Z - info: tcp_server listening 0.0.0.0:44741
+2017-06-05T18:44:10.623Z - info: starting express http server...
+2017-06-05T18:44:11.150Z - info: raw server: port=36967, host='10.240.0.16', base='/da4b09c7-73a7-4027-ac2d-5fed6d409acf/raw/'
+2017-06-05T18:44:11.153Z - debug: upload_endpoint conf
+2017-06-05T18:44:11.156Z - debug: Successfully started servers.
+2017-06-05T18:44:18.433Z - debug: received new connection
+2017-06-05T18:44:18.476Z - debug: hello from hub -- sending back our version = 1495286702
+2017-06-05T18:44:22.323Z - debug: open_syncstrings: 0; recent_syncstrings: 0
+2017-06-05T18:44:35.602Z - debug: handle_save_blob_message: da39a3ee-5e6b-44b0-9325-5bfef9560189
+2017-06-05T18:44:35.867Z - debug: received new connection
+2017-06-05T18:44:35.907Z - debug: connect_to_session -- type='console'
+2017-06-05T18:44:35.909Z - debug: get_session: console session a98fa436-b75a-417f-99ff-6f77a6fe8b07
+2017-06-05T18:44:35.909Z - debug: console session not yet created -- put on stack
+2017-06-05T18:44:35.909Z - debug: console session does not exist or is not running, so we make a new session
+2017-06-05T18:44:35.910Z - debug: couldn't determine console server port; probably console server not running -- try restarting it
+2017-06-05T18:44:35.911Z - debug: restart_console_server: undefined
+2017-06-05T18:44:35.911Z - debug: restart_console_server: "restarting daemon"
+2017-06-05T18:44:35.911Z - debug: restart_console_server: "remove port_file=/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc/console_server/console_server.port"
+2017-06-05T18:44:35.911Z - debug: restart_console_server: "restart console server"
+2017-06-05T18:44:37.240Z - debug: restart_console_server: "wait a little to see if /projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc/console_server/console_server.port appears, and if so read it and return port"
+2017-06-05T18:44:42.211Z - debug: restart_console_server: "finished trying to restart console_server"
+2017-06-05T18:44:42.212Z - debug: restarted console server, then got port = 32832
+2017-06-05T18:44:42.212Z - debug: console: Got port -- now create the new session
+2017-06-05T18:44:42.213Z - debug: _new_session: defined by {"event":"connect_to_session","id":"ac8fc5c9-9169-44f0-80fc-8f53bf9c82b8","type":"console","project_id":"da4b09c7-73a7-4027-ac2d-5fed6d409acf","session_uuid":"a98fa436-b75a-417f-99ff-6f77a6fe8b07","params":{"command":"bash","path":"./","filename":"2017-06-05-154427.term"}}

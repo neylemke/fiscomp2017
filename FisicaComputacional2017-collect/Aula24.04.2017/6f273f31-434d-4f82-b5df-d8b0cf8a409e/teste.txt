@@ -1,0 +1,20 @@
+total 376
+drwxr-x---  5 b8a0c3c8aeed467194cde3655ee49df7 b8a0c3c8aeed467194cde3655ee49df7   4096 Apr 24 19:17 .
+drwx------ 22 b8a0c3c8aeed467194cde3655ee49df7 b8a0c3c8aeed467194cde3655ee49df7   4096 Apr 24 16:50 ..
+-rw-r-----  1 b8a0c3c8aeed467194cde3655ee49df7 b8a0c3c8aeed467194cde3655ee49df7   7131 Apr 23 16:59 .Analisedados.ipynb.sage-jupyter
+-rw-r-----  1 b8a0c3c8aeed467194cde3655ee49df7 b8a0c3c8aeed467194cde3655ee49df7  19129 Apr 24 00:13 .Aula21.04.2017.ipynb.sage-jupyter
+-rw-r-----  1 b8a0c3c8aeed467194cde3655ee49df7 b8a0c3c8aeed467194cde3655ee49df7  17908 Apr 23 17:38 .Aula24.03.2017.ipynb.sage-jupyter
+-rw-r-----  1 b8a0c3c8aeed467194cde3655ee49df7 b8a0c3c8aeed467194cde3655ee49df7 225339 Apr 24 19:17 Aula24.04.2017.ipynb
+-rw-r-----  1 b8a0c3c8aeed467194cde3655ee49df7 b8a0c3c8aeed467194cde3655ee49df7  38850 Apr 24 19:17 .Aula24.04.2017.ipynb.sage-jupyter
+drwxr-x---  4 b8a0c3c8aeed467194cde3655ee49df7 b8a0c3c8aeed467194cde3655ee49df7   4096 Apr 24 15:32 cookbook-data
+-rw-r-----  1 b8a0c3c8aeed467194cde3655ee49df7 b8a0c3c8aeed467194cde3655ee49df7   1116 Apr 24 19:04 dicchar.csv
+drwxr-x---  3 b8a0c3c8aeed467194cde3655ee49df7 b8a0c3c8aeed467194cde3655ee49df7   4096 Apr 24 19:17 Exerciciosaula24.04.2017
+drwxr-x---  2 b8a0c3c8aeed467194cde3655ee49df7 b8a0c3c8aeed467194cde3655ee49df7   4096 Apr 24 15:32 .ipynb_checkpoints
+-rw-r-----  1 b8a0c3c8aeed467194cde3655ee49df7 b8a0c3c8aeed467194cde3655ee49df7     74 Apr 24 17:21 matriznum.csv
+-rw-r-----  1 b8a0c3c8aeed467194cde3655ee49df7 b8a0c3c8aeed467194cde3655ee49df7  19127 Apr 23 19:48 .python.dados.pandas.ipynb.sage-jupyter
+-rw-r-----  1 b8a0c3c8aeed467194cde3655ee49df7 b8a0c3c8aeed467194cde3655ee49df7     38 Apr 24 17:27 test.dat
+-rw-r-----  1 b8a0c3c8aeed467194cde3655ee49df7 b8a0c3c8aeed467194cde3655ee49df7     24 Apr 24 17:26 test.dat\
+-rw-r-----  1 b8a0c3c8aeed467194cde3655ee49df7 b8a0c3c8aeed467194cde3655ee49df7     24 Apr 24 17:26 test.dat
+
+-rw-r-----  1 b8a0c3c8aeed467194cde3655ee49df7 b8a0c3c8aeed467194cde3655ee49df7      0 Apr 24 19:18 teste.txt
+-rw-r-----  1 b8a0c3c8aeed467194cde3655ee49df7 b8a0c3c8aeed467194cde3655ee49df7    219 Apr 24 17:21 texto.txt

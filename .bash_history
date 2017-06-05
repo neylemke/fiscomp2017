@@ -92,3 +92,18 @@ ls
 PS1='[PEXP\[\]ECT_PROMPT>' PS2='[PEXP\[\]ECT_PROMPT+' PROMPT_COMMAND=''
 export PAGER=cat
 display () {     TMPFILE=$(mktemp ${TMPDIR-/tmp}/bash_kernel.XXXXXXXXXX);     cat > $TMPFILE;     echo "bash_kernel: saved image data to: $TMPFILE" >&2; }
+git status
+git add -A
+git push 
+pip install ipy_table
+pip3 install ipy_table
+find . -name ipy-table.py
+pwd
+cd ..
+find . -name ipy-table.py
+cd 
+ls
+./sage --python -m easy_install ipy_table
+sage --python -m easy_install ipy_table
+sage --python -m easy_install --prefix=. ipy_table
+ipython;1R;1R

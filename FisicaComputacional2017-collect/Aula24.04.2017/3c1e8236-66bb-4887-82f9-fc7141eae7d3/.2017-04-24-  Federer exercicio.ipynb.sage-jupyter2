@@ -1,0 +1,6 @@
+{"type":"file","last_load":1494854045208}
+{"type":"settings","backend_state":"running","trust":true,"kernel":"python3","kernel_state":"idle"}
+{"exec_count":1,"start":1494854219566,"input":"import pandas as pd\nimport numpy as np\n","state":"done","pos":0,"type":"cell","end":1494854219802,"id":"dd7dc0","kernel":"python3"}
+{"exec_count":4,"start":1494854401042,"input":"import numpy as np\nimport pandas as pd\nimport matplotlib.pyplot as plt\nplayer = 'Roger Federer'\nfilename = \"./cookbook-data/data/{name}.csv\".format(name=player.replace(' ', '-')) \ndf = pd.read_csv(filename)\n","state":"done","pos":1,"type":"cell","end":1494854401062,"id":"c62473","kernel":"python3"}
+{"output":{"0":{"more_output":true}},"exec_count":5,"start":1494854432106,"input":"df","scrolled":true,"state":"done","pos":2,"type":"cell","end":1494854432268,"id":"4efda1","kernel":"python3"}
+{"type":"cell","id":"b33db0","pos":3,"input":""}

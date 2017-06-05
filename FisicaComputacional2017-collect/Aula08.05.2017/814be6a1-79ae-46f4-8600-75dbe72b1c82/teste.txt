@@ -1,0 +1,13 @@
+total 404
+drwxr-x---  3 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076   4096 May  8 18:20 .
+drwx------ 23 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076   4096 May  8 17:02 ..
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076      0 May  8 17:17 .Aula08.05.2017-1.ipynb.sage-jupyter2
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076      0 May  8 17:21 .Aula08.05.2017-2.ipynb.sage-jupyter2
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076      0 May  8 17:19 .Aula08.05.2017.ipynb.sage-jupyter2
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076 234990 May  8 11:41 Aula24.04.2017.ipynb
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076      0 May  8 11:42 .Aula24.04.2017.ipynb.sage-jupyter2
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076 158967 May  8 17:46 AulaDatas.ipynb
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076      0 May  8 17:47 .AulaDatas.ipynb.sage-jupyter2
+drwxr-x---  3 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076   4096 May  8 11:49 cookbook-data
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076   1133 May  8 18:19 dicchar.csv
+-rw-r-----  1 51da0f8e6ab646feb255cb5adade3076 51da0f8e6ab646feb255cb5adade3076      0 May  8 18:20 teste.txt

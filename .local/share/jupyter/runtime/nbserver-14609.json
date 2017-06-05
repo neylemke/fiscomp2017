@@ -1,9 +1,0 @@
-{
-  "secure": false, 
-  "url": "http://10.240.0.16:39001/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/", 
-  "hostname": "10.240.0.16", 
-  "pid": 14609, 
-  "base_url": "/da4b09c7-73a7-4027-ac2d-5fed6d409acf/port/jupyter/", 
-  "notebook_dir": "/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf", 
-  "port": 39001
-}

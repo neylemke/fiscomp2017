@@ -1,0 +1,25 @@
+total 376
+drwxr-x---  4 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4   4096 Apr 24 18:48 .
+drwx------ 19 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4   4096 Apr 24 17:33 ..
+-rw-r-----  1 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4    609 Apr 24 17:58 abril_verão.txt
+-rw-r-----  1 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4    818 Apr 24 18:08 agosto_inverno.txt
+-rw-r-----  1 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4   7131 Apr 23 16:59 .Analisedados.ipynb.sage-jupyter
+-rw-r-----  1 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4   2868 Apr 24 18:35 arq.zip
+-rw-r-----  1 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4  19129 Apr 24 00:13 .Aula21.04.2017.ipynb.sage-jupyter
+-rw-r-----  1 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4  17908 Apr 23 17:38 .Aula24.03.2017.ipynb.sage-jupyter
+-rw-r-----  1 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4 210221 Apr 24 18:47 Aula24.04.2017.ipynb
+-rw-r-----  1 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4  31986 Apr 24 18:37 .Aula24.04.2017.ipynb.sage-jupyter
+drwxr-x---  4 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4   4096 Apr 24 15:32 cookbook-data
+-rw-r-----  1 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4    575 Apr 24 18:16 dezembro_verão.txt
+-rw-r-----  1 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4    389 Apr 24 17:55 fevereiro_verão.txt
+drwxr-x---  2 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4   4096 Apr 24 15:32 .ipynb_checkpoints
+-rw-r-----  1 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4    389 Apr 24 17:55 Janeiro_verão.txt
+-rw-r-----  1 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4    743 Apr 24 18:05 julho_inverno.txt
+-rw-r-----  1 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4    609 Apr 24 18:02 junho_outono.txt
+-rw-r-----  1 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4    599 Apr 24 18:00 maio_outono.txt
+-rw-r-----  1 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4    371 Apr 24 17:56 março_verão.txt
+-rw-r-----  1 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4    535 Apr 24 18:17 novembro_primavera.txt
+-rw-r-----  1 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4    594 Apr 24 18:17 outubro_primavera.txt
+-rw-r-----  1 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4  19127 Apr 23 19:48 .python.dados.pandas.ipynb.sage-jupyter
+-rw-r-----  1 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4    602 Apr 24 18:17 setembro_primavera.txt
+-rw-r-----  1 74ca7ce2a95e47fcba87b0c18c5d28c4 74ca7ce2a95e47fcba87b0c18c5d28c4      0 Apr 24 18:48 teste.txt

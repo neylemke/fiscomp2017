@@ -1,0 +1,5 @@
+{"type":"settings","kernel":"python2","backend_state":"running","trust":false,"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.13"}},"kernel_state":"idle"}
+{"type":"cell","id":"1489a7","pos":0,"input":"from IPython.display import display, HTML","cell_type":"code","exec_count":6}
+{"type":"cell","id":"9e5cbd","pos":1,"input":"from jinja2 import Template\ntemplate = Template('<b> Hello {{ name }}! </b>')\ndisplay(template.render(name='John Doe'))","output":{"0":{"data":{"text/plain":"u'<b> Hello John Doe! </b>'"},"output_type":"execute_result","exec_count":9}},"cell_type":"code","exec_count":9}
+{"type":"cell","id":"84bacf","pos":2,"input":"","cell_type":"code","exec_count":0,"collapsed":true}
+{"type":"file","last_load":1495576069846}

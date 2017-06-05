@@ -1,0 +1,6 @@
+Outono
+Inverno
+Primavera
+Verao
+with open('estacao','r')  as g:
+    print(g.read())

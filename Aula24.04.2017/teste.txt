@@ -1,6 +1,6 @@
-total 600
-drwxr-x---  4 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf   4096 Apr 27 14:42 .
-drwx------ 19 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf   4096 Apr 27 11:29 ..
+total 680
+drwxr-x---  4 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf   4096 May  7 12:21 .
+drwx------ 24 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf   4096 May  7 10:16 ..
 -rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf  10949 Apr 24 19:04 2017-04-24-140938.ipynb
 -rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf   8972 Apr 24 18:58 .2017-04-24-140938.ipynb.sage-jupyter
 -rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf   7131 Apr 23 16:59 .Analisedados.ipynb.sage-jupyter
@@ -18,17 +18,21 @@ drwx------ 19 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf 
 -rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf    610 Apr 24 18:53 arq_set_primavera.txt
 -rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf  19129 Apr 24 00:13 .Aula21.04.2017.ipynb.sage-jupyter
 -rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf  17908 Apr 23 17:38 .Aula24.03.2017.ipynb.sage-jupyter
--rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf 205847 Apr 27 14:42 Aula24.04.2017.ipynb
--rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf  30152 Apr 27 14:42 .Aula24.04.2017.ipynb.sage-jupyter
+-rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf 234990 May  5 16:34 Aula24.04.2017.ipynb
+-rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf  33113 Apr 28 16:24 .Aula24.04.2017.ipynb.sage-jupyter
+-rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf      0 May  7 12:21 .Aula24.04.2017.ipynb.sage-jupyter2
 drwxr-x---  4 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf   4096 Apr 22 01:09 cookbook-data
 -rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf   1133 Apr 24 18:14 dicchar.csv
 -rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf    571 Apr 24 17:55 file.zip
-drwxr-x---  2 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf   4096 Apr 24 17:09 .ipynb_checkpoints
+drwxr-x---  2 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf   4096 May  3 01:08 .ipynb_checkpoints
 -rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf     74 Apr 24 17:22 matriznum2.csv
 -rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf     74 Apr 24 17:21 matriznum.csv
+-rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf  13914 May  3 01:08 .Notas.ipynb.sage-jupyter
+-rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf     38 May  6 13:37 .Notas.ipynb.sage-jupyter2
 -rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf 181342 Apr 27 12:51 python.dados.pandas.ipynb
 -rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf  19127 Apr 23 19:48 .python.dados.pandas.ipynb.sage-jupyter
+-rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf  26048 May  3 17:01 .Tabelas.ipynb.sage-jupyter
 -rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf     24 Apr 24 16:57 test.append.dat
 -rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf     40 Apr 24 17:37 test.dat
--rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf      0 Apr 27 14:42 teste.txt
+-rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf      0 May  7 12:23 teste.txt
 -rw-r-----  1 da4b09c773a74027ac2d5fed6d409acf da4b09c773a74027ac2d5fed6d409acf    219 Apr 24 17:21 texto.txt
