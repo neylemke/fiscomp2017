@@ -107,3 +107,24 @@ ls
 sage --python -m easy_install ipy_table
 sage --python -m easy_install --prefix=. ipy_table
 ipython;1R;1R
+git add -A
+git commit -m "versao 05062017"
+git push
+mv jogadores.csv jogadores.old.csv
+head -n 3000 jogadores.old.csv | jogadores.csv
+head -n 3000 jogadores.old.csv > jogadores.csv
+ls -l jogadores.csv
+ls -l jogadores.*
+rm jogadores.csv
+wv jogadores.old.csv 
+wc jogadores.old.csv 
+head -n 30000 jogadores.old.csv > jogadores.csv
+ls
+cd ..
+ls
+locate cookbook
+find . -name cookbook-data
+nano
+ls
+jupyter nbconvert --to pdf tabela de notas extras.ipynb
+jupyter nbconvert --to pdf Tabela.notas.extras.ipynb

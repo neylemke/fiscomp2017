@@ -1,0 +1,12 @@
+{
+  "key": "df277e92-dd03-42d4-a0ba-f223403cc493",
+  "transport": "tcp",
+  "ip": "127.0.0.1",
+  "stdin_port": 9048,
+  "kernel_name": "",
+  "hb_port": 9045,
+  "signature_scheme": "hmac-sha256",
+  "iopub_port": 9049,
+  "control_port": 9046,
+  "shell_port": 9047
+}

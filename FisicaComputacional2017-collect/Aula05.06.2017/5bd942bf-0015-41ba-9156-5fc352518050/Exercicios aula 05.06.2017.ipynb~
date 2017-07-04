@@ -1,0 +1,66 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "#### Exercício 1\n",
+    "###### Até agora, na nossa exploração dos dados automotivos com gráficos de dispersão, focamos a relação entre preço e mpg da cidade. Neste exercício, você criará gráficos para algumas colunas adicionais:\n",
+    "\n",
+    "- Mude pelo menos uma das opções de cores.\n",
+    "- Ligue para a função auto_color com uma lista de colunas diferentes: ***['engine-size', 'curb-weight']***.\n",
+    "- Examine os plots resultantes. O que você pode aprender com essas plots?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "#### Exercício 2\n",
+    "###### Você já viu vários exemplos de usar a estética do gráfico para destacar vários relacionamentos no conjunto de dados. Você pode continuar a explorar o conjunto de dados usando a estética. Experimente o seguinte:\n",
+    "\n",
+    "- Copie o código usado para o plano de violino em uma nova célula.\n",
+    "- Altere o grupo x por variável para \"wheel-base\".\n",
+    "- Examine o plot resultante. Qual a nova informação agora aparente?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "#### Exercício 3\n",
+    "###### Agora é sua vez de tentar alguns plots com densidades nas margens. Faça o seguinte:\n",
+    "\n",
+    "- Altere a variável do eixo x para 'city-mpg'.\n",
+    "- Examine o plot resultante. Qual a nova informação agora aparente?"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 2 (Ubuntu Linux)",
+   "language": "python",
+   "name": "python2-ubuntu"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 2
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython2",
+   "version": "2.7.10"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}

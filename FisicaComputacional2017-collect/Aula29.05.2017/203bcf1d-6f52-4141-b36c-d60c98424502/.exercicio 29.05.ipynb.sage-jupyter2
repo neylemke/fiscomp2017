@@ -1,0 +1,9 @@
+{"type":"file","last_load":1497371663311}
+{"type":"settings","backend_state":"ready","trust":true,"kernel":"python2","kernel_state":"idle"}
+{"type":"cell","id":"f2483c","pos":0,"input":"import sys\nreload (sys)\nsys.setdefaultencoding(\"utf-8\")"}
+{"type":"cell","id":"93b5d1","pos":1,"input":"import numpy as np\nimport matplotlib.pyplot as plt"}
+{"type":"cell","id":"7f9e4a","pos":2,"input":"file=open(\"gut.txt\", \"r\")"}
+{"type":"cell","id":"bbb948","pos":3,"input":"texto=file.readlines()"}
+{"type":"cell","id":"1776db","pos":4,"input":"dict={}\nfor line in texto:\n    for word in line.split():\n        if word in dict:\n            dict[word]=dict[word]+1\n        else:\n            dict[word]=1"}
+{"type":"cell","id":"f50db5","pos":5,"input":"oco=dict.values()\noco.sort()\nX=np.array(range(len(oco)))+1\nY=np.array(oco)"}
+{"type":"cell","id":"f0c2b7","pos":6,"input":"fig = plt.figure(figsize=(10,10)) # define plot area\nax = fig.gca() # define axis      \nx=fig.gca()\nplt.plot(X,Y)\nax.set_title('frequencia das palavras das gut') # titulo principal\nax.set_xlabel('rank') # eixo x\nax.set_ylabel('freq')# eixo y"}

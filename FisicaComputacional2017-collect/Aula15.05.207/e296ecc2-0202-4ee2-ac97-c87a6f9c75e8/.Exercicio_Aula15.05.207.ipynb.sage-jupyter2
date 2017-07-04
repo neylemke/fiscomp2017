@@ -1,4 +1,4 @@
-{"type":"settings","kernel":"python2","backend_state":"running","trust":true,"kernel_state":"idle"}
+{"type":"settings","kernel":"python2","backend_state":"ready","trust":true,"kernel_state":"idle"}
 {"type":"file","last_load":1494869610993}
 {"exec_count":1,"input":"# Exercícios para fazer na aula\n### 1) Encontre índices de elementos não nulos de [1,2,0,0,4,0]\n","state":"done","pos":0,"cell_type":"markdown","type":"cell","id":"6a56ad","kernel":"python2"}
 {"output":{"0":{"text":"Os indices dos elementos não nulos sao: \n[0, 1, 4]\n","name":"stdout"}},"exec_count":11,"start":1494870743220,"input":"m = [1,2,0,0,4,0]\nv = []\nfor i in range (len(m)-1):\n  if m[i] != 0:\n    v.append(i)\n    \nprint (\"Os indices dos elementos não nulos sao: \")\nprint (v)\n","scrolled":true,"state":"done","pos":1,"type":"cell","end":1494870743234,"id":"9d505d","kernel":"python2"}

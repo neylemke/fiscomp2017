@@ -1,4 +1,4 @@
-{"type":"settings","kernel":"python3","backend_state":"running","trust":true,"kernel_state":"idle"}
+{"type":"settings","kernel":"python3","backend_state":"ready","trust":true,"kernel_state":"idle"}
 {"type":"file","last_load":1494887284647}
 {"exec_count":1,"input":"## EXERCICIOS\n\n# EX 1\n\n","state":"done","pos":0,"cell_type":"markdown","type":"cell","id":"96707b","kernel":"python3"}
 {"exec_count":5,"start":1494871190926,"input":"import numpy as np","state":"done","pos":1,"type":"cell","end":1494871190964,"id":"284b98","kernel":"python3"}

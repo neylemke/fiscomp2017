@@ -1,0 +1,312 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Exercicio 1\n",
+    "- Gere uma lista com 100 números aleatórios, em seguida o aluno deverá encontrar os intervalos médios dos elementos da lista."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[0.27341127338382953, -0.19147308626607162, 0.30646375426151407, 0.2029112535668085, 0.19330035458461747, -0.00022396240382627219, -0.84865590355976928, 0.46093867375066022, -0.42382670775526443, 0.60816353911282028, 0.043368317781339427, -0.10373009399226996, 0.1964437498589473, -0.21509771874646111, -0.21142846095909662, -0.3238167473750132, 0.4823723964259119, -0.63391912609029566, 0.52502860864078593, 0.10765221108424616, -0.015592523524218471, -0.59507179582269498, -0.014319235523437723, 0.33644924911457763, 0.04528596198656909, -0.11290867099492519, 0.21533957801655013, 0.0046401949043813895, -0.228288441973172, 0.24071522674357015, -0.2813510884216045, 0.40501869860415718, 0.18645437785350139, -0.15388628755877365, -0.061539090614039171, 0.21930039194719475, -0.55819534307072449, 0.64887102699611943, -0.82408705670769133, 0.27694600763864852, -0.35127505246668955, 0.84588362773238424, -0.32059151645903983, 0.39708192304336931, -0.42241927328856954, -0.43424227164989493, 0.7242465750885787, -0.054475973050439608, -0.56876470674147472, -0.11787477628812615, 0.019397455081554771, 0.37654246625213095, -0.0092510415536180002, -0.42417659087356918, 0.68331577561689993, 0.22214695721999411, -0.92257862662314416, 0.56442542819280395, 0.062946848378886644, -0.032288807515389872, -0.076183179046180549, -0.30362126134203204, -0.10883187770237657, 0.28951023659783637, 0.0068066382944076409, 0.11458662470401648, 0.36965699337550884, -0.60706409244435822, -0.19214208867162441, 0.57478831856482904, -0.058467085155290754, 0.23564585672777771, 0.09008056469478487, -0.16316175282700063, -0.34236476900113888, 0.1188350443632743, -0.081389532540513065, 0.09541353533585184, -0.36018854117379973, 0.74857536807460845, -0.19944105140219126, -0.2522460594797783, -0.41643220405154902, 0.19014167086316625, -0.0062458516004030296, 0.37171546342790762, 0.11698278238516435, -0.14209735183050698, 0.1348280757296616, -0.60344518244273748, 0.72011890234089437, -0.77681855184794424, 0.84032535815976794, -0.83796184933375073, 0.62079304102950505, -0.089061070368183892, 0.31522255706951208, -0.86484061089539432, 0.74453644360631455]\n"
+     ]
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "l=np.random.rand(100)\n",
+    "im=[]\n",
+    "for i in range(len(l)):\n",
+    "    if(i!=len(l)-1):\n",
+    "        a=(l[i+1]-l[i])\n",
+    "        im.append(a)\n",
+    "print(im)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Exercicio 2\n",
+    "Faça um programa que leia um número indeterminado de valores, correspondentes a notas, encerrando a entrada de dados quando for informado um valor igual a -1 (que não deve ser armazenado). Após esta entrada de dados, faça:\n",
+    "- Mostre a quantidade de valores que foram lidos;\n",
+    "- Exiba todos os valores na ordem em que foram informados, um ao lado do outro;\n",
+    "- Exiba todos os valores na ordem inversa à que foram informados, um abaixo do outro;\n",
+    "- Calcule e mostre a soma dos valores;\n",
+    "- Calcule e mostre a média dos valores;\n",
+    "- Calcule e mostre a quantidade de valores acima da média calculada;\n",
+    "- Calcule e mostre a quantidade de valores abaixo de sete;\n",
+    "- Encerre o programa com uma mensagem;"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Entre com um valor: 1\n",
+      "Entre com um valor: 2\n",
+      "Entre com um valor: 3\n",
+      "Entre com um valor: -1\n",
+      "3\n",
+      "[1, 2, 3]\n",
+      "3\n",
+      "2\n",
+      "1\n",
+      "6\n",
+      "2\n",
+      "('Acima da media: ', 1)\n",
+      "('Abaixo da media: ', 1)\n",
+      "Me passa ae!!!\n"
+     ]
+    }
+   ],
+   "source": [
+    "l=[]\n",
+    "a=0\n",
+    "while(a!=-1):\n",
+    "    a=input('Entre com um valor: ')\n",
+    "    if (a==-1):\n",
+    "        break\n",
+    "    else:\n",
+    "        l.append(a)\n",
+    "        a=a+1\n",
+    "print(len(l))\n",
+    "print(l)\n",
+    "b=len(l)\n",
+    "m= l[::-1]\n",
+    "soma=0\n",
+    "for i in range(b):\n",
+    "    print(m[i])\n",
+    "    soma=l[i]+soma\n",
+    "print(soma)\n",
+    "media=soma/b\n",
+    "print(media)\n",
+    "acima=0\n",
+    "abaixo=0\n",
+    "for i in range(b):\n",
+    "    if(l[i]>media):\n",
+    "        acima=acima+1\n",
+    "    elif(l[i]<media):\n",
+    "        abaixo=abaixo+1\n",
+    "print('Acima da media: ',acima)\n",
+    "print('Abaixo da media: ',abaixo)\n",
+    "print('Me passa ae!!!')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": true
+   },
+   "source": [
+    "### Exercicio 3\n",
+    "- Calcule as raízes da equação do 2◦ grau ($Ax^2 + Bx + C = 0$) sendo os valores de A, B e C fornecidos pelo usuário, levando em consideração a existência de raízes complexas.**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Entre com o valor de A: 1\n",
+      "Entre com o valor de B: 4\n",
+      "Entre com o valor de C: 5\n",
+      "('X1=', (-2+1j))\n",
+      "('X2=', (-2-1j))\n"
+     ]
+    }
+   ],
+   "source": [
+    "import math\n",
+    "import cmath\n",
+    "a=input('Entre com o valor de A: ')\n",
+    "b=input('Entre com o valor de B: ')\n",
+    "c=input('Entre com o valor de C: ')\n",
+    "d=(b**2)-4*a*c\n",
+    "if(d<0):\n",
+    "    x1=(-b+cmath.sqrt(d))/2*a\n",
+    "    x2=(-b-cmath.sqrt(d))/2*a\n",
+    "    print('X1=',x1)\n",
+    "    print('X2=',x2)\n",
+    "elif(d==0):\n",
+    "    x=(-b+math.sqrt(d))/2*a\n",
+    "    print('X=',x)\n",
+    "else:\n",
+    "    x1=(-b+math.sqrt(d))/2*a\n",
+    "    x2=(-b-math.sqrt(d))/2*a\n",
+    "    print('X1=',x1)\n",
+    "    print('X2=',x2)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": true
+   },
+   "source": [
+    "### Exercícios 4\n",
+    "- Crie 12 arquivos, chamados de 'arq_mes_estação.txt'. Cada um deles contendo a frase: \"A minha estação predileta é 'estação', especialmente 'mês'\"  repetida um número aleatório de vezes, entre 5 e 20. Comprima essas arquivos usando o comando gzip. Faça isso utilizando o conceito de dicionários."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "17\n",
+      "16\n",
+      "18\n",
+      "15\n",
+      "9\n",
+      "17\n",
+      "5\n",
+      "9\n",
+      "16\n",
+      "12\n",
+      "6\n",
+      "15\n"
+     ]
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "d={'Janeiro':'Primavera','Fevereiro':'Primavera','Marco':'Primavera','Abril':'Verao','Maio':'Verao','Junho':'Verao','Julho':'Outono','Agosto':'Outono','Setembro':'Outono','Outubro':'Inverno','Novembro':'Inverno','Dezembro':'Inverno'}\n",
+    "for mes in d.keys():\n",
+    "    estacao=d[mes]\n",
+    "    arq=open('arq_'+mes+'_'+estacao+'.txt','w')\n",
+    "    a=np.random.randint(5,21)\n",
+    "    for i in range(a):\n",
+    "        arq.write('A minha estacao predileta é %s, especialmente em %s\\n'%(estacao,mes))\n",
+    "    arq.close()\n",
+    "    print(a)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": true
+   },
+   "source": [
+    "### Exercícios 5\n",
+    "1. Com base nos dados de https://pt.wikipedia.org/wiki/Lista_de_epis%C3%B3dios_de_Pok%C3%A9mon Construa um  dataframe para armazenar \n",
+    "as informações sobre os episódios de Pokemon, contendo: \n",
+    "- Série\n",
+    "- Geração\n",
+    "- Temporada\n",
+    "- Primeiro Episódio\n",
+    "- Último Episódio\n",
+    "- Região\n",
+    "2. Descubra qual a geração mais longeva\n",
+    "3. Descubra quantas temporadas durou cada série"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Exercício 6\n",
+    "- Passo 1: Gere um arquivo com 10 notas de cinco alunos (Deve conter o nome do aluno e as notas).\n",
+    "- Passo 2: Em seguida crie uma array em numpy com essas notas.\n",
+    "- Passo 3: Crie um DataFrame dessas notas.\n",
+    "- Passo 4: Identifique qual menor nota e quem foi o aluno que obteve essa nota\n",
+    "- Passo 5: Identifique o aluno que tirou as melhores notas."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 89,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[2, 0, 0, 3, 5, 3, 0, 8, 10, 9, 3, 4, 9, 10, 3, 8, 9, 9, 3, 7, 3, 0, 2, 8, 1, 3, 4, 10, 4, 2, 5, 9, 9, 6, 6, 3, 10, 9, 2, 1, 10, 1, 8, 9, 1, 2, 6, 9, 8, 4]\n"
+     ]
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "alunos=['A','B','C','D','E']\n",
+    "notas=[]\n",
+    "for i in range(50):\n",
+    "    a=np.random.randint(0,11)\n",
+    "    notas.append(a)\n",
+    "arq.open('Exercicio6.txt','w')\n",
+    "for i in range(50):\n",
+    "    if(i<10):\n",
+    "        "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 2 (SageMath)",
+   "language": "python",
+   "name": "python2"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 2
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython2",
+   "version": "2.7.13"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 1
+}

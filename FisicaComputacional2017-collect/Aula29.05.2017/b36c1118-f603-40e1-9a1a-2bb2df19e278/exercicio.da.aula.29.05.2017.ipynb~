@@ -1,0 +1,92 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "## **Exercício1**\n",
+    "- A “classificação” de uma palavra é a sua posição em uma lista de palavras classificadas por frequência: a palavra mais comum tem a classificação 1, a segunda mais comum é 2 etc.\n",
+    "- A lei de Zipf descreve a relação entre classificações e frequências das palavras em linguagens naturais (http://en.wikipedia.org/wiki/Zipf’s_law). Ela prevê especificamente que a frequência, $f$, da palavra com classificação $ r $ é:\n",
+    "\n",
+    "  $$ f = cr−s $$ \n",
+    "- onde s e c são parâmetros que dependem do idioma e do texto. Se você tomar o logaritmo de ambos os lados desta equação, obtemos:\n",
+    "\n",
+    "  $$\\log f = \\log c − s\\log r$$\n",
+    "  \n",
+    "- Se você traçar o log de f contra o log de r, terá uma linha reta com uma elevação -s e interceptar o log de c.\n",
+    "\n",
+    "\n",
+    "**- Escreva um programa que leia um texto em um arquivo, conte as frequências das palavras e exiba uma linha para cada palavra, em ordem descendente da frequência, com log de f e log de r. Use o programa gráfico de sua escolha para traçar os resultados e verifique se formam uma linha reta. Você pode estimar o valor de s?**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 0,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "## **Exercício 2**\n",
+    "###### Agora que você já viu como criar alguns plots  simples, é sua vez de realizar uma visualização. Crie o seguinte gráfico de dispersão:\n",
+    "\n",
+    "- Traçar o tamanho do motor contra o preço.\n",
+    "- Defina o tamanho da figura como 8 x 8.\n",
+    "- Forneça um título significativo, rótulo do eixo x e rótulo do eixo y."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 0,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "## **Exercício 3**\n",
+    "- Faça um gráfico de Barras com os dados contidos no DataFrame do exercício dos epsódios do Pokemon. Represente o número de episódios para cada Temporada. Neste exercicio o gráfico deve conter legenda, titulo, nome dos eixos e cada barra deve conter uma cor diferente."
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 2 (SageMath)",
+   "language": "python",
+   "name": "python2"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 2
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython2",
+   "version": "2.7.13"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}

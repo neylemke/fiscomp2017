@@ -1,4 +1,4 @@
-{"type":"settings","kernel":"python2","backend_state":"running","trust":true,"kernel_state":"idle"}
+{"type":"settings","kernel":"python2","backend_state":"ready","trust":true,"kernel_state":"idle"}
 {"type":"file","last_load":1494873531848}
 {"output":{"0":{"text":"0\n1\n4\n","name":"stdout"}},"exec_count":1,"start":1494873567041,"input":"#Exercicio1\nimport numpy as np\nmatrix=[1,2,0,0,4,0]\nfor i in range(len(matrix)):\n    if(matrix[i]!= 0):\n        print(i)","state":"done","pos":0,"type":"cell","end":1494873567045,"id":"5918de","kernel":"python2"}
 {"output":{"0":{"text":"[[ 0.71247522  0.82259604  0.07163117  0.60337048]\n [ 0.2061257   0.17375271  0.4021769   0.10081615]\n [ 0.47176382  0.58913561  0.30972212  0.96214402]]\n[array([ 0.,  0.,  0.,  0.]), array([ 0.,  0.,  0.,  0.]), array([ 0.,  0.,  0.,  0.])]\n","name":"stdout"}},"exec_count":4,"start":1494873923781,"input":"#exercicio2\nimport numpy as np\nmatrix=np.random.rand(3,4)\nintmatrix=[]\nfor i in range(len(matrix)):\n    aux=matrix[i]//1\n    intmatrix.append(aux)\nprint(matrix)\nprint(intmatrix)","state":"done","pos":1,"type":"cell","end":1494873923787,"id":"f668ef","kernel":"python2"}

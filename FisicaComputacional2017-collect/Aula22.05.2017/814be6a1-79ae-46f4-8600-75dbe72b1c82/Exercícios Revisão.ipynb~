@@ -1,0 +1,285 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "## Exercicio 1\n",
+    "### Gere uma lista com 100 números aleatórios, em seguida o aluno deverá encontrar o ponto médio dos intervalos dos elementos da lista."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Lista = [97, 71, 39, 80, 88, 46, 66, 38, 78, 14, 86, 85, 96, 40, 22, 47, 51, 54, 15, 65, 82, 57, 45, 92, 55, 29, 98, 21, 4, 19, 5, 72, 91, 28, 93, 25, 18, 61, 70, 94, 13, 12, 84, 30, 35, 20, 43, 59, 41, 31, 27, 63, 58, 9, 79, 10, 89, 75, 44, 42, 50, 32, 48, 23, 95, 74, 52, 87, 11, 53, 90, 83, 7, 64, 73, 36, 8, 56, 67, 16, 60, 26, 1, 62, 81, 37, 33, 0, 3, 2, 68, 69, 76, 24, 6, 99, 34, 49, 77, 17] Intervalos= [84.0, 55.0, 59.5, 84.0, 67.0, 56.0, 52.0, 58.0, 46.0, 50.0, 85.5, 90.5, 68.0, 31.0, 34.5, 49.0, 52.5, 34.5, 40.0, 73.5, 69.5, 51.0, 68.5, 73.5, 42.0, 63.5, 59.5, 12.5, 11.5, 12.0, 38.5, 81.5, 59.5, 60.5, 59.0, 21.5, 39.5, 65.5, 82.0, 53.5, 12.5, 48.0, 57.0, 32.5, 27.5, 31.5, 51.0, 50.0, 36.0, 29.0, 45.0, 60.5, 33.5, 44.0, 44.5, 49.5, 82.0, 59.5, 43.0, 46.0, 41.0, 40.0, 35.5, 59.0, 84.5, 63.0, 69.5, 49.0, 32.0, 71.5, 86.5, 45.0, 35.5, 68.5, 54.5, 22.0, 32.0, 61.5, 41.5, 38.0, 43.0, 13.5, 31.5, 71.5, 59.0, 35.0, 16.5, 1.5, 2.5, 35.0, 68.5, 72.5, 50.0, 15.0, 52.5, 66.5, 41.5, 63.0, 47.0]\n"
+     ]
+    }
+   ],
+   "source": [
+    "lista=random.sample(range(0, 100), 100)\n",
+    "i=1\n",
+    "intervalos=[]\n",
+    "while i < len(lista):\n",
+    "    intervalos.append((lista[i]+lista[i-1])/2)\n",
+    "    i=i+1\n",
+    "\n",
+    "\n",
+    "\n",
+    "print ('Lista =', lista, 'Intervalos=', intervalos)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "## Exercicio 2\n",
+    "Faça um programa que leia um número indeterminado de valores, correspondentes a notas, encerrando a entrada de dados quando for informado um valor igual a -1 (que não deve ser armazenado). Após esta entrada de dados, faça:\n",
+    "\n",
+    "Mostre a quantidade de valores que foram lidos;\n",
+    "Exiba todos os valores na ordem em que foram informados, um ao lado do outro;\n",
+    "Exiba todos os valores na ordem inversa à que foram informados, um abaixo do outro;\n",
+    "Calcule e mostre a soma dos valores;\n",
+    "Calcule e mostre a média dos valores;\n",
+    "Calcule e mostre a quantidade de valores acima da média calculada;\n",
+    "Calcule e mostre a quantidade de valores abaixo de sete;\n",
+    "Encerre o programa com uma mensagem;"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {
+    "cocalc": {
+     "outputs": {
+      "0": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Digite nota"
+       },
+       "output_type": "stream",
+       "value": "1"
+      },
+      "1": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Digite nota"
+       },
+       "output_type": "stream",
+       "value": "2"
+      },
+      "2": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Digite nota"
+       },
+       "output_type": "stream",
+       "value": "-1"
+      }
+     }
+    },
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Digite nota 1"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Digite nota 2"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Digite nota -1"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[1, 2]\n"
+     ]
+    }
+   ],
+   "source": [
+    "i=0\n",
+    "notas=[]\n",
+    "while i != -1:\n",
+    "    nota=input('Digite nota')\n",
+    "    if nota == -1:\n",
+    "        print notas\n",
+    "        i=-1\n",
+    "    else:\n",
+    "        notas.append(nota)\n",
+    "        i=i+1\n",
+    "\n",
+    "quantidade=len(notas)\n",
+    "print quantidade\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "# Exercicio 3\n",
+    "- Calcule as raízes da equação do 2◦ grau ($Ax^2 + Bx + C = 0$) sendo os valores de A, B e C fornecidos pelo usuário, levando em consideração a existência de raízes complexas.**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {
+    "cocalc": {
+     "outputs": {
+      "0": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Valor de A = "
+       },
+       "output_type": "stream",
+       "value": "1"
+      },
+      "1": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Valor de B = "
+       },
+       "output_type": "stream",
+       "value": "-2"
+      },
+      "2": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Valor de C = "
+       },
+       "output_type": "stream",
+       "value": "1"
+      }
+     }
+    },
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Valor de A =  1"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Valor de B =  -2"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Valor de C =  1"
+    },
+    {
+     "ename": "KeyboardInterrupt",
+     "evalue": "",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mKeyboardInterrupt\u001b[0m                         Traceback (most recent call last)",
+      "\u001b[0;32m<ipython-input-2-da37ef6944d5>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0mA\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m'Valor de A = '\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0mB\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m'Valor de B = '\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 5\u001b[0;31m \u001b[0mC\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m'Valor de C = '\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      6\u001b[0m \u001b[0;32mimport\u001b[0m \u001b[0mmath\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      7\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;32m/projects/sage/sage-7.5/local/lib/python2.7/site-packages/ipykernel/ipkernel.py\u001b[0m in \u001b[0;36m<lambda>\u001b[0;34m(prompt)\u001b[0m\n\u001b[1;32m    163\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_sys_eval_input\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mbuiltin_mod\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    164\u001b[0m             \u001b[0mbuiltin_mod\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mraw_input\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mraw_input\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 165\u001b[0;31m             \u001b[0mbuiltin_mod\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0minput\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;32mlambda\u001b[0m \u001b[0mprompt\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m''\u001b[0m\u001b[0;34m:\u001b[0m \u001b[0meval\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mraw_input\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mprompt\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    166\u001b[0m         \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_save_getpass\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mgetpass\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mgetpass\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    167\u001b[0m         \u001b[0mgetpass\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mgetpass\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mgetpass\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;32m/projects/sage/sage-7.5/local/lib/python2.7/site-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36mraw_input\u001b[0;34m(self, prompt)\u001b[0m\n\u001b[1;32m    687\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_parent_ident\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    688\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_parent_header\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 689\u001b[0;31m             \u001b[0mpassword\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mFalse\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    690\u001b[0m         )\n\u001b[1;32m    691\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;32m/projects/sage/sage-7.5/local/lib/python2.7/site-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36m_input_request\u001b[0;34m(self, prompt, ident, parent, password)\u001b[0m\n\u001b[1;32m    717\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    718\u001b[0m                 \u001b[0;31m# re-raise KeyboardInterrupt, to truncate traceback\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 719\u001b[0;31m                 \u001b[0;32mraise\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    720\u001b[0m             \u001b[0;32melse\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    721\u001b[0m                 \u001b[0;32mbreak\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;31mKeyboardInterrupt\u001b[0m: "
+     ]
+    }
+   ],
+   "source": [
+    "# feito em python 2\n",
+    "\n",
+    "A=input('Valor de A = ')\n",
+    "B=input('Valor de B = ')\n",
+    "C=input('Valor de C = ')\n",
+    "import math\n",
+    "\n",
+    "delta = ((B**2)-(4*A*C))\n",
+    "if delta < 0:\n",
+    "    print \"Possui soluçao complexa\"\n",
+    "elif delta == 0:\n",
+    "    raiz = ((-1*B+math.sqrt(delta))/(2*A))\n",
+    "    print \"A raiz da equação é: \",raiz\n",
+    "else:\n",
+    "    raiz1 = ((-1*B + math.sqrt(delta))/(2*A))\n",
+    "    raiz2 = ((-1*B - math.sqrt(delta))/(2*A))   \n",
+    "    print \" raiz x1 = \",raiz1,\"  raiz x2 = \",raiz2\n",
+    "    \n",
+    "print delta"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "Exercício 6\n",
+    "Passo 1: Gere um arquivo com 10 notas de cinco alunos (Deve conter o nome do aluno e as notas).\n",
+    "Passo 2: Em seguida crie uma array em numpy com essas notas.\n",
+    "Passo 3: Crie um DataFrame dessas notas.\n",
+    "Passo 4: Identifique qual menor nota e quem foi o aluno que obteve essa nota\n",
+    "Passo 5: Identifique o aluno que tirou as melhores notas."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 0,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 2 (SageMath)",
+   "language": "python",
+   "name": "python2"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 2
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython2",
+   "version": "2.7.13"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}

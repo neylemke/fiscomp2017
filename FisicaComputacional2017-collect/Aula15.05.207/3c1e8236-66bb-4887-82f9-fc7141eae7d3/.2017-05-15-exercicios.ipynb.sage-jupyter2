@@ -1,4 +1,4 @@
-{"type":"settings","kernel":"python3","backend_state":"running","trust":true,"kernel_state":"idle"}
+{"type":"settings","kernel":"python3","backend_state":"ready","trust":true,"kernel_state":"idle"}
 {"type":"file","last_load":1494867825364}
 {"output":{"0":{"name":"stdout","text":"(array([0, 1, 4]),)\n"}},"exec_count":42,"input":"import numpy as np # Primeiro exercicío\na = np.array([1, 2, 0, 0, 4, 0])\nnonzeroind= np.nonzero(a)\nprint (nonzeroind)","state":"done","pos":1.5,"type":"cell","id":"68c45c","kernel":"python3"}
 {"output":{"0":{"name":"stdout","text":"[[ 1.85920587  7.65449339]\n [ 0.04058171  0.48116617]\n [ 1.60602423  2.37710952]]\n"}},"exec_count":83,"input":"import numpy as np# Segundo Exercicío\nmatriz=np.random.rand(3,2)*10\nprint (matriz)","state":"done","pos":5,"type":"cell","id":"17054e","kernel":"python3"}

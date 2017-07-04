@@ -1,0 +1,11 @@
+{"type":"settings","kernel":"python2","backend_state":"running","trust":true,"kernel_state":"idle"}
+{"type":"file","last_load":1496079539630}
+{"type":"cell","id":"a52495","pos":0,"input":"##exercicio1","cell_type":"markdown"}
+{"exec_count":9,"start":1496082638635,"input":"import sys\nreload(sys)\nsys.setdefaultencoding(\"utf-8\")\n","state":"done","pos":1,"type":"cell","end":1496082638667,"id":"663c12","kernel":"python2"}
+{"exec_count":10,"start":1496082639638,"input":"import numpy as np\nimport matplotlib.pyplot as plt","state":"done","pos":2,"type":"cell","end":1496082639666,"id":"069df4","kernel":"python2"}
+{"exec_count":11,"start":1496082640137,"input":"file=open(\"ulisses.txt\", \"r\")","state":"done","pos":3,"type":"cell","end":1496082640168,"id":"c757a8","kernel":"python2"}
+{"exec_count":12,"start":1496082640174,"input":"texto=file.readlines()","state":"done","pos":4,"type":"cell","end":1496082640178,"id":"6844df","kernel":"python2"}
+{"exec_count":13,"start":1496082640665,"input":"dict={}\nfor line in texto:\n    for word in line.split():\n        if word in dict:\n            dict[word]=dict[word]+1\n        else:\n            dict[word]=1","state":"done","pos":5,"type":"cell","end":1496082640796,"id":"e99e9e","kernel":"python2"}
+{"exec_count":14,"start":1496082641176,"input":"oco=dict.values()\noco.sort()\nX=np.array(range(len(oco)))+1\nY=np.array(oco)","state":"done","pos":6,"type":"cell","end":1496082641183,"id":"f4bb5b","kernel":"python2"}
+{"output":{"0":{"data":{"text/plain":"<matplotlib.text.Text at 0x7f803c0277d0>"},"exec_count":15},"1":{"data":{"image/png":"2cd6458d2b028e3cb360e804b8dd182b8fad675b"}}},"exec_count":15,"start":1496082641201,"input":"fig = plt.figure(figsize=(10,10)) # define plot area\nax = fig.gca() # define axis\nx=fig.gca()\nplt.plot(X,Y)\nax.set_title('Frequencia das palavras do Dracula') # Give the plot a main title\nax.set_xlabel('rank') # Set text for the x axis\nax.set_ylabel('freq')# Set text for y axis\n","state":"done","pos":7,"type":"cell","end":1496082641434,"id":"aa29c0","kernel":"python2"}
+{"type":"cell","id":"3c5733","pos":8,"input":""}

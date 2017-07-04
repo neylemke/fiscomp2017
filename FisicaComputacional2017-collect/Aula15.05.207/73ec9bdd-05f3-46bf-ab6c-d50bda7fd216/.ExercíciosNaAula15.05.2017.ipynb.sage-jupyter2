@@ -1,4 +1,4 @@
-{"type":"settings","kernel":"python2","backend_state":"running","trust":true,"kernel_state":"idle"}
+{"type":"settings","kernel":"python2","backend_state":"ready","trust":true,"kernel_state":"idle"}
 {"type":"file","last_load":1494871037423}
 {"type":"cell","id":"c1d192","pos":0,"input":"### Exercícios para fazer na aula\n#### 1) Encontre índices de elementos não nulos de [1,2,0,0,4,0]\n#### 2) Extrair a parte inteira de uma matriz aleatória\n#### 3) Considere uma matriz aleatória de 10×2 que represente coordenadas cartesianas, converta-as em coordenadas polares\n#### 4) Considere um vetor aleatório com forma (100,2) representando coordenadas, encontre as distâncias entre todos os pontos\n#### 5) Considere o vetor [1, 2, 3, 4, 5], como construir um novo vetor com 3 zeros consecutivos intercalados entre cada valor?","cell_type":"markdown"}
 {"output":{"0":{"data":{"text/plain":"array([1, 2, 0, 0, 4, 0])"},"exec_count":1}},"exec_count":1,"start":1495418976384,"input":"import numpy as np\na= [1,2,0,0,4,0]\nmatriz = np.array(a)\nmatriz","state":"done","pos":1,"type":"cell","end":1495418976413,"id":"eaba51","kernel":"python2"}

@@ -1,0 +1,7 @@
+{"type":"settings","kernel":"python2","backend_state":"running","trust":true,"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.13"}},"kernel_state":"idle"}
+{"type":"file","last_load":1497274771953}
+{"type":"cell","id":"1f17f3","pos":4,"input":"","cell_type":"code","exec_count":0}
+{"exec_count":5,"start":1497274777013,"input":"import pandas as pd\nimport seaborn as sns","state":"done","pos":0,"cell_type":"code","type":"cell","end":1497274777018,"id":"1012cc","kernel":"python2"}
+{"exec_count":6,"start":1497274778462,"input":"df=pd.read_csv(\"jogadores.csv\")\n","state":"done","pos":1,"cell_type":"code","type":"cell","end":1497274778504,"id":"f261e1","kernel":"python2"}
+{"output":{"0":{"data":{"text/plain":"Index([u'Nome', u'Sobrenome', u'Altura', u'Peso', u'Data Nascimento'], dtype='object')"},"exec_count":7}},"exec_count":7,"start":1497274780142,"input":"\ndf.columns","state":"done","pos":2,"cell_type":"code","type":"cell","end":1497274780148,"id":"8b5359","kernel":"python2"}
+{"output":{"0":{"data":{"text/plain":"<seaborn.axisgrid.FacetGrid at 0x7efff386a690>"},"exec_count":8},"1":{"data":{"image/png":"a593494118d595a8b6c6472407942faa94bf96f6"}}},"exec_count":8,"start":1497274781645,"input":"sns.lmplot(x = 'Altura', y = 'Peso', data = df, palette=\"Set2\", fit_reg = False)","state":"done","pos":3,"cell_type":"code","type":"cell","end":1497274782732,"id":"aa837b","kernel":"python2"}

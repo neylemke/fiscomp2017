@@ -1,31 +1,113 @@
-2017-06-05T18:44:10.572Z - debug: '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc-DEBUG' does not exist; minimal logging
-2017-06-05T18:44:10.578Z - debug: Writing 'info.json'
-2017-06-05T18:44:10.602Z - debug: initializing secret token
-2017-06-05T18:44:10.602Z - debug: read the secret token file...
-2017-06-05T18:44:10.604Z - debug: create '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc/secret_token'
-2017-06-05T18:44:10.605Z - debug: got secret token = 85kqQxn5Q2JiXPD2t3Ls3g+QcnoO3u0e5aT7l6oaMPGXO/qm3wLIlSUFM+Z1eDb15xviMGSGUySHqWhbMHopoUv4KSR36tDZjnY2FqewDMkLntW8PNEaJLyxDU3emAPiFYHG8LPsfVLO6qIfDdIVKlmLdcBTb0rTYk6YTSEZdIA=
-2017-06-05T18:44:10.610Z - info: starting tcp server: project <--> hub...
-2017-06-05T18:44:10.621Z - info: tcp_server listening 0.0.0.0:44741
-2017-06-05T18:44:10.623Z - info: starting express http server...
-2017-06-05T18:44:11.150Z - info: raw server: port=36967, host='10.240.0.16', base='/da4b09c7-73a7-4027-ac2d-5fed6d409acf/raw/'
-2017-06-05T18:44:11.153Z - debug: upload_endpoint conf
-2017-06-05T18:44:11.156Z - debug: Successfully started servers.
-2017-06-05T18:44:18.433Z - debug: received new connection
-2017-06-05T18:44:18.476Z - debug: hello from hub -- sending back our version = 1495286702
-2017-06-05T18:44:22.323Z - debug: open_syncstrings: 0; recent_syncstrings: 0
-2017-06-05T18:44:35.602Z - debug: handle_save_blob_message: da39a3ee-5e6b-44b0-9325-5bfef9560189
-2017-06-05T18:44:35.867Z - debug: received new connection
-2017-06-05T18:44:35.907Z - debug: connect_to_session -- type='console'
-2017-06-05T18:44:35.909Z - debug: get_session: console session a98fa436-b75a-417f-99ff-6f77a6fe8b07
-2017-06-05T18:44:35.909Z - debug: console session not yet created -- put on stack
-2017-06-05T18:44:35.909Z - debug: console session does not exist or is not running, so we make a new session
-2017-06-05T18:44:35.910Z - debug: couldn't determine console server port; probably console server not running -- try restarting it
-2017-06-05T18:44:35.911Z - debug: restart_console_server: undefined
-2017-06-05T18:44:35.911Z - debug: restart_console_server: "restarting daemon"
-2017-06-05T18:44:35.911Z - debug: restart_console_server: "remove port_file=/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc/console_server/console_server.port"
-2017-06-05T18:44:35.911Z - debug: restart_console_server: "restart console server"
-2017-06-05T18:44:37.240Z - debug: restart_console_server: "wait a little to see if /projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc/console_server/console_server.port appears, and if so read it and return port"
-2017-06-05T18:44:42.211Z - debug: restart_console_server: "finished trying to restart console_server"
-2017-06-05T18:44:42.212Z - debug: restarted console server, then got port = 32832
-2017-06-05T18:44:42.212Z - debug: console: Got port -- now create the new session
-2017-06-05T18:44:42.213Z - debug: _new_session: defined by {"event":"connect_to_session","id":"ac8fc5c9-9169-44f0-80fc-8f53bf9c82b8","type":"console","project_id":"da4b09c7-73a7-4027-ac2d-5fed6d409acf","session_uuid":"a98fa436-b75a-417f-99ff-6f77a6fe8b07","params":{"command":"bash","path":"./","filename":"2017-06-05-154427.term"}}
+2017-07-04T04:59:27.900Z - debug: '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc-DEBUG' does not exist; minimal logging
+2017-07-04T04:59:27.904Z - debug: Writing 'info.json'
+2017-07-04T04:59:27.932Z - debug: initializing secret token
+2017-07-04T04:59:27.932Z - debug: read the secret token file...
+2017-07-04T04:59:27.933Z - debug: create '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc/secret_token'
+2017-07-04T04:59:27.948Z - debug: got secret token = c288KdssLkv3cR1YDgX9AzFqJ6nifa7+1ZJ7U45mMfOYzXiWTqK1iXHlaamjDFqW+Ou3tX1HrYLe8/qvw3yAqJ7qPA9kpmY8HKt52ZYDrDE2QF3kIa6N6H2CCYVDvIcep4LRZIDsizEndzDTN57vZhpW2DjVV1ZGOq7cFIn9lc4=
+2017-07-04T04:59:27.948Z - info: starting tcp server: project <--> hub...
+2017-07-04T04:59:27.961Z - info: tcp_server listening 0.0.0.0:42914
+2017-07-04T04:59:27.972Z - info: starting express http server...
+2017-07-04T04:59:28.514Z - info: raw server: port=44485, host='10.240.0.31', base='/da4b09c7-73a7-4027-ac2d-5fed6d409acf/raw/'
+2017-07-04T04:59:28.517Z - debug: upload_endpoint conf
+2017-07-04T04:59:28.519Z - debug: Successfully started servers.
+2017-07-04T04:59:43.287Z - debug: received new connection
+2017-07-04T04:59:43.289Z - debug: received new connection
+2017-07-04T04:59:43.289Z - debug: received new connection
+2017-07-04T04:59:43.289Z - debug: received new connection
+2017-07-04T04:59:43.333Z - debug: hello from hub -- sending back our version = 1498504665
+2017-07-04T04:59:43.424Z - debug: open_syncstrings: 0; recent_syncstrings: 1
+coffee-cache: Could not write cache at /projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.coffee.
+Warning: Accessing createClass via the main React package is deprecated, and will be removed in React v16.0. Use a plain JavaScript class instead. If you're not yet ready to migrate, create-react-class v15.* is available on npm as a temporary, drop-in replacement. For more info see https://fb.me/react-create-class
+Warning: Accessing PropTypes via the main React package is deprecated, and will be removed in  React v16.0. Use the latest available v15.* prop-types package from npm instead. For info on usage, compatibility, migration and more, see https://fb.me/prop-types-docs
+2017-07-04T04:59:47.391Z - debug: open_syncstrings: 1; recent_syncstrings: 1
+2017-07-04T12:10:46.454Z - debug: received new connection
+2017-07-04T12:10:46.495Z - debug: hello from hub -- sending back our version = 1498504665
+2017-07-04T14:31:42.757Z - debug: open_syncstrings: 1; recent_syncstrings: 2
+2017-07-04T14:31:42.774Z - debug: open_syncstrings: 1; recent_syncstrings: 3
+2017-07-04T14:31:42.813Z - debug: open_syncstrings: 1; recent_syncstrings: 4
+2017-07-04T14:31:43.414Z - debug: open_syncstrings: 2; recent_syncstrings: 4
+2017-07-04T14:31:43.463Z - debug: open_syncstrings: 3; recent_syncstrings: 4
+2017-07-04T14:31:43.471Z - debug: open_syncstrings: 4; recent_syncstrings: 4
+2017-07-04T14:31:45.741Z - debug: received new connection
+2017-07-04T14:31:45.783Z - debug: hello from hub -- sending back our version = 1498504665
+2017-07-04T16:20:03.683Z - debug: upload POST 
+2017-07-04T16:20:03.701Z - debug: upload POST  upload of 'ProvaGustavoHenriqueTomanik.ipynb' to '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/upload_d0e910cf14ae384d09b5fd0c25dc310d.ipynb' worked
+2017-07-04T16:20:03.701Z - debug: upload POST  now move '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/upload_d0e910cf14ae384d09b5fd0c25dc310d.ipynb' to '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/ProvaGustavoHenriqueTomanik.ipynb'
+2017-07-04T16:21:08.122Z - debug: upload POST 
+2017-07-04T16:21:08.129Z - debug: upload POST  upload of 'provaEDUARDASILVA.ipynb' to '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/upload_3ce4437371b17143d9ed1471a502906b.ipynb' worked
+2017-07-04T16:21:08.129Z - debug: upload POST  now move '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/upload_3ce4437371b17143d9ed1471a502906b.ipynb' to '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/provaEDUARDASILVA.ipynb'
+2017-07-04T16:24:21.502Z - debug: upload POST 
+2017-07-04T16:24:21.503Z - debug: upload POST 
+2017-07-04T16:24:21.512Z - debug: upload POST  upload of 'Prova Lorraine.ipynb' to '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/upload_751a869d0390e26d2ddb297a851baf52.ipynb' worked
+2017-07-04T16:24:21.512Z - debug: upload POST  now move '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/upload_751a869d0390e26d2ddb297a851baf52.ipynb' to '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/Prova Lorraine.ipynb'
+2017-07-04T16:24:21.517Z - debug: upload POST  upload of 'Prova Caio Garcia.pdf' to '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/upload_3543210b953e29705cfbe752617a09f3.pdf' worked
+2017-07-04T16:24:21.517Z - debug: upload POST  now move '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/upload_3543210b953e29705cfbe752617a09f3.pdf' to '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/Prova Caio Garcia.pdf'
+2017-07-04T16:24:22.374Z - debug: upload POST 
+2017-07-04T16:24:22.375Z - debug: upload POST  upload of 'provaEDUARDASILVA.ipynb' to '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/upload_85508d2b4d39a9bf58dcc3ea7f8cff7a.ipynb' worked
+2017-07-04T16:24:22.375Z - debug: upload POST  now move '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/upload_85508d2b4d39a9bf58dcc3ea7f8cff7a.ipynb' to '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/provaEDUARDASILVA.ipynb'
+2017-07-04T16:24:48.028Z - debug: open_syncstrings: 4; recent_syncstrings: 5
+2017-07-04T16:24:48.197Z - debug: open_syncstrings: 5; recent_syncstrings: 5
+2017-07-04T16:26:46.956Z - debug: open_syncstrings: 5; recent_syncstrings: 6
+2017-07-04T16:26:46.999Z - debug: open_syncstrings: 6; recent_syncstrings: 6
+Tue, 04 Jul 2017 16:30:24 GMT send deprecated hidden: use dotfiles: 'allow' instead at usr/lib/node_modules/smc-project/node_modules/serve-static/index.js:96:18
+2017-07-04T17:25:22.967Z - debug: open_syncstrings: 6; recent_syncstrings: 7
+2017-07-04T17:25:23.136Z - debug: open_syncstrings: 7; recent_syncstrings: 7
+2017-07-04T17:26:59.881Z - debug: open_syncstrings: 7; recent_syncstrings: 8
+2017-07-04T17:27:00.210Z - debug: open_syncstrings: 8; recent_syncstrings: 8
+2017-07-04T17:28:13.606Z - debug: upload POST 
+2017-07-04T17:28:13.608Z - debug: upload POST 
+2017-07-04T17:28:13.618Z - debug: upload POST  upload of 'provaLUCAS_PORTES_LIMA.ipynb' to '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/upload_1e32c55c1385149e4f1bf0baab6627dd.ipynb' worked
+2017-07-04T17:28:13.618Z - debug: upload POST  now move '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/upload_1e32c55c1385149e4f1bf0baab6627dd.ipynb' to '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/provaLUCAS_PORTES_LIMA.ipynb'
+2017-07-04T17:28:13.620Z - debug: upload POST  upload of 'Prova Gustavo Jarola.pdf' to '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/upload_88ebcd2cc716108e1502c2f111d47a70.pdf' worked
+2017-07-04T17:28:13.621Z - debug: upload POST  now move '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/upload_88ebcd2cc716108e1502c2f111d47a70.pdf' to '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/Prova Gustavo Jarola.pdf'
+2017-07-04T17:28:14.308Z - debug: upload POST 
+2017-07-04T17:28:14.309Z - debug: upload POST  upload of 'provaPAULO_ZAGO_LEONEL.ipynb' to '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/upload_949546e94034bb76dd47444d3dd30832.ipynb' worked
+2017-07-04T17:28:14.309Z - debug: upload POST  now move '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/upload_949546e94034bb76dd47444d3dd30832.ipynb' to '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/provaPAULO_ZAGO_LEONEL.ipynb'
+2017-07-04T17:28:14.508Z - debug: upload POST 
+2017-07-04T17:28:14.689Z - debug: upload POST  upload of 'provaLUCAS (1).pdf' to '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/upload_bb723d333d71920abe596ae3fa9d1591.pdf' worked
+2017-07-04T17:28:14.689Z - debug: upload POST  now move '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/upload_bb723d333d71920abe596ae3fa9d1591.pdf' to '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/provaLUCAS (1).pdf'
+2017-07-04T17:28:14.967Z - debug: upload POST 
+2017-07-04T17:28:14.968Z - debug: upload POST  upload of 'provaPAULO_ROMBALDI.ipynb' to '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/upload_437a4ce383e2b33519a32dca28ebe63a.ipynb' worked
+2017-07-04T17:28:14.968Z - debug: upload POST  now move '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/upload_437a4ce383e2b33519a32dca28ebe63a.ipynb' to '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/provaPAULO_ROMBALDI.ipynb'
+2017-07-04T17:28:15.530Z - debug: upload POST 
+2017-07-04T17:28:15.749Z - debug: upload POST  upload of 'Resolução_Prova_PAULO_ZAGO_LEONEL.ipynb' to '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/upload_2b16c9603b9e5d80ea7e8c57ca39ecef.ipynb' worked
+2017-07-04T17:28:15.749Z - debug: upload POST  now move '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/upload_2b16c9603b9e5d80ea7e8c57ca39ecef.ipynb' to '/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/Prova e notas extras/Resolução_Prova_PAULO_ZAGO_LEONEL.ipynb'
+2017-07-04T17:30:15.413Z - debug: open_syncstrings: 8; recent_syncstrings: 9
+2017-07-04T17:30:15.517Z - debug: open_syncstrings: 9; recent_syncstrings: 9
+2017-07-04T17:32:26.619Z - debug: open_syncstrings: 9; recent_syncstrings: 10
+2017-07-04T17:32:27.116Z - debug: open_syncstrings: 10; recent_syncstrings: 10
+(node:6557) Warning: Possible EventEmitter memory leak detected. 11 exit listeners added. Use emitter.setMaxListeners() to increase limit
+2017-07-04T17:57:30.602Z - debug: open_syncstrings: 10; recent_syncstrings: 11
+2017-07-04T17:57:30.616Z - debug: open_syncstrings: 11; recent_syncstrings: 11
+2017-07-04T18:03:42.212Z - debug: open_syncstrings: 11; recent_syncstrings: 12
+2017-07-04T18:03:42.307Z - debug: open_syncstrings: 12; recent_syncstrings: 12
+2017-07-04T18:14:56.473Z - debug: open_syncstrings: 12; recent_syncstrings: 13
+2017-07-04T18:14:56.752Z - debug: open_syncstrings: 13; recent_syncstrings: 13
+2017-07-04T18:33:20.712Z - debug: open_syncstrings: 13; recent_syncstrings: 14
+2017-07-04T18:33:21.003Z - debug: open_syncstrings: 14; recent_syncstrings: 14
+2017-07-04T18:51:02.182Z - debug: received new connection
+2017-07-04T18:51:02.224Z - debug: hello from hub -- sending back our version = 1498504665
+2017-07-04T19:08:41.323Z - debug: received new connection
+2017-07-04T19:08:41.363Z - debug: hello from hub -- sending back our version = 1498504665
+2017-07-04T19:08:43.525Z - debug: open_syncstrings: 14; recent_syncstrings: 15
+2017-07-04T19:08:43.770Z - debug: open_syncstrings: 15; recent_syncstrings: 15
+2017-07-04T19:13:27.429Z - debug: open_syncstrings: 14; recent_syncstrings: 15
+2017-07-04T19:13:37.687Z - debug: open_syncstrings: 15; recent_syncstrings: 15
+2017-07-04T19:17:39.251Z - debug: open_syncstrings: 14; recent_syncstrings: 15
+2017-07-04T19:17:49.500Z - debug: open_syncstrings: 15; recent_syncstrings: 15
+2017-07-04T19:25:07.875Z - debug: handle_save_blob_message: da39a3ee-5e6b-44b0-9325-5bfef9560189
+2017-07-04T19:25:08.011Z - debug: received new connection
+2017-07-04T19:25:08.056Z - debug: connect_to_session -- type='console'
+2017-07-04T19:25:08.056Z - debug: get_session: console session 4bc35073-b9a2-45ec-b424-b5a8091af599
+2017-07-04T19:25:08.057Z - debug: console session not yet created -- put on stack
+2017-07-04T19:25:08.057Z - debug: console session does not exist or is not running, so we make a new session
+2017-07-04T19:25:08.057Z - debug: couldn't determine console server port; probably console server not running -- try restarting it
+2017-07-04T19:25:08.058Z - debug: restart_console_server: undefined
+2017-07-04T19:25:08.058Z - debug: restart_console_server: "restarting daemon"
+2017-07-04T19:25:08.058Z - debug: restart_console_server: "remove port_file=/projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc/console_server/console_server.port"
+2017-07-04T19:25:08.058Z - debug: restart_console_server: "restart console server"
+2017-07-04T19:25:09.165Z - debug: restart_console_server: "wait a little to see if /projects/da4b09c7-73a7-4027-ac2d-5fed6d409acf/.smc/console_server/console_server.port appears, and if so read it and return port"
+2017-07-04T19:25:10.165Z - debug: restart_console_server: "finished trying to restart console_server"
+2017-07-04T19:25:10.166Z - debug: restarted console server, then got port = 44977
+2017-07-04T19:25:10.166Z - debug: console: Got port -- now create the new session
+2017-07-04T19:25:10.166Z - debug: _new_session: defined by {"event":"connect_to_session","id":"2026dc7e-c1ba-4b42-bbcd-cd521dcc0743","type":"console","project_id":"da4b09c7-73a7-4027-ac2d-5fed6d409acf","session_uuid":"4bc35073-b9a2-45ec-b424-b5a8091af599","params":{"command":"bash","path":"./","filename":"2017-07-04-162502.term"}}

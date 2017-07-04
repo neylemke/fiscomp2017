@@ -1,0 +1,998 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "# Visualização de dados em Python com Matplotlib "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "**1. Introdução**\n",
+    "- Matplotlib é provavelmente o pacote Python mais utilizado para gráficos 2D. Ele fornece uma maneira muito rápida de visualizar dados de Python e números de qualidade de publicação em vários formatos. \n",
+    "- O Matplotlib vem com um conjunto de configurações padrão que permitem personalizar todos os tipos de propriedades. Você pode controlar os padrões de quase todas as propriedades em matplotlib: tamanho de figura e dpi, largura de linha, cor e estilo, eixos, propriedades de eixo e grade, texto e propriedades de fonte e assim por diante. Enquanto os padrões de matplotlib são bastante bons na maioria dos casos, você pode querer modificar algumas propriedades para casos específicos."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "**Exemplo 1**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "image/png": "ed784615dba12272d68ef07c495b616ce98ea98b"
+     },
+     "execution_count": 2,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "import matplotlib.pyplot as plt\n",
+    "\n",
+    "X = np.linspace(-np.pi, np.pi, 256, endpoint=True)\n",
+    "C,S = np.cos(X), np.sin(X)\n",
+    "\n",
+    "plt.plot(X,C)\n",
+    "plt.plot(X,S)\n",
+    "\n",
+    "plt.show()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "**Alterando as cores e as larguras de linha, legenda:**\n",
+    "- Primeiro passo, queremos ter o cosseno em azul eo seno em vermelho e uma linha ligeiramente mais grossa para ambos. Também alteraremos ligeiramente o tamanho da figura para torná-lo mais horizontal.\n",
+    "- Vamos adicionar uma legenda no canto superior esquerdo. Isso só requer a adição do rótulo de argumento de palavra-chave (que será usado na caixa de legenda) para os comandos de plotagem."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "image/png": "0e7d95f1147bebac882f2256a7c51d3c8acfd7e6"
+     },
+     "execution_count": 3,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "plt.figure(figsize=(10,6), dpi=80)\n",
+    "plt.plot(X, C, color=\"blue\", linewidth=2.5, linestyle=\"-\", label=\"cosseno\")\n",
+    "plt.plot(X, S, color=\"red\",  linewidth=2.5, linestyle=\"-\", label=\"seno\")\n",
+    "plt.legend(loc='upper left', frameon=False)\n",
+    "plt.show()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "Para ajustar os tamanhos das fontes"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [
+   ],
+   "source": [
+    "SMALL_SIZE = 8\n",
+    "MEDIUM_SIZE = 10\n",
+    "BIGGER_SIZE = 18\n",
+    "plt.rc('font', size=SMALL_SIZE)          # controls default text sizes\n",
+    "plt.rc('axes', titlesize=SMALL_SIZE)     # fontsize of the axes title\n",
+    "plt.rc('axes', labelsize=MEDIUM_SIZE)    # fontsize of the x and y labels\n",
+    "plt.rc('xtick', labelsize=SMALL_SIZE)    # fontsize of the tick labels\n",
+    "plt.rc('ytick', labelsize=SMALL_SIZE)    # fontsize of the tick labels\n",
+    "plt.rc('legend', fontsize=BIGGER_SIZE)    # legend fontsize\n",
+    "plt.rc('figure', titlesize=BIGGER_SIZE)  # fontsize of the figure title\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "image/png": "0bfae4c9500378d11bdafdf8b6a54d814fa98032"
+     },
+     "execution_count": 8,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "plt.figure(figsize=(10,6), dpi=80)\n",
+    "plt.plot(X, C, color=\"blue\", linewidth=2.5, linestyle=\"-\", label=\"cosseno\")\n",
+    "plt.plot(X, S, color=\"red\",  linewidth=2.5, linestyle=\"-\", label=\"seno\")\n",
+    "plt.legend(loc='upper left', frameon=False)\n",
+    "\n",
+    "plt.show()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "**2. Carregar e examinar o conjunto de dados**\n",
+    "- Vamos começar. A função mostrada na célula abaixo carrega os dados do arquivo .csv. Uma limpeza mínima é realizada nos dados. As linhas com valores em falta são eliminadas e algumas colunas são convertidas a partir de cadeias contendo números para dados numéricos utilizando-se do Pandas."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+    "def read_auto_data(fileName = \"Automobile price data.csv\"):\n",
+    "    'Function to load the auto price data set from a .csv file' \n",
+    "    import pandas as pd\n",
+    "    import numpy as np\n",
+    "\n",
+    "    ## Read the .csv file with the pandas read_csv method\n",
+    "    auto_prices = pd.read_csv(fileName)\n",
+    "    \n",
+    "    ## Remove rows with missing values, accounting for mising values coded as '?'\n",
+    "    cols = ['price', 'bore', 'stroke', \n",
+    "          'horsepower', 'peak-rpm']\n",
+    "    for column in cols:\n",
+    "        auto_prices.loc[auto_prices[column] == '?', column] = np.nan\n",
+    "    auto_prices.dropna(axis = 0, inplace = True)\n",
+    "\n",
+    "    ## Convert some columns to numeric values\n",
+    "    for column in cols:\n",
+    "        auto_prices[column] = pd.to_numeric(auto_prices[column])\n",
+    "#    auto_prices[cols] = auto_prices[cols].as_type(int64)\n",
+    "        \n",
+    "    return auto_prices\n",
+    "auto_prices = read_auto_data()\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {
+    "collapsed": false,
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style>\n",
+       "    .dataframe thead tr:only-child th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: left;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>symboling</th>\n",
+       "      <th>normalized-losses</th>\n",
+       "      <th>make</th>\n",
+       "      <th>fuel-type</th>\n",
+       "      <th>aspiration</th>\n",
+       "      <th>num-of-doors</th>\n",
+       "      <th>body-style</th>\n",
+       "      <th>drive-wheels</th>\n",
+       "      <th>engine-location</th>\n",
+       "      <th>wheel-base</th>\n",
+       "      <th>...</th>\n",
+       "      <th>engine-size</th>\n",
+       "      <th>fuel-system</th>\n",
+       "      <th>bore</th>\n",
+       "      <th>stroke</th>\n",
+       "      <th>compression-ratio</th>\n",
+       "      <th>horsepower</th>\n",
+       "      <th>peak-rpm</th>\n",
+       "      <th>city-mpg</th>\n",
+       "      <th>highway-mpg</th>\n",
+       "      <th>price</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>3</td>\n",
+       "      <td>?</td>\n",
+       "      <td>alfa-romero</td>\n",
+       "      <td>gas</td>\n",
+       "      <td>std</td>\n",
+       "      <td>two</td>\n",
+       "      <td>convertible</td>\n",
+       "      <td>rwd</td>\n",
+       "      <td>front</td>\n",
+       "      <td>88.6</td>\n",
+       "      <td>...</td>\n",
+       "      <td>130</td>\n",
+       "      <td>mpfi</td>\n",
+       "      <td>3.47</td>\n",
+       "      <td>2.68</td>\n",
+       "      <td>9.0</td>\n",
+       "      <td>111</td>\n",
+       "      <td>5000</td>\n",
+       "      <td>21</td>\n",
+       "      <td>27</td>\n",
+       "      <td>13495</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>3</td>\n",
+       "      <td>?</td>\n",
+       "      <td>alfa-romero</td>\n",
+       "      <td>gas</td>\n",
+       "      <td>std</td>\n",
+       "      <td>two</td>\n",
+       "      <td>convertible</td>\n",
+       "      <td>rwd</td>\n",
+       "      <td>front</td>\n",
+       "      <td>88.6</td>\n",
+       "      <td>...</td>\n",
+       "      <td>130</td>\n",
+       "      <td>mpfi</td>\n",
+       "      <td>3.47</td>\n",
+       "      <td>2.68</td>\n",
+       "      <td>9.0</td>\n",
+       "      <td>111</td>\n",
+       "      <td>5000</td>\n",
+       "      <td>21</td>\n",
+       "      <td>27</td>\n",
+       "      <td>16500</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>1</td>\n",
+       "      <td>?</td>\n",
+       "      <td>alfa-romero</td>\n",
+       "      <td>gas</td>\n",
+       "      <td>std</td>\n",
+       "      <td>two</td>\n",
+       "      <td>hatchback</td>\n",
+       "      <td>rwd</td>\n",
+       "      <td>front</td>\n",
+       "      <td>94.5</td>\n",
+       "      <td>...</td>\n",
+       "      <td>152</td>\n",
+       "      <td>mpfi</td>\n",
+       "      <td>2.68</td>\n",
+       "      <td>3.47</td>\n",
+       "      <td>9.0</td>\n",
+       "      <td>154</td>\n",
+       "      <td>5000</td>\n",
+       "      <td>19</td>\n",
+       "      <td>26</td>\n",
+       "      <td>16500</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>2</td>\n",
+       "      <td>164</td>\n",
+       "      <td>audi</td>\n",
+       "      <td>gas</td>\n",
+       "      <td>std</td>\n",
+       "      <td>four</td>\n",
+       "      <td>sedan</td>\n",
+       "      <td>fwd</td>\n",
+       "      <td>front</td>\n",
+       "      <td>99.8</td>\n",
+       "      <td>...</td>\n",
+       "      <td>109</td>\n",
+       "      <td>mpfi</td>\n",
+       "      <td>3.19</td>\n",
+       "      <td>3.40</td>\n",
+       "      <td>10.0</td>\n",
+       "      <td>102</td>\n",
+       "      <td>5500</td>\n",
+       "      <td>24</td>\n",
+       "      <td>30</td>\n",
+       "      <td>13950</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>2</td>\n",
+       "      <td>164</td>\n",
+       "      <td>audi</td>\n",
+       "      <td>gas</td>\n",
+       "      <td>std</td>\n",
+       "      <td>four</td>\n",
+       "      <td>sedan</td>\n",
+       "      <td>4wd</td>\n",
+       "      <td>front</td>\n",
+       "      <td>99.4</td>\n",
+       "      <td>...</td>\n",
+       "      <td>136</td>\n",
+       "      <td>mpfi</td>\n",
+       "      <td>3.19</td>\n",
+       "      <td>3.40</td>\n",
+       "      <td>8.0</td>\n",
+       "      <td>115</td>\n",
+       "      <td>5500</td>\n",
+       "      <td>18</td>\n",
+       "      <td>22</td>\n",
+       "      <td>17450</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "<p>5 rows × 26 columns</p>\n",
+       "</div>"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "auto_prices.head()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "- Você pode ver que há tipos de variáveis ​​numéricas e de string (categóricas). \n",
+    "- Como uma próxima etapa examine algumas estatísticas de resumo das colunas numéricas usando o método Pandas descrever.\n",
+    "- Note que as unidades de medida são americanas e não métricas."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style>\n",
+       "    .dataframe thead tr:only-child th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: left;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>symboling</th>\n",
+       "      <th>wheel-base</th>\n",
+       "      <th>length</th>\n",
+       "      <th>width</th>\n",
+       "      <th>height</th>\n",
+       "      <th>curb-weight</th>\n",
+       "      <th>engine-size</th>\n",
+       "      <th>bore</th>\n",
+       "      <th>stroke</th>\n",
+       "      <th>compression-ratio</th>\n",
+       "      <th>horsepower</th>\n",
+       "      <th>peak-rpm</th>\n",
+       "      <th>city-mpg</th>\n",
+       "      <th>highway-mpg</th>\n",
+       "      <th>price</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>count</th>\n",
+       "      <td>195.000000</td>\n",
+       "      <td>195.000000</td>\n",
+       "      <td>195.000000</td>\n",
+       "      <td>195.000000</td>\n",
+       "      <td>195.000000</td>\n",
+       "      <td>195.000000</td>\n",
+       "      <td>195.000000</td>\n",
+       "      <td>195.000000</td>\n",
+       "      <td>195.000000</td>\n",
+       "      <td>195.000000</td>\n",
+       "      <td>195.000000</td>\n",
+       "      <td>195.000000</td>\n",
+       "      <td>195.000000</td>\n",
+       "      <td>195.000000</td>\n",
+       "      <td>195.000000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>mean</th>\n",
+       "      <td>0.794872</td>\n",
+       "      <td>98.896410</td>\n",
+       "      <td>174.256923</td>\n",
+       "      <td>65.886154</td>\n",
+       "      <td>53.861538</td>\n",
+       "      <td>2559.000000</td>\n",
+       "      <td>127.938462</td>\n",
+       "      <td>3.329385</td>\n",
+       "      <td>3.250308</td>\n",
+       "      <td>10.194974</td>\n",
+       "      <td>103.271795</td>\n",
+       "      <td>5099.487179</td>\n",
+       "      <td>25.374359</td>\n",
+       "      <td>30.841026</td>\n",
+       "      <td>13248.015385</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>std</th>\n",
+       "      <td>1.230612</td>\n",
+       "      <td>6.132038</td>\n",
+       "      <td>12.476443</td>\n",
+       "      <td>2.132484</td>\n",
+       "      <td>2.396778</td>\n",
+       "      <td>524.715799</td>\n",
+       "      <td>41.433916</td>\n",
+       "      <td>0.271866</td>\n",
+       "      <td>0.314115</td>\n",
+       "      <td>4.062109</td>\n",
+       "      <td>37.869730</td>\n",
+       "      <td>468.271381</td>\n",
+       "      <td>6.401382</td>\n",
+       "      <td>6.829315</td>\n",
+       "      <td>8056.330093</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>min</th>\n",
+       "      <td>-2.000000</td>\n",
+       "      <td>86.600000</td>\n",
+       "      <td>141.100000</td>\n",
+       "      <td>60.300000</td>\n",
+       "      <td>47.800000</td>\n",
+       "      <td>1488.000000</td>\n",
+       "      <td>61.000000</td>\n",
+       "      <td>2.540000</td>\n",
+       "      <td>2.070000</td>\n",
+       "      <td>7.000000</td>\n",
+       "      <td>48.000000</td>\n",
+       "      <td>4150.000000</td>\n",
+       "      <td>13.000000</td>\n",
+       "      <td>16.000000</td>\n",
+       "      <td>5118.000000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>25%</th>\n",
+       "      <td>0.000000</td>\n",
+       "      <td>94.500000</td>\n",
+       "      <td>166.300000</td>\n",
+       "      <td>64.050000</td>\n",
+       "      <td>52.000000</td>\n",
+       "      <td>2145.000000</td>\n",
+       "      <td>98.000000</td>\n",
+       "      <td>3.150000</td>\n",
+       "      <td>3.110000</td>\n",
+       "      <td>8.500000</td>\n",
+       "      <td>70.000000</td>\n",
+       "      <td>4800.000000</td>\n",
+       "      <td>19.500000</td>\n",
+       "      <td>25.000000</td>\n",
+       "      <td>7756.500000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>50%</th>\n",
+       "      <td>1.000000</td>\n",
+       "      <td>97.000000</td>\n",
+       "      <td>173.200000</td>\n",
+       "      <td>65.400000</td>\n",
+       "      <td>54.100000</td>\n",
+       "      <td>2414.000000</td>\n",
+       "      <td>120.000000</td>\n",
+       "      <td>3.310000</td>\n",
+       "      <td>3.290000</td>\n",
+       "      <td>9.000000</td>\n",
+       "      <td>95.000000</td>\n",
+       "      <td>5100.000000</td>\n",
+       "      <td>25.000000</td>\n",
+       "      <td>30.000000</td>\n",
+       "      <td>10245.000000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>75%</th>\n",
+       "      <td>2.000000</td>\n",
+       "      <td>102.400000</td>\n",
+       "      <td>184.050000</td>\n",
+       "      <td>66.900000</td>\n",
+       "      <td>55.650000</td>\n",
+       "      <td>2943.500000</td>\n",
+       "      <td>145.500000</td>\n",
+       "      <td>3.590000</td>\n",
+       "      <td>3.410000</td>\n",
+       "      <td>9.400000</td>\n",
+       "      <td>116.000000</td>\n",
+       "      <td>5500.000000</td>\n",
+       "      <td>30.000000</td>\n",
+       "      <td>35.000000</td>\n",
+       "      <td>16509.000000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>max</th>\n",
+       "      <td>3.000000</td>\n",
+       "      <td>120.900000</td>\n",
+       "      <td>208.100000</td>\n",
+       "      <td>72.000000</td>\n",
+       "      <td>59.800000</td>\n",
+       "      <td>4066.000000</td>\n",
+       "      <td>326.000000</td>\n",
+       "      <td>3.940000</td>\n",
+       "      <td>4.170000</td>\n",
+       "      <td>23.000000</td>\n",
+       "      <td>262.000000</td>\n",
+       "      <td>6600.000000</td>\n",
+       "      <td>49.000000</td>\n",
+       "      <td>54.000000</td>\n",
+       "      <td>45400.000000</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "auto_prices.describe()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "**2.1- Tipos de gráficos básicos**\n",
+    "- Agora que nós carregamos e tivemos um primeiro olhar para os dados, vamos começar a trabalhar fazendo alguns gráficos.\n",
+    "- Existem tipos de gráfico enumeráveis que são usados para a exploração de dados."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "Nesta disciplina focaremos nos seguintes tipos de gráficos:\n",
+    "a) Gráfico de dispersão\n",
+    "b) Gráficos em Linha\n",
+    "c) Gráficos em Barras\n",
+    "d) Histogramas\n",
+    "e) BoxPlot\n",
+    "f) BoxPlot usando  Densidade do Kernel\n",
+    "g) ViolinPlot"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "** a) Gráficos de dispersão**\n",
+    "- Os gráficos de dispersão mostram a relação entre duas variáveis sob a forma de pontos no gráfico. Em termos simples, os valores ao longo de um eixo horizontal são plotados contra um eixo vertical.\n",
+    "- O pacote Pandas contém um número de métodos de plotagem úteis que operam em dataframes. A receita simples para traçar a partir de um dataframe Pandas \n",
+    "- Use o método de plotagem, especificando o argumento de tipo ou use um método de plotagem gráfico-específico.\n",
+    "- Especifique as colunas com os valores para os eixos x e y."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "<matplotlib.axes._subplots.AxesSubplot at 0x7f2af69841d0>"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    },
+    {
+     "data": {
+      "image/png": "89abf9cea9ed72ef82b62c39e8088abd3653af6e"
+     },
+     "execution_count": 4,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "%matplotlib inline \n",
+    "auto_prices.plot(kind = 'scatter', x = 'consumo', y = 'price')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "- Nossa receita básica funcionou, mas não nos dá muito controle sobre o resultado.\n",
+    "- Aproveitamos o fato de que os métodos Pandas plot são construídos em matplotlib. Assim, podemos especificar uma figura e um ou mais eixos dentro dessa figura. Podemos controlar muitos atributos do plot  uma vez especificados os eixos. Nossa receita melhorada se parece com isto:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "**- Especifique uma figura, incluindo um tamanho.**\n",
+    "\n",
+    "**- Defina um ou mais eixos dentro da figura.**\n",
+    "\n",
+    "**- Use o método de escolha de panda. Certifique-se de especificar o eixo que você está usando.**\n",
+    "\n",
+    "**Use métodos nos eixos para controlar atributos como títulos e rótulos de eixo.**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "<matplotlib.text.Text at 0x7f48e218cd68>"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    },
+    {
+     "data": {
+      "image/png": "7714b55c1538850f93a9e15e7e80d588d8b748ff"
+     },
+     "execution_count": 6,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import matplotlib.pyplot as plt\n",
+    "fig = plt.figure(figsize=(10, 10)) # define plot area\n",
+    "ax = fig.gca() # define axis                   \n",
+    "    auto_prices.plot(kind = 'scatter', x = 'city-mpg', y = 'price', ax = ax)\n",
+    "    ax.set_title('Scatter plot de preço vs consumo') # Give the plot a main title\n",
+    "    ax.set_xlabel('Consumo') # Set text for the x axis\n",
+    "    ax.set_ylabel('Preço')# Set text for y axis"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "- Na trama acima, podemos ver que os carros mais caros têm a menor eficiência de combustível, enquanto carros relativamente baratos também são mais econômicos para a unidade."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "**b) Gráfico em Linha**\n",
+    "- Os gráficos de linhas são semelhantes aos gráficos de pontos. Em traçados de linha os pontos discretos são conectados por linhas.\n",
+    "- Primeiro, vamos criar um dataframe, com uma relação simples entre x e y."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+    "import pandas as pd\n",
+    "x = list(range(100))\n",
+    "y = [z * z for z in range(100)]\n",
+    "df = pd.DataFrame({'x':x, 'y':y})"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "- Agora aplique a receita anterior para plotar x vs y e gerar um gráfico em linha."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "<matplotlib.text.Text at 0x7f48da4ee438>"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    },
+    {
+     "data": {
+      "image/png": "4626c9d3b30afc04edd0b1ccda91df0942bc284f"
+     },
+     "execution_count": 11,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "fig = plt.figure(figsize=(10, 10)) # define área do plot \n",
+    "ax = fig.gca() # define eixo               \n",
+    "df.plot(x = 'x', y = 'y', ax = ax) ## linha é o formato padrão\n",
+    "ax.set_title('Line plot de $x^2$ vs. $x$') # Título Principal\n",
+    "ax.set_xlabel('$x$') # Eixo x\n",
+    "ax.set_ylabel('$x^2$')# Eixo y"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "**c) Gráfico de Barras**\n",
+    "- Gráficos de barras são usados para exibir as contagens de valores exclusivos de uma variável categórica. A altura da barra representa a contagem para cada categoria única da variável.\n",
+    "- É improvável que o quadro de dados do pandas inclua contagens por categoria de uma variável. Assim, o primeiro passo para fazer um gráfico de barras é calcular as contagens. Felizmente, pandas tem um método ***value_counts***. O código abaixo usa esse método para criar um novo quadro de dados contendo as contagens por marca do carro."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "toyota           32\n",
+       "nissan           18\n",
+       "honda            13\n",
+       "mazda            13\n",
+       "mitsubishi       13\n",
+       "subaru           12\n",
+       "volkswagen       12\n",
+       "peugot           11\n",
+       "volvo            11\n",
+       "dodge             9\n",
+       "mercedes-benz     8\n",
+       "bmw               8\n",
+       "plymouth          7\n",
+       "audi              6\n",
+       "saab              6\n",
+       "porsche           4\n",
+       "chevrolet         3\n",
+       "alfa-romero       3\n",
+       "jaguar            3\n",
+       "isuzu             2\n",
+       "mercury           1\n",
+       "Name: make, dtype: int64"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "counts = auto_prices['make'].value_counts() # encontre a contagem para cada categoria\n",
+    "counts"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "- Você pode ver a lista ordenada de contagens descrita acima. Observe que esse quadro de dados é muito menor do que o original, uma vez que só precisa de uma linha para cada valor exclusivo da marca.\n",
+    "- Agora, faça o gráfico de barras usando o quadro de dados de contagens, crie o gráfico de barras do número de carros por marca. Observe que a receita para este gráfico é a mesma que usamos para gráficos de dispersão e gráficos de linha, usando apenas o método .plot.bar."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "<matplotlib.text.Text at 0x7f48da3c2048>"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    },
+    {
+     "data": {
+      "image/png": "5c42a42c2ea73cdd61a4a73b1a8b0a6bcb6a4069"
+     },
+     "execution_count": 15,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "fig = plt.figure(figsize=(10,10)) # define plot area\n",
+    "ax = fig.gca() # define axis    \n",
+    "counts.plot.bar(ax = ax) # Use the plot.bar method on the counts data frame\n",
+    "ax.set_title('Modelos por Montadora') # Give the plot a main title\n",
+    "ax.set_xlabel('Montadora') # Set text for the x axis\n",
+    "ax.set_ylabel('Modelos')# Set text for y axis"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "- O gráfico de barra mostra claramente quais fabricantes de automóveis têm o maior número de modelos. As marcas mais especializadas têm relativamente menos modelos."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "### Exercício1\n",
+    "- A “classificação” de uma palavra é a sua posição em uma lista de palavras classificadas por frequência: a palavra mais comum tem a classificação 1, a segunda mais comum é 2 etc.\n",
+    "- A lei de Zipf descreve a relação entre classificações e frequências das palavras em linguagens naturais (http://en.wikipedia.org/wiki/Zipf’s_law). Ela prevê especificamente que a frequência, $f$, da palavra com classificação $ r $ é:\n",
+    "\n",
+    "  $$ f = cr−s $$ \n",
+    "- onde s e c são parâmetros que dependem do idioma e do texto. Se você tomar o logaritmo de ambos os lados desta equação, obtemos:\n",
+    "\n",
+    "  $$\\log f = \\log c − s\\log r$$\n",
+    "  \n",
+    "- Se você traçar o log de f contra o log de r, terá uma linha reta com uma elevação -s e interceptar o log de c.\n",
+    "\n",
+    "\n",
+    "**- Escreva um programa que leia um texto em um arquivo, conte as frequências das palavras e exiba uma linha para cada palavra, em ordem descendente da frequência, com log de f e log de r. Use o programa gráfico de sua escolha para traçar os resultados e verifique se formam uma linha reta. Você pode estimar o valor de s?**"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "### Exercício 2\n",
+    "###### Agora que você já viu como criar alguns plots  simples, é sua vez de realizar uma visualização. Crie o seguinte gráfico de dispersão:\n",
+    "\n",
+    "- Traçar o tamanho do motor contra o preço.\n",
+    "- Defina o tamanho da figura como 8 x 8.\n",
+    "- Forneça um título significativo, rótulo do eixo x e rótulo do eixo y."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "### Exercício 3\n",
+    "- Faça um gráfico de Barras com os dados contidos no DataFrame do exercício dos epsódios do Pokemon. Represente o número de episódios para cada Temporada. Neste exercicio o gráfico deve conter legenda, titulo, nome dos eixos e cada barra deve conter uma cor diferente."
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (Anaconda)",
+   "language": "python",
+   "name": "anaconda3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.5.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}

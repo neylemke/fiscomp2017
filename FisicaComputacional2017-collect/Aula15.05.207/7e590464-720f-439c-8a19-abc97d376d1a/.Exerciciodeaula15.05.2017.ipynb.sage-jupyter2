@@ -1,4 +1,4 @@
-{"type":"settings","kernel":"python2","backend_state":"running","trust":true,"kernel_state":"idle"}
+{"type":"settings","kernel":"python2","backend_state":"ready","trust":true,"kernel_state":"idle"}
 {"type":"file","last_load":1494867992690}
 {"exec_count":1,"input":"## Exercício 01.1 - Encontre índices de elementos não nulos de [1,2,0,0,4,0]\n\n","state":"done","pos":0,"cell_type":"markdown","type":"cell","id":"d8cafd","kernel":"python2"}
 {"output":{"0":{"text":"Número: 1 Índice: \t0\nNúmero: 2 Índice: \t1\nNúmero: 4 Índice: \t4\n","name":"stdout"}},"exec_count":10,"start":1494869128219,"input":"import numpy as np\n\na= [1,2,0,0,4,0]\nmatriz = np.array(a)\n\nfor i in range(len(matriz)):\n    if matriz[i] != 0:\n        print('Número: {} Índice: \\t{}'.format(matriz[i], i))\n        \n        \n        ","state":"done","pos":1,"type":"cell","end":1494869128225,"id":"d9f321","kernel":"python2"}

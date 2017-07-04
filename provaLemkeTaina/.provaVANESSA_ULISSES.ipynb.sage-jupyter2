@@ -1,0 +1,6 @@
+{"type":"settings","backend_state":"running","kernel_state":"idle","kernel":"anaconda3"}
+{"type":"cell","id":"3bce2c","pos":0,"input":"# Prova Final de Física Computacional\n## Nome do Arquivo: provaVANESSA_ULISSES.ipynb\n\n","cell_type":"markdown"}
+{"type":"cell","id":"d44c45","pos":1,"input":"## Questão 1\nGere uma Lista contendo os primeiros 40 números pares.\nCalcule seu produto.\n","cell_type":"markdown"}
+{"type":"cell","id":"d5cafe","pos":2,"input":"## Questão 2\nAbra o arquivo `jogadores.csv` e responda apresentando um código que:\n\n- Leia o arquivo e transforme em um DataFrame pandas. \n- Conte o número de colunas.\n- Quais jogadores nasceram antes de 1988?\n","cell_type":"markdown"}
+{"type":"cell","id":"4545c4","pos":3,"input":"## Questão 3\nGere um gráfico do peso e altura dos jogadores. Os eixos devem conter \nas quantidades que estão sendo representados e o título deve conter o nome do Aluno. \nO tamanho dos pontos deve representar a idade dos jogadores. A cor deve ser  azul e\nas marcas devem ser círculos.\n","cell_type":"markdown"}
+{"type":"file","last_load":1497270813661}

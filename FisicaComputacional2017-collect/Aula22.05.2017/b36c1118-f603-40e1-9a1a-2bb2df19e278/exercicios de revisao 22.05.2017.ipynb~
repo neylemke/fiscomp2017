@@ -1,0 +1,210 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "## **Exercicio 1**\n",
+    "Gere uma lista com 100 números aleatórios, em seguida o aluno deverá deverá encontrar os intervalos médios dos elementos da lista."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 0,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([ 1.68223873,  7.2014615 ,  5.44679605,  2.06723152,  1.8895735 ,\n",
+       "        2.11284424,  2.21312765,  1.39662076,  4.95612349,  7.1248641 ,\n",
+       "        5.06680023,  2.66041358,  5.61682633,  7.95908046,  5.89407332,\n",
+       "        1.0630721 ,  3.95002912,  5.40409636,  7.53946309,  3.21824736,\n",
+       "        3.98389987,  6.10501714,  4.15450048,  2.49008627,  1.47487142,\n",
+       "        7.31200185,  2.77930607,  7.90532998,  3.73366406,  6.66285166,\n",
+       "        4.36659464,  5.07157607,  5.91172261,  2.45236634,  4.61946402,\n",
+       "        5.58118811,  2.79267472,  6.68332145,  3.50987172,  6.49355332,\n",
+       "        4.18899747,  3.11865858,  1.23619611,  2.31443836,  3.47941503,\n",
+       "        1.98425211,  2.08333795,  5.80247895,  1.55533763,  1.27840548,\n",
+       "        4.54685842,  5.64083417,  2.98953925,  6.61400378,  3.36638607,\n",
+       "        2.51606818,  1.15198946,  1.95008585,  6.06382494,  2.80731896,\n",
+       "        3.1830534 ,  4.38691004,  3.41678091,  3.08710982,  2.18360427,\n",
+       "        4.77698377,  2.23971896,  5.78813443,  5.93669911,  7.89933684,\n",
+       "        5.53816949,  4.41459668,  6.64962709,  3.15983368,  1.40062948,\n",
+       "        1.82239493,  4.89426059,  3.75023768,  2.11223352,  1.54588461,\n",
+       "        6.87843303,  3.12653464,  6.1816389 ,  2.43416025,  7.3021002 ,\n",
+       "        1.20093823,  5.28247475,  5.9822935 ,  2.35622942,  3.21746197,\n",
+       "        5.91592194,  6.02087981,  2.14082398,  6.03671799,  6.30225368,\n",
+       "        1.1334514 ,  2.55893678,  3.60921574,  1.67227316,  3.14772573])"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "lis=np.random.uniform(1,8,100)\n",
+    "lis"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[2.3073983548407169]\n"
+     ]
+    }
+   ],
+   "source": [
+    "imedio=[]\n",
+    "\n",
+    "for i in range(0,99):\n",
+    "    imedio=[(lis[i]+lis[i+1])/2]\n",
+    "             \n",
+    "print imedio"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "## **Exercicio 2**\n",
+    "\n",
+    "Faça um programa que leia um número indeterminado de valores, correspondentes a notas, encerrando a entrada de dados quando for informado um valor igual a -1 (que não deve ser armazenado). Após esta entrada de dados, faça:\n",
+    "- Mostre a quantidade de valores que foram lidos;\n",
+    "- Exiba todos os valores na ordem em que foram informados, um ao lado do outro;\n",
+    "- Exiba todos os valores na ordem inversa à que foram informados, um abaixo do outro;\n",
+    "- Calcule e mostre a soma dos valores;\n",
+    "- Calcule e mostre a média dos valores;\n",
+    "- Calcule e mostre a quantidade de valores acima da média calculada;\n",
+    "- Calcule e mostre a quantidade de valores abaixo de sete;\n",
+    "- Encerre o programa com uma mensagem;"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "## **EXERCICIO 3**"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "- Calcule as raízes da equação do 2◦ grau ($Ax^2 + Bx + C = 0$) sendo os valores de A, B e C fornecidos pelo usuário, levando em consideração a existência de raízes complexas."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 0,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+    "print(\"DIGITE O VALOR DE 'A':\")\n",
+    "print(\"DIGITE O VALOR DE 'B':\")\n",
+    "print(\"DIGITE O VALOR DE 'C':\")\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "## **EXERCICIO 4**"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "## **EXERCICIO 5**"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "## **EXERCICIO 6**"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "## **EXERCICIO 7**"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "## **EXERCICIO 8**"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 2 (SageMath)",
+   "language": "python",
+   "name": "python2"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 2
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython2",
+   "version": "2.7.13"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}

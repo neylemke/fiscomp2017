@@ -1,0 +1,1301 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "#### Exercicio 1\n",
+    "\n",
+    "- Gere uma lista com 100 números aleatórios, em seguida o aluno deverá deverá encontrar os intervalos médios dos elementos da lista."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1,\n",
+       " 69,\n",
+       " 24,\n",
+       " 92,\n",
+       " 20,\n",
+       " 25,\n",
+       " 83,\n",
+       " 31,\n",
+       " 62,\n",
+       " 50,\n",
+       " 71,\n",
+       " 65,\n",
+       " 79,\n",
+       " 11,\n",
+       " 96,\n",
+       " 35,\n",
+       " 58,\n",
+       " 33,\n",
+       " 63,\n",
+       " 9,\n",
+       " 86,\n",
+       " 30,\n",
+       " 91,\n",
+       " 39,\n",
+       " 52,\n",
+       " 22,\n",
+       " 6,\n",
+       " 94,\n",
+       " 55,\n",
+       " 34,\n",
+       " 36,\n",
+       " 4,\n",
+       " 43,\n",
+       " 53,\n",
+       " 77,\n",
+       " 78,\n",
+       " 75,\n",
+       " 29,\n",
+       " 54,\n",
+       " 82,\n",
+       " 2,\n",
+       " 48,\n",
+       " 57,\n",
+       " 15,\n",
+       " 90,\n",
+       " 68,\n",
+       " 73,\n",
+       " 19,\n",
+       " 26,\n",
+       " 41,\n",
+       " 89,\n",
+       " 70,\n",
+       " 3,\n",
+       " 13,\n",
+       " 66,\n",
+       " 14,\n",
+       " 28,\n",
+       " 21,\n",
+       " 64,\n",
+       " 0,\n",
+       " 47,\n",
+       " 59,\n",
+       " 12,\n",
+       " 16,\n",
+       " 46,\n",
+       " 56,\n",
+       " 93,\n",
+       " 44,\n",
+       " 87,\n",
+       " 5,\n",
+       " 27,\n",
+       " 97,\n",
+       " 38,\n",
+       " 76,\n",
+       " 37,\n",
+       " 80,\n",
+       " 84,\n",
+       " 23,\n",
+       " 95,\n",
+       " 99,\n",
+       " 18,\n",
+       " 85,\n",
+       " 32,\n",
+       " 51,\n",
+       " 45,\n",
+       " 67,\n",
+       " 74,\n",
+       " 17,\n",
+       " 40,\n",
+       " 72,\n",
+       " 88,\n",
+       " 81,\n",
+       " 10,\n",
+       " 61,\n",
+       " 98,\n",
+       " 8,\n",
+       " 60,\n",
+       " 49,\n",
+       " 7,\n",
+       " 42]"
+      ]
+     },
+     "execution_count": 38,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import random \n",
+    "lista= random.sample(range(0, 100), 100)\n",
+    "lista\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 0,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+    "imedio=[]\n",
+    "\n",
+    "for i in range(0,99):\n",
+    "    imedio.append((lista[i]+lista[i+1])/2.)\n",
+    "\n",
+    "print imedio"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "#### Exercicio 2\n",
+    "Faça um programa que leia um número indeterminado de valores, correspondentes a notas, encerrando a entrada de dados quando for informado um valor igual a -1 (que não deve ser armazenado). Após esta entrada de dados, faça:\n",
+    "- Mostre a quantidade de valores que foram lidos; (ok)\n",
+    "- Exiba todos os valores na ordem em que foram informados, um ao lado do outro; (ok)\n",
+    "- Exiba todos os valores na ordem inversa à que foram informados, um abaixo do outro; (não feito)\n",
+    "- Calcule e mostre a soma dos valores; (ok)\n",
+    "- Calcule e mostre a média dos valores; (ok)\n",
+    "- Calcule e mostre a quantidade de valores acima da média calculada; (ok)\n",
+    "- Calcule e mostre a quantidade de valores abaixo de sete; (ok)\n",
+    "- Encerre o programa com uma mensagem; (ok)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {
+    "cocalc": {
+     "outputs": {
+      "0": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira as notas dos alunos"
+       },
+       "output_type": "stream",
+       "value": "5.5"
+      },
+      "1": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira as notas dos alunos"
+       },
+       "output_type": "stream",
+       "value": "9"
+      },
+      "2": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira as notas dos alunos"
+       },
+       "output_type": "stream",
+       "value": "4.6"
+      },
+      "3": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira as notas dos alunos"
+       },
+       "output_type": "stream",
+       "value": "7"
+      },
+      "4": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira as notas dos alunos"
+       },
+       "output_type": "stream",
+       "value": "3"
+      },
+      "5": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira as notas dos alunos"
+       },
+       "output_type": "stream",
+       "value": "-1"
+      }
+     }
+    },
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira as notas dos alunos 5.5"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira as notas dos alunos 9"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira as notas dos alunos 4.6"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira as notas dos alunos 7"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira as notas dos alunos 3"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira as notas dos alunos -1"
+    }
+   ],
+   "source": [
+    "    nota= input('Insira as notas dos alunos')\n",
+    "n=[]\n",
+    "n.append(nota)\n",
+    "while nota !=(-1):\n",
+    "    nota= input('Insira as notas dos alunos')\n",
+    "    n.append(nota)\n",
+    "    if nota == -1:\n",
+    "        n.remove(nota)\n",
+    "        break;"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "A quantidade de valores lidos foram: 5\n"
+     ]
+    }
+   ],
+   "source": [
+    "print 'A quantidade de valores lidos foram:', len(n)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[5.5, 9, 4.6, 7, 3]\n"
+     ]
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "print n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 84,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[ 5.5  9.   4.6  7.   3. ]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print np.ravel(n)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' 5.5 9 4.6 7 3 '"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\n",
+    "strn=\" \"\n",
+    "for i in n:\n",
+    "    strn = strn+str(i)+\" \"\n",
+    "strn"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 138,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " 5.5\n",
+      "9\n",
+      "4.6\n",
+      "7\n",
+      "3\n",
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "#precisa ser inverso!!\n",
+    "strn=\" \"\n",
+    "for i in n:\n",
+    "    strn = strn+str(i)+\"\\n\"\n",
+    "print strn"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "A soma dos valores de [5.5, 9, 4.6, 7, 3] é: 29.1\n"
+     ]
+    }
+   ],
+   "source": [
+    "soma=sum(n)\n",
+    "print 'A soma dos valores de' , n, 'é:', soma"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "A média dos valores de [5.5, 9, 4.6, 7, 3] é: 5.82\n"
+     ]
+    }
+   ],
+   "source": [
+    "media= soma/len(n)\n",
+    "print 'A média dos valores de', n, 'é:', media"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "9\n",
+      "7\n"
+     ]
+    }
+   ],
+   "source": [
+    "for elem in n:\n",
+    "    if elem> media:\n",
+    "        print elem"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5.5\n",
+      "4.6\n",
+      "3\n"
+     ]
+    }
+   ],
+   "source": [
+    "for elem in n:\n",
+    "    if elem<7:\n",
+    "        print elem"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "O programa termina aqui. Até mais e obrigado pelos peixes!\n"
+     ]
+    }
+   ],
+   "source": [
+    "print 'O programa termina aqui. Até mais e obrigado pelos peixes!'"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "#### Exercicio 3\n",
+    "- Calcule as raízes da equação do 2◦ grau ($Ax^2 + Bx + C = 0$) sendo os valores de A, B e C fornecidos pelo usuário, levando em consideração a existência de raízes complexas.**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 89,
+   "metadata": {
+    "cocalc": {
+     "outputs": {
+      "0": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira A: "
+       },
+       "output_type": "stream",
+       "value": "2"
+      },
+      "1": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira B: "
+       },
+       "output_type": "stream",
+       "value": "2."
+      },
+      "2": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira C: "
+       },
+       "output_type": "stream",
+       "value": "2.0"
+      }
+     }
+    },
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira A:  2"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira B:  2."
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira C:  2.0"
+    }
+   ],
+   "source": [
+    "A= float(input(\"Insira A: \"))\n",
+    "B= float(input(\"Insira B: \") )\n",
+    "C= float(input(\"Insira C: \"))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 90,
+   "metadata": {
+    "cocalc": {
+     "outputs": {
+      "1": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira A: "
+       },
+       "output_type": "stream",
+       "value": "2."
+      },
+      "10": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira B: "
+       },
+       "output_type": "stream",
+       "value": "4"
+      },
+      "11": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira C: "
+       },
+       "output_type": "stream",
+       "value": "5."
+      },
+      "13": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira A: "
+       },
+       "output_type": "stream",
+       "value": "7."
+      },
+      "14": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira B: "
+       },
+       "output_type": "stream",
+       "value": "4."
+      },
+      "15": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira C: "
+       },
+       "output_type": "stream",
+       "value": "-3."
+      },
+      "2": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira B: "
+       },
+       "output_type": "stream",
+       "value": "4.8"
+      },
+      "3": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira C: "
+       },
+       "output_type": "stream",
+       "value": "9"
+      },
+      "5": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira A: "
+       },
+       "output_type": "stream",
+       "value": "9."
+      },
+      "6": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira B: "
+       },
+       "output_type": "stream",
+       "value": "-3"
+      },
+      "7": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira C: "
+       },
+       "output_type": "stream",
+       "value": "2"
+      },
+      "8": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira A: "
+       },
+       "output_type": "stream"
+      }
+     }
+    },
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Delta menor que zero, raízes complexas. Por favor, insira outros valores de A, B e C: \n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira A:  2."
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira B:  4.8"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira C:  9"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Delta menor que zero, raízes complexas. Por favor, insira outros valores de A, B e C: \n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira A:  9."
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira B:  -3"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira C:  2"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira A:  "
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Delta menor que zero, raízes complexas. Por favor, insira outros valores de A, B e C: \n"
+     ],
+     "value": "1."
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira B:  4"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira C:  5."
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Delta menor que zero, raízes complexas. Por favor, insira outros valores de A, B e C: \n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira A:  7."
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira B:  4."
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira C:  -3."
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "x1: -0.214285714286\n",
+      "x2: -0.357142857143\n"
+     ]
+    }
+   ],
+   "source": [
+    "## from math import sqrt\n",
+    "delta= (B**2)-4*A*C\n",
+    "while delta<0:\n",
+    "    print (\"Delta menor que zero, raízes complexas. Por favor, insira outros valores de A, B e C: \")\n",
+    "    A= input(\"Insira A: \")\n",
+    "    B= input(\"Insira B: \") \n",
+    "    C= input(\"Insira C: \")\n",
+    "    float(A), float(B), float(C)\n",
+    "    delta= (B**2)-4*A*C\n",
+    "\n",
+    "x1= (-B+(delta)**(1/2))/(2*A)\n",
+    "x2= (-B-(delta)**(1/2))/(2*A)\n",
+    "print \"x1:\",x1\n",
+    "print \"x2:\",x2  "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "#### Exercício 6\n",
+    "- Passo 1: Gere um arquivo com 10 notas de cinco alunos (Deve conter o nome do aluno e as notas). (ok)\n",
+    "- Passo 2: Em seguida crie uma array em numpy com essas notas. (ok)\n",
+    "- Passo 3: Crie um DataFrame dessas notas. (ok)\n",
+    "- Passo 4: Identifique qual menor nota e quem foi o aluno que obteve essa nota (ok)\n",
+    "- Passo 5: Identifique o aluno que tirou as melhores notas. (ok)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 282,
+   "metadata": {
+    "cocalc": {
+     "outputs": {
+      "0": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "insira o nome do aluno"
+       },
+       "output_type": "stream",
+       "value": "Vanessa"
+      },
+      "1": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "insira o nome do aluno"
+       },
+       "output_type": "stream",
+       "value": "Felipe"
+      },
+      "10": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira as notas aqui"
+       },
+       "output_type": "stream",
+       "value": "4.2"
+      },
+      "11": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira as notas aqui"
+       },
+       "output_type": "stream",
+       "value": "5.7"
+      },
+      "12": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira as notas aqui"
+       },
+       "output_type": "stream",
+       "value": "6.1"
+      },
+      "13": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira as notas aqui"
+       },
+       "output_type": "stream",
+       "value": "5.5"
+      },
+      "14": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira as notas aqui"
+       },
+       "output_type": "stream",
+       "value": "4.9"
+      },
+      "2": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "insira o nome do aluno"
+       },
+       "output_type": "stream",
+       "value": "Elian"
+      },
+      "3": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "insira o nome do aluno"
+       },
+       "output_type": "stream",
+       "value": "Ana"
+      },
+      "4": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "insira o nome do aluno"
+       },
+       "output_type": "stream",
+       "value": "Joao"
+      },
+      "5": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira as notas aqui"
+       },
+       "output_type": "stream",
+       "value": "10"
+      },
+      "6": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira as notas aqui"
+       },
+       "output_type": "stream",
+       "value": "9"
+      },
+      "7": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira as notas aqui"
+       },
+       "output_type": "stream",
+       "value": "8"
+      },
+      "8": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira as notas aqui"
+       },
+       "output_type": "stream",
+       "value": "7"
+      },
+      "9": {
+       "name": "input",
+       "opts": {
+        "password": false,
+        "prompt": "Insira as notas aqui"
+       },
+       "output_type": "stream",
+       "value": "3.4"
+      }
+     }
+    },
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "insira o nome do aluno Vanessa"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "insira o nome do aluno Felipe"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "insira o nome do aluno Elian"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "insira o nome do aluno Ana"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "insira o nome do aluno Joao"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira as notas aqui 10"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira as notas aqui 9"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira as notas aqui 8"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira as notas aqui 7"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira as notas aqui 3.4"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira as notas aqui 4.2"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira as notas aqui 5.7"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira as notas aqui 6.1"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira as notas aqui 5.5"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": "Insira as notas aqui 4.9"
+    }
+   ],
+   "source": [
+    "aluno=[]\n",
+    "nota=[]\n",
+    "for i in range(5):\n",
+    "    aluno.append(raw_input ('insira o nome do aluno'))\n",
+    "for i in aluno:\n",
+    "    nota.append(input ('Insira as notas aqui'))\n",
+    "    nota.append(input ('Insira as notas aqui'))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 283,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[10, 9, 8, 7, 3.4, 4.2, 5.7, 6.1, 5.5, 4.9]\n",
+      "['Vanessa', 'Felipe', 'Elian', 'Ana', 'Joao']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print nota\n",
+    "print aluno\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 284,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Os alunos e suas respectivas notas são:\n",
+      "[('Vanessa', [10, 9]), ('Felipe', [8, 7]), ('Elian', [3.4, 4.2]), ('Ana', [5.7, 6.1]), ('Joao', [5.5, 4.9])]\n"
+     ]
+    }
+   ],
+   "source": [
+    "import pandas as pd\n",
+    "notaal=range(9)\n",
+    "for i in range(9):\n",
+    "    notaal[i]=[nota[i],nota[i+1]]\n",
+    "\n",
+    "del notaal[1::2]\n",
+    "\n",
+    "notaealu=zip(aluno,notaal)\n",
+    "print 'Os alunos e suas respectivas notas são:\\n', notaealu\n",
+    "notss=str(notaealu)\n",
+    "\n",
+    "with open('notaealu','w')as arq:\n",
+    "    arq.write(notss)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 285,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[ 10.    9.    8.    7.    3.4   4.2   5.7   6.1   5.5   4.9]\n"
+     ]
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "nots=np.array(nota)\n",
+    "print nots\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 405,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "     Aluno       Notas\n",
+      "0  Vanessa     [10, 9]\n",
+      "1   Felipe      [8, 7]\n",
+      "2    Elian  [3.4, 4.2]\n",
+      "3      Ana  [5.7, 6.1]\n",
+      "4     Joao  [5.5, 4.9]\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Aluno</th>\n",
+       "      <th>Maior nota</th>\n",
+       "      <th>Menor nota</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>Vanessa</td>\n",
+       "      <td>10.0</td>\n",
+       "      <td>9.0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Felipe</td>\n",
+       "      <td>8.0</td>\n",
+       "      <td>7.0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>Elian</td>\n",
+       "      <td>4.2</td>\n",
+       "      <td>3.4</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>Ana</td>\n",
+       "      <td>6.1</td>\n",
+       "      <td>5.7</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>Joao</td>\n",
+       "      <td>5.5</td>\n",
+       "      <td>4.9</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ]
+     },
+     "execution_count": 405,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import pandas as pd \n",
+    "df=pd.DataFrame(nots)\n",
+    "dff=pd.DataFrame(notaealu)#,index=['Nota e Aluno', 'Nota e Aluno', 'Nota e Aluno', 'Nota e Aluno','Nota e Aluno'])\n",
+    "dff['Aluno']=dff[0]\n",
+    "dff['Notas']=dff[1]\n",
+    "dff=dff.drop(0,axis=1)\n",
+    "dff=dff.drop(1,axis=1)\n",
+    "print dff\n",
+    "dff['Maior nota']=[max(elem) for elem in notaal]\n",
+    "dff['Menor nota']=[min(elem) for elem in notaal]\n",
+    "dff=dff.drop('Notas', axis=1)\n",
+    "dff"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 479,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "O aluno com menor nota é: Elian e a nota é 3.4\n"
+     ]
+    }
+   ],
+   "source": [
+    "for elem in dff['Menor nota']:\n",
+    "    for i in range(len(dff['Menor nota'])):\n",
+    "        if elem == dff['Menor nota'].min():\n",
+    "            if dff.loc[i]['Menor nota']== dff['Menor nota'].min():\n",
+    "                print 'O aluno com menor nota é:', dff.loc[i]['Aluno'], 'e a nota é', dff.loc[i]['Menor nota']\n",
+    "           "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 482,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "O aluno com maior nota é: Vanessa e a nota é 10.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "for elem in dff['Maior nota']:\n",
+    "    for i in range(len(dff['Maior nota'])):\n",
+    "        if elem == dff['Maior nota'].max():\n",
+    "            if dff.loc[i]['Maior nota']== dff['Maior nota'].max():\n",
+    "                print 'O aluno com maior nota é:', dff.loc[i]['Aluno'], 'e a nota é', dff.loc[i]['Maior nota']\n",
+    "           "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "#### Exercicio 8\n",
+    "Considere um conjunto de 10 triplets descrevendo 10 triângulos (com vértices compartilhados), encontrar o conjunto de segmentos de linha única compondo todos os triângulos "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 0,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 2 (SageMath)",
+   "language": "python",
+   "name": "python2"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 2
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython2",
+   "version": "2.7.13"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}

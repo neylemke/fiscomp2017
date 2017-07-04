@@ -1,2 +1,2 @@
-info: listening on port 32832
-info: start_session {"event":"connect_to_session","id":"ac8fc5c9-9169-44f0-80fc-8f53bf9c82b8","type":"console","project_id":"da4b09c7-73a7-4027-ac2d-5fed6d409acf","session_uuid":"a98fa436-b75a-417f-99ff-6f77a6fe8b07","params":{"command":"bash","path":"./","filename":"2017-06-05-154427.term"}}
+info: listening on port 44977
+info: start_session {"event":"connect_to_session","id":"2026dc7e-c1ba-4b42-bbcd-cd521dcc0743","type":"console","project_id":"da4b09c7-73a7-4027-ac2d-5fed6d409acf","session_uuid":"4bc35073-b9a2-45ec-b424-b5a8091af599","params":{"command":"bash","path":"./","filename":"2017-07-04-162502.term"}}

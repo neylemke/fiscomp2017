@@ -1,0 +1,29 @@
+total 584
+drwxr-x---  4 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b   4096 Apr 24 18:16 .
+drwx------ 16 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b   4096 Apr 24 17:04 ..
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b   7131 Apr 23 16:59 .Analisedados.ipynb.sage-jupyter
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b     39 Apr 24 18:11 arq_abril_verao.txt
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b     41 Apr 24 18:11 arq_agosto_inverno.txt
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b     41 Apr 24 18:11 arq_dezembro_primavera.txt
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b     42 Apr 24 18:11 arq_fevereiro_verao.txt
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b     40 Apr 24 18:11 arq_janeiro_verao.txt
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b     40 Apr 24 18:11 arq_julho_inverno.txt
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b     38 Apr 24 18:11 arq_junho_outono.txt
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b     38 Apr 24 18:11 arq_maio_outono.txt
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b     39 Apr 24 18:11 arq_março_verao.txt
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b     45 Apr 24 18:11 arq_novembro_primavera.txt
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b     44 Apr 24 18:11 arq_outubro_primavera.txt
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b     43 Apr 24 18:11 arq_setembro_inverno.txt
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b  19129 Apr 24 00:13 .Aula21.04.2017.ipynb.sage-jupyter
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b  17908 Apr 23 17:38 .Aula24.03.2017.ipynb.sage-jupyter
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b 394621 Apr 24 18:16 Aula24.04.2017.ipynb
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b  42651 Apr 24 18:15 .Aula24.04.2017.ipynb.sage-jupyter
+drwxr-x---  4 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b   4096 Apr 24 15:32 cookbook-data
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b   3320 Apr 24 18:16 exercicio aula24.04.2017.ipynb
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b   2544 Apr 24 18:12 .exercicio aula24.04.2017.ipynb.sage-jupyter
+drwxr-x---  2 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b   4096 Apr 24 17:36 .ipynb_checkpoints
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b     74 Apr 24 17:18 matriznum.csv
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b  19127 Apr 23 19:48 .python.dados.pandas.ipynb.sage-jupyter
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b     40 Apr 24 17:58 test.dat
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b      0 Apr 24 18:16 teste.txt
+-rw-r-----  1 abcb4b29d3d044b29a7eae91bcf6393b abcb4b29d3d044b29a7eae91bcf6393b    219 Apr 24 17:22 texto.txt

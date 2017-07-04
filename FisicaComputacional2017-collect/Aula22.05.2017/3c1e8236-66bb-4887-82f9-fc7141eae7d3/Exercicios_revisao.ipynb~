@@ -1,0 +1,1289 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n"
+     ]
+    }
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[5, 4, 4, 3, 3, 1]\n"
+     ]
+    }
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "### Exercicio 1\n",
+    "- Gere uma lista com 100 números aleatórios, em seguida o aluno deverá encontrar os intervalos médios dos elementos da lista."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[0.91339030625712825, -0.88720649334783253, -0.065294361550851776, 0.75749493710378335, -0.017752948326592133, -0.059196072891660845, -0.21397478360549993, 0.41167890265863105, -0.28777528868048419, -0.42004239447538516, 0.66641535980731348, -0.79606739671387261, 0.30661624394138698, 0.19820802580577057, 0.03955761263860802, 0.20081312129851536, -0.74683501148943943, 0.8796759056822353, -0.6817087950518943, 0.63192899178741779, -0.43651474315758254, -0.33734624634704569, 0.55117284378689668, -0.42889966163518567, 0.21799388343323989, 0.33084828792356447, -0.77763759032663826, 0.029174000556101309, 0.17933647040963419, 0.068063180611710239, 0.29647907344909141, -0.54898589300209877, 0.88757862233084639, -0.83567857116039701, 0.5274876639841537, -0.05910209365055985, 0.35822741130929214, -0.56877562863728326, 0.28269393170170187, 0.077778591897676219, -0.051419407055955935, -0.17024213386989473, 0.061712468803681975, -0.3136001819630283, -0.20491840126670102, 0.67521475912910178, -0.68455448198558388, 0.63284064897595671, -0.28767365636100228, 0.36219483214506298, 0.14031476639078899, -0.57924111122194899, 0.099652677091424557, 0.47678262363497048, -0.099770204072626267, -0.29014108043202258, -0.15697045545375576, 0.44544569980883242, 0.094573915539576392, -0.15429413285548688, -0.49088235318643436, -0.12587840331684841, 0.17999445651305002, -0.23309498071174028, 0.39661324116808805, -0.20896400303467377, 0.57231023717053287, -0.51644095314091176, 0.40163333599700846, 0.03129447791221418, -0.58196436545157115, 0.40197844886714162, 0.04347551448143161, 0.15244285284808579, -0.35822892380970706, -0.21534229314225195, 0.70665424155468015, -0.74069380485865854, 0.78230266189977926, -0.68977664306688513, -0.05185679082640815, 0.26380116739669035, 0.52631443047804194, -0.46444499715059107, 0.51755639657131525, -0.88499788624450404, 0.84460430497678862, -0.14165867265059184, -0.42658061792568969, 0.1524008989690967, -0.42687097805011853, 0.073587962865790946, 0.14947239152367497, -0.12141528688332903, -0.19709798101503928, 0.19643999157709324, 0.20105099863154863, -0.21868167162184382, 0.61296893645943462]\n"
+     ]
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "l=np.random.rand(100)\n",
+    "im=[]\n",
+    "for i in range(len(l)):\n",
+    "    if(i!=len(l)-1):\n",
+    "        a=(l[i+1]-l[i])\n",
+    "        im.append(a)\n",
+    "print(im)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 0,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+    "### Exercicio 2\n",
+    "Faça um programa que leia um número indeterminado de valores, correspondentes a notas, encerrando a entrada de dados quando for informado um valor igual a -1 (que não deve ser armazenado). Após esta entrada de dados, faça:\n",
+    "- Mostre a quantidade de valores que foram lidos;\n",
+    "- Exiba todos os valores na ordem em que foram informados, um ao lado do outro;\n",
+    "- Exiba todos os valores na ordem inversa à que foram informados, um abaixo do outro;\n",
+    "- Calcule e mostre a soma dos valores;\n",
+    "- Calcule e mostre a média dos valores;\n",
+    "- Calcule e mostre a quantidade de valores acima da média calculada;\n",
+    "- Calcule e mostre a quantidade de valores abaixo de sete;\n",
+    "- Encerre o programa com uma mensagem;"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Entre com um valor: 1\n",
+      "Entre com um valor: 2\n",
+      "Entre com um valor: 3\n",
+      "Entre com um valor: -1\n",
+      "3\n",
+      "[1, 2, 3]\n",
+      "3\n",
+      "2\n",
+      "1\n",
+      "6\n",
+      "2\n",
+      "('Acima da media: ', 1)\n",
+      "('Abaixo da media: ', 1)\n",
+      "Me passa ae!!!\n"
+     ]
+    }
+   ],
+   "source": [
+    "l=[]\n",
+    "a=0\n",
+    "while(a!=-1):\n",
+    "    a=input('Entre com um valor: ')\n",
+    "    if (a==-1):\n",
+    "        break\n",
+    "    else:\n",
+    "        l.append(a)\n",
+    "        a=a+1\n",
+    "print(len(l))\n",
+    "print(l)\n",
+    "b=len(l)\n",
+    "m= l[::-1]\n",
+    "soma=0\n",
+    "for i in range(b):\n",
+    "    print(m[i])\n",
+    "    soma=l[i]+soma\n",
+    "print(soma)\n",
+    "media=soma/b\n",
+    "print(media)\n",
+    "acima=0\n",
+    "abaixo=0\n",
+    "for i in range(b):\n",
+    "    if(l[i]>media):\n",
+    "        acima=acima+1\n",
+    "    elif(l[i]<media):\n",
+    "        abaixo=abaixo+1\n",
+    "print('Acima da media: ',acima)\n",
+    "print('Abaixo da media: ',abaixo)\n",
+    "print('Me passa ae!!!')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": true
+   },
+   "source": [
+    "### Exercicio 3\n",
+    "- Calcule as raízes da equação do 2◦ grau ($Ax^2 + Bx + C = 0$) sendo os valores de A, B e C fornecidos pelo usuário, levando em consideração a existência de raízes complexas.**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Entre com o valor de A: 1\n",
+      "Entre com o valor de B: 4\n",
+      "Entre com o valor de C: 5\n",
+      "('X1=', (-2+1j))\n",
+      "('X2=', (-2-1j))\n"
+     ]
+    }
+   ],
+   "source": [
+    "import math\n",
+    "import cmath\n",
+    "a=input('Entre com o valor de A: ')\n",
+    "b=input('Entre com o valor de B: ')\n",
+    "c=input('Entre com o valor de C: ')\n",
+    "d=(b**2)-4*a*c\n",
+    "if(d<0):\n",
+    "    x1=(-b+cmath.sqrt(d))/2*a\n",
+    "    x2=(-b-cmath.sqrt(d))/2*a\n",
+    "    print('X1=',x1)\n",
+    "    print('X2=',x2)\n",
+    "elif(d==0):\n",
+    "    x=(-b+math.sqrt(d))/2*a\n",
+    "    print('X=',x)\n",
+    "else:\n",
+    "    x1=(-b+math.sqrt(d))/2*a\n",
+    "    x2=(-b-math.sqrt(d))/2*a\n",
+    "    print('X1=',x1)\n",
+    "    print('X2=',x2)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": true
+   },
+   "source": [
+    "### Exercícios 4\n",
+    "- Crie 12 arquivos, chamados de 'arq_mes_estação.txt'. Cada um deles contendo a frase: \"A minha estação predileta é 'estação', especialmente 'mês'\"  repetida um número aleatório de vezes, entre 5 e 20. Comprima essas arquivos usando o comando gzip. Faça isso utilizando o conceito de dicionários."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "17\n",
+      "16\n",
+      "18\n",
+      "15\n",
+      "9\n",
+      "17\n",
+      "5\n",
+      "9\n",
+      "16\n",
+      "12\n",
+      "6\n",
+      "15\n"
+     ]
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "d={'Janeiro':'Primavera','Fevereiro':'Primavera','Marco':'Primavera','Abril':'Verao','Maio':'Verao','Junho':'Verao','Julho':'Outono','Agosto':'Outono','Setembro':'Outono','Outubro':'Inverno','Novembro':'Inverno','Dezembro':'Inverno'}\n",
+    "for mes in d.keys():\n",
+    "    estacao=d[mes]\n",
+    "    arq=open('arq_'+mes+'_'+estacao+'.txt','w')\n",
+    "    a=np.random.randint(5,21)\n",
+    "    for i in range(a):\n",
+    "        arq.write('A minha estacao predileta é %s, especialmente em %s\\n'%(estacao,mes))\n",
+    "    arq.close()\n",
+    "    print(a)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": true
+   },
+   "source": [
+    "### Exercícios 5\n",
+    "1. Com base nos dados de https://pt.wikipedia.org/wiki/Lista_de_epis%C3%B3dios_de_Pok%C3%A9mon Construa um  dataframe para armazenar \n",
+    "as informações sobre os episódios de Pokemon, contendo: \n",
+    "- Série\n",
+    "- Geração\n",
+    "- Temporada\n",
+    "- Primeiro Episódio\n",
+    "- Último Episódio\n",
+    "- Região\n",
+    "2. Descubra qual a geração mais longeva\n",
+    "3. Descubra quantas temporadas durou cada série"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+    "import pandas as pd\n",
+    "import numpy as np"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+    "def preenche(lis):\n",
+    "    for elem in range(1,len(lis)):\n",
+    "        if lis[elem]!=lis[elem]: #truque sujo!\n",
+    "            lis[elem]=lis[elem-1]\n",
+    "    return lis"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+    "def sint(x):\n",
+    "    try: \n",
+    "        return int(x)\n",
+    "    except:\n",
+    "        return 947+20+1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+    "lispoktab=pd.read_html(\"pokemon.html\")\n",
+    "df=lispoktab[0]\n",
+    "df.ix[2]=np.roll(df.ix[2],2)\n",
+    "df.ix[3]=np.roll(df.ix[3],1)\n",
+    "df.ix[4]=np.roll(df.ix[4],2)\n",
+    "df.ix[5]=np.roll(df.ix[5],2)\n",
+    "df.ix[7]=np.roll(df.ix[7],2)\n",
+    "df.ix[8]=np.roll(df.ix[8],2)\n",
+    "df.ix[9]=np.roll(df.ix[9],2)\n",
+    "df.ix[11]=np.roll(df.ix[11],2)\n",
+    "df.ix[12]=np.roll(df.ix[12],2)\n",
+    "df.ix[13]=np.roll(df.ix[13],2)\n",
+    "df.ix[15]=np.roll(df.ix[15],2)\n",
+    "df.ix[16]=np.roll(df.ix[16],2)\n",
+    "df.ix[18]=np.roll(df.ix[18],2)\n",
+    "df.ix[19]=np.roll(df.ix[19],2)\n",
+    "\n",
+    "\n",
+    "df.columns=df.ix[0] # muda o nome das colunas\n",
+    "df=df.drop(0) # elimina a primeira linha\n",
+    "df['Série']=preenche(list(df['Série'])) # elimina elementos com Nan\n",
+    "df['Geração']=preenche(list(df['Geração']))\n",
+    "df['Região']=preenche(list(df['Região']))\n",
+    "df['Episódios']=[episodio[0:-7] for episodio in df['Episódios']] # elimina parte final \n",
+    "df['Primeiro']=[int(episodio[0:3]) for episodio in df['Episódios']] # separa em duas partes\n",
+    "df['Último']=[sint(episodio[4:-1]) for episodio in df['Episódios']]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Série</th>\n",
+       "      <th>Geração</th>\n",
+       "      <th>Temporada</th>\n",
+       "      <th>Descrição</th>\n",
+       "      <th>Episódios</th>\n",
+       "      <th>Região</th>\n",
+       "      <th>Primeiro</th>\n",
+       "      <th>Último</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Série Original</td>\n",
+       "      <td>Primeira</td>\n",
+       "      <td>Liga Índigo</td>\n",
+       "      <td>Mostra a jornada de Ash, Misty e Brock na Liga...</td>\n",
+       "      <td>001-083</td>\n",
+       "      <td>Kanto</td>\n",
+       "      <td>1</td>\n",
+       "      <td>83</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>Série Original</td>\n",
+       "      <td>Primeira</td>\n",
+       "      <td>Aventuras nas Ilhas Laranja</td>\n",
+       "      <td>Mostra a jornada de Ash, Misty e Tracey na Lig...</td>\n",
+       "      <td>084-118</td>\n",
+       "      <td>Ilhas Laranja</td>\n",
+       "      <td>84</td>\n",
+       "      <td>118</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>Série Original</td>\n",
+       "      <td>Segunda</td>\n",
+       "      <td>A Jornada Johto</td>\n",
+       "      <td>Inicia a jornada de Ash, Misty e Brock em Joht...</td>\n",
+       "      <td>119-159</td>\n",
+       "      <td>Johto</td>\n",
+       "      <td>119</td>\n",
+       "      <td>159</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>Série Original</td>\n",
+       "      <td>Segunda</td>\n",
+       "      <td>Campeões da Liga Johto</td>\n",
+       "      <td>Continua com as aventuras de Ash e seus amigos...</td>\n",
+       "      <td>160-211</td>\n",
+       "      <td>Johto</td>\n",
+       "      <td>160</td>\n",
+       "      <td>211</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>5</th>\n",
+       "      <td>Série Original</td>\n",
+       "      <td>Segunda</td>\n",
+       "      <td>Master Quest</td>\n",
+       "      <td>Encerra as aventuras em Johto, Misty volta a C...</td>\n",
+       "      <td>212-276</td>\n",
+       "      <td>Johto</td>\n",
+       "      <td>212</td>\n",
+       "      <td>276</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>6</th>\n",
+       "      <td>Geração Avançada</td>\n",
+       "      <td>Terceira</td>\n",
+       "      <td>Pokémon: Avançado</td>\n",
+       "      <td>Inicia as Aventuras de Ash, Brock,agora juntam...</td>\n",
+       "      <td>277-316</td>\n",
+       "      <td>Hoenn</td>\n",
+       "      <td>277</td>\n",
+       "      <td>316</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>7</th>\n",
+       "      <td>Geração Avançada</td>\n",
+       "      <td>Terceira</td>\n",
+       "      <td>Desafio Avançado</td>\n",
+       "      <td>Continua com a jornada de Ash e seus amigos em...</td>\n",
+       "      <td>317-368</td>\n",
+       "      <td>Hoenn</td>\n",
+       "      <td>317</td>\n",
+       "      <td>368</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>8</th>\n",
+       "      <td>Geração Avançada</td>\n",
+       "      <td>Terceira</td>\n",
+       "      <td>Batalha Avançada</td>\n",
+       "      <td>Encerra as aventuras em Hoenn e começa a Jorna...</td>\n",
+       "      <td>369-421</td>\n",
+       "      <td>Hoenn</td>\n",
+       "      <td>369</td>\n",
+       "      <td>421</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>9</th>\n",
+       "      <td>Geração Avançada</td>\n",
+       "      <td>Terceira</td>\n",
+       "      <td>Batalha da Fronteira</td>\n",
+       "      <td>Conclui a Jornada na Batalha da Fronteira. May...</td>\n",
+       "      <td>422-468</td>\n",
+       "      <td>Kanto</td>\n",
+       "      <td>422</td>\n",
+       "      <td>468</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>10</th>\n",
+       "      <td>Diamante e Pérola</td>\n",
+       "      <td>Quarta</td>\n",
+       "      <td>Diamante e Pérola</td>\n",
+       "      <td>Inicia as aventuras de Ash e Brock em Sinnoh c...</td>\n",
+       "      <td>469-520</td>\n",
+       "      <td>Sinnoh</td>\n",
+       "      <td>469</td>\n",
+       "      <td>520</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>11</th>\n",
+       "      <td>Diamante e Pérola</td>\n",
+       "      <td>Quarta</td>\n",
+       "      <td>Batalha Dimensional</td>\n",
+       "      <td>Continua as aventuras de Ash, Brock e Dawn em ...</td>\n",
+       "      <td>521-572</td>\n",
+       "      <td>Sinnoh</td>\n",
+       "      <td>521</td>\n",
+       "      <td>572</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>12</th>\n",
+       "      <td>Diamante e Pérola</td>\n",
+       "      <td>Quarta</td>\n",
+       "      <td>Batalhas Galácticas</td>\n",
+       "      <td>Continua a jornada de Ash, Dawn e Brock em Sin...</td>\n",
+       "      <td>573-625</td>\n",
+       "      <td>Sinnoh</td>\n",
+       "      <td>573</td>\n",
+       "      <td>625</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>13</th>\n",
+       "      <td>Diamante e Pérola</td>\n",
+       "      <td>Quarta</td>\n",
+       "      <td>Vencedores da Liga Sinnoh</td>\n",
+       "      <td>Conclui a jornada de Ash, Dawn e Brock em Sinn...</td>\n",
+       "      <td>626-659</td>\n",
+       "      <td>Sinnoh</td>\n",
+       "      <td>626</td>\n",
+       "      <td>659</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>14</th>\n",
+       "      <td>Preto e Branco</td>\n",
+       "      <td>Quinta</td>\n",
+       "      <td>Preto e Branco</td>\n",
+       "      <td>Inicia as aventuras de Ash na região de Unova ...</td>\n",
+       "      <td>660-707</td>\n",
+       "      <td>Unova</td>\n",
+       "      <td>660</td>\n",
+       "      <td>707</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>15</th>\n",
+       "      <td>Preto e Branco</td>\n",
+       "      <td>Quinta</td>\n",
+       "      <td>Destinos Rivais</td>\n",
+       "      <td>Ash reencontra Dawn.Tem 49 episódios</td>\n",
+       "      <td>708-756</td>\n",
+       "      <td>Unova</td>\n",
+       "      <td>708</td>\n",
+       "      <td>756</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>16</th>\n",
+       "      <td>Preto e Branco</td>\n",
+       "      <td>Quinta</td>\n",
+       "      <td>Aventuras em Unova (e Mais Além)</td>\n",
+       "      <td>Continua a jornada de Ash, Iris e Cilan em Uno...</td>\n",
+       "      <td>757-803</td>\n",
+       "      <td>Unova</td>\n",
+       "      <td>757</td>\n",
+       "      <td>803</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>17</th>\n",
+       "      <td>XY</td>\n",
+       "      <td>Sexta</td>\n",
+       "      <td>A Série XY</td>\n",
+       "      <td>Inicia as aventuras de Ash, Serena, Clemont e ...</td>\n",
+       "      <td>804-852</td>\n",
+       "      <td>Kalos</td>\n",
+       "      <td>804</td>\n",
+       "      <td>852</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>18</th>\n",
+       "      <td>XY</td>\n",
+       "      <td>Sexta</td>\n",
+       "      <td>Kalos Quest</td>\n",
+       "      <td>Continua as aventuras de Ash, Serena, Clemont ...</td>\n",
+       "      <td>853-897</td>\n",
+       "      <td>Kalos</td>\n",
+       "      <td>853</td>\n",
+       "      <td>897</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>19</th>\n",
+       "      <td>XY</td>\n",
+       "      <td>Sexta</td>\n",
+       "      <td>XY &amp; Z</td>\n",
+       "      <td>Continua A Saga de Ash ,Clement, Bonnie e Sere...</td>\n",
+       "      <td>898-946</td>\n",
+       "      <td>Kalos</td>\n",
+       "      <td>898</td>\n",
+       "      <td>946</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>20</th>\n",
+       "      <td>Sun and Moon</td>\n",
+       "      <td>Sétima</td>\n",
+       "      <td>Sun and Moon</td>\n",
+       "      <td>Inicia as aventuras de Ash, Lana, Mallow, Kiaw...</td>\n",
+       "      <td>947-</td>\n",
+       "      <td>Alola</td>\n",
+       "      <td>947</td>\n",
+       "      <td>968</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "df"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+    "df['longa']=(df['Último'])-(df['Primeiro'])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1     82\n",
+      "2     34\n",
+      "3     40\n",
+      "4     51\n",
+      "5     64\n",
+      "6     39\n",
+      "7     51\n",
+      "8     52\n",
+      "9     46\n",
+      "10    51\n",
+      "11    51\n",
+      "12    52\n",
+      "13    33\n",
+      "14    47\n",
+      "15    48\n",
+      "16    46\n",
+      "17    48\n",
+      "18    44\n",
+      "19    48\n",
+      "20    21\n",
+      "Name: longa, dtype: int64\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (df['longa'])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "82\n"
+     ]
+    }
+   ],
+   "source": [
+    "Max = df['longa'].max()# A temporada mais longa tem 82 epsódios\n",
+    "print (Max)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "N=df.Série.str.contains(r'Série Original').sum()\n",
+    "print (N)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "4\n"
+     ]
+    }
+   ],
+   "source": [
+    "M=df.Série.str.contains(r'Geração Avançada').sum()\n",
+    "print (M)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "4\n"
+     ]
+    }
+   ],
+   "source": [
+    "O=df.Série.str.contains(r'Diamante e Pérola').sum()\n",
+    "print (O)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3\n"
+     ]
+    }
+   ],
+   "source": [
+    "P=df.Série.str.contains(r'Preto e Branco').sum()\n",
+    "print(P)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3\n"
+     ]
+    }
+   ],
+   "source": [
+    "Q=df.Série.str.contains(r'XY').sum()\n",
+    "print(Q)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 0,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+    "### Exercício 6\n",
+    "- Passo 1: Gere um arquivo com 10 notas de cinco alunos (Deve conter o nome do aluno e as notas).\n",
+    "- Passo 2: Em seguida crie uma array em numpy com essas notas.\n",
+    "- Passo 3: Crie um DataFrame dessas notas.\n",
+    "- Passo 4: Identifique qual menor nota e quem foi o aluno que obteve essa nota\n",
+    "- Passo 5: Identifique o aluno que tirou as melhores notas."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {
+    "collapsed": false,
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([['Ana', '8', '9', '10', '3', '2', '1', '3', '6', '5', '4'],\n",
+       "       ['Bia', '7', '8', '10', '5', '2', '2', '3', '3', '3', '5'],\n",
+       "       ['Sophia', '4', '5', '7', '2', '2', '2', '2', '2', '3', '3'],\n",
+       "       ['Paulo', '2', '3', '6', '5', '4', '1', '2', '3', '9', '6'],\n",
+       "       ['Pedro', '5', '2', '3', '3', '6', '5', '5', '5', '2', '1']], \n",
+       "      dtype='<U6')"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "notes= [['Ana',8,9,10,3,2,1,3,6,5,4],['Bia',7,8,10,5,2,2,3,3,3,5],['Sophia',4,5,7,2,2,2,2,2,3,3],['Paulo',2,3,6,5,4,1,2,3,9,6],['Pedro',5,2,3,3,6,5,5,5,2,1]]\n",
+    "matriz = np.array(notes)\n",
+    "matriz"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+    "import pandas as pd\n",
+    "c=pd.DataFrame(matriz)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style>\n",
+       "    .dataframe thead tr:only-child th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: left;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>0</th>\n",
+       "      <th>1</th>\n",
+       "      <th>2</th>\n",
+       "      <th>3</th>\n",
+       "      <th>4</th>\n",
+       "      <th>5</th>\n",
+       "      <th>6</th>\n",
+       "      <th>7</th>\n",
+       "      <th>8</th>\n",
+       "      <th>9</th>\n",
+       "      <th>10</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>Ana</td>\n",
+       "      <td>8</td>\n",
+       "      <td>9</td>\n",
+       "      <td>10</td>\n",
+       "      <td>3</td>\n",
+       "      <td>2</td>\n",
+       "      <td>1</td>\n",
+       "      <td>3</td>\n",
+       "      <td>6</td>\n",
+       "      <td>5</td>\n",
+       "      <td>4</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Bia</td>\n",
+       "      <td>7</td>\n",
+       "      <td>8</td>\n",
+       "      <td>10</td>\n",
+       "      <td>5</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2</td>\n",
+       "      <td>3</td>\n",
+       "      <td>3</td>\n",
+       "      <td>3</td>\n",
+       "      <td>5</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>Sophia</td>\n",
+       "      <td>4</td>\n",
+       "      <td>5</td>\n",
+       "      <td>7</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2</td>\n",
+       "      <td>3</td>\n",
+       "      <td>3</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>Paulo</td>\n",
+       "      <td>2</td>\n",
+       "      <td>3</td>\n",
+       "      <td>6</td>\n",
+       "      <td>5</td>\n",
+       "      <td>4</td>\n",
+       "      <td>1</td>\n",
+       "      <td>2</td>\n",
+       "      <td>3</td>\n",
+       "      <td>9</td>\n",
+       "      <td>6</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>Pedro</td>\n",
+       "      <td>5</td>\n",
+       "      <td>2</td>\n",
+       "      <td>3</td>\n",
+       "      <td>3</td>\n",
+       "      <td>6</td>\n",
+       "      <td>5</td>\n",
+       "      <td>5</td>\n",
+       "      <td>5</td>\n",
+       "      <td>2</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "c"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+    "c.rename(columns={0: 'Nomes', 1: 'Nota 1',2: 'Nota 2',3: 'Nota 3',4:'Nota 4',5:'Nota 5',6:'Nota 6',7:'Nota 7',8:'Nota 8',9:'Nota 9',10:'Nota 10'}, inplace=True)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style>\n",
+       "    .dataframe thead tr:only-child th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: left;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Nomes</th>\n",
+       "      <th>Nota 1</th>\n",
+       "      <th>Nota 2</th>\n",
+       "      <th>Nota 3</th>\n",
+       "      <th>Nota 4</th>\n",
+       "      <th>Nota 5</th>\n",
+       "      <th>Nota 6</th>\n",
+       "      <th>Nota 7</th>\n",
+       "      <th>Nota 8</th>\n",
+       "      <th>Nota 9</th>\n",
+       "      <th>Nota 10</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>Ana</td>\n",
+       "      <td>8</td>\n",
+       "      <td>9</td>\n",
+       "      <td>10</td>\n",
+       "      <td>3</td>\n",
+       "      <td>2</td>\n",
+       "      <td>1</td>\n",
+       "      <td>3</td>\n",
+       "      <td>6</td>\n",
+       "      <td>5</td>\n",
+       "      <td>4</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Bia</td>\n",
+       "      <td>7</td>\n",
+       "      <td>8</td>\n",
+       "      <td>10</td>\n",
+       "      <td>5</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2</td>\n",
+       "      <td>3</td>\n",
+       "      <td>3</td>\n",
+       "      <td>3</td>\n",
+       "      <td>5</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>Sophia</td>\n",
+       "      <td>4</td>\n",
+       "      <td>5</td>\n",
+       "      <td>7</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2</td>\n",
+       "      <td>2</td>\n",
+       "      <td>3</td>\n",
+       "      <td>3</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>Paulo</td>\n",
+       "      <td>2</td>\n",
+       "      <td>3</td>\n",
+       "      <td>6</td>\n",
+       "      <td>5</td>\n",
+       "      <td>4</td>\n",
+       "      <td>1</td>\n",
+       "      <td>2</td>\n",
+       "      <td>3</td>\n",
+       "      <td>9</td>\n",
+       "      <td>6</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>Pedro</td>\n",
+       "      <td>5</td>\n",
+       "      <td>2</td>\n",
+       "      <td>3</td>\n",
+       "      <td>3</td>\n",
+       "      <td>6</td>\n",
+       "      <td>5</td>\n",
+       "      <td>5</td>\n",
+       "      <td>5</td>\n",
+       "      <td>2</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "c"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "Nomes      Ana\n",
+       "Nota 1       2\n",
+       "Nota 2       2\n",
+       "Nota 3      10\n",
+       "Nota 4       2\n",
+       "Nota 5       2\n",
+       "Nota 6       1\n",
+       "Nota 7       2\n",
+       "Nota 8       2\n",
+       "Nota 9       2\n",
+       "Nota 10      1\n",
+       "dtype: object"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "c.min()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "/projects/anaconda3/lib/python3.5/site-packages/ipykernel/__main__.py:1: DeprecationWarning: \n",
+      ".ix is deprecated. Please use\n",
+      ".loc for label based indexing or\n",
+      ".iloc for positional indexing\n",
+      "\n",
+      "See the documentation here:\n",
+      "http://pandas.pydata.org/pandas-docs/stable/indexing.html#deprecate_ix\n",
+      "  if __name__ == '__main__':\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "Nomes      Sophia\n",
+       "Nota 1          4\n",
+       "Nota 2          5\n",
+       "Nota 3          7\n",
+       "Nota 4          2\n",
+       "Nota 5          2\n",
+       "Nota 6          2\n",
+       "Nota 7          2\n",
+       "Nota 8          2\n",
+       "Nota 9          3\n",
+       "Nota 10         3\n",
+       "Name: 2, dtype: object"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "c.ix[2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "aqui=np.array(matriz[:,1:10],int).min()\n",
+    "aqui"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Ana'"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "aqui=np.array(matriz[:,1:11],int).min()\n",
+    "index=0\n",
+    "for k in range(0,len(matriz)):\n",
+    "    for j in range(0,len(matriz)):\n",
+    "        try:\n",
+    "            teste=float(matriz[k,j])\n",
+    "            if teste == aqui:\n",
+    "                index=k;\n",
+    "        except:\n",
+    "            do=0;\n",
+    "            \n",
+    "matriz[index,0]\n",
+    "        \n",
+    "#aqui"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 0,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (Anaconda)",
+   "language": "python",
+   "name": "anaconda3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.5.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}

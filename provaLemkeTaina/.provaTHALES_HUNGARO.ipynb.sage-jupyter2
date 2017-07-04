@@ -1,0 +1,6 @@
+{"type":"settings","backend_state":"running","kernel_state":"idle","kernel":"python2"}
+{"type":"cell","id":"c53619","pos":0,"input":"# Prova Final de Física Computacional\n## Nome do Arquivo: provaTHALES_HUNGARO.ipynb\n\n","cell_type":"markdown"}
+{"type":"cell","id":"cc8d1c","pos":1,"input":"## Questão 1\nGere uma Lista contendo os primeiros 32 números pares.\nCalcule sua soma.\n","cell_type":"markdown"}
+{"type":"cell","id":"96ba88","pos":2,"input":"## Questão 2\nAbra o arquivo `jogadores.csv` e responda apresentando um código que:\n\n- Leia o arquivo e transforme em um DataFrame pandas. \n- Conte o número de colunas.\n- Quais jogadores nasceram antes de 1989?\n","cell_type":"markdown"}
+{"type":"cell","id":"d565bc","pos":3,"input":"## Questão 3\nGere um gráfico do peso e altura dos jogadores. Os eixos devem conter \nas quantidades que estão sendo representados e o título deve conter o nome do Aluno. \nO tamanho dos pontos deve representar a idade dos jogadores. A cor deve ser verde e\nas marcas devem ser círculos.\n","cell_type":"markdown"}
+{"type":"file","last_load":1497277777327}

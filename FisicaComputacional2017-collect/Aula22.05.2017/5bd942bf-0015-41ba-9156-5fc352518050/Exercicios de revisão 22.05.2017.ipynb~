@@ -1,0 +1,134 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "## **Exercicio 1**\n",
+    "\n",
+    "Gere uma lista com 100 números aleatórios, em seguida o aluno deverá deverá encontrar os intervalos médios dos elementos da lista."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([ 1.27264681,  4.99130419,  1.26248706,  1.10892269,  2.78212724,\n",
+       "        5.62910615,  6.35907354,  2.9220941 ,  2.02648551,  6.08008755,\n",
+       "        4.85160867,  5.46613653,  2.32178416,  6.39545967,  5.15230105,\n",
+       "        3.3059328 ,  1.67288355,  3.35024032,  1.12938264,  6.93982427,\n",
+       "        6.41639001,  5.67101187,  4.05413762,  4.30173638,  6.77562432,\n",
+       "        2.89154014,  3.41139784,  2.42327975,  6.13135947,  3.71734434,\n",
+       "        1.30969718,  6.58971189,  5.49695165,  6.97753402,  2.17218648,\n",
+       "        2.49145382,  3.84566302,  4.29919629,  2.10559765,  6.11800083,\n",
+       "        6.54014768,  1.10653237,  3.00364424,  1.47870872,  6.42147115,\n",
+       "        4.48977957,  5.93730321,  5.4397479 ,  2.09677119,  5.63062025,\n",
+       "        6.07136579,  6.31286915,  2.69498207,  2.67394336,  4.8769542 ,\n",
+       "        5.29118383,  5.52899947,  1.37891938,  3.4505868 ,  3.88148723,\n",
+       "        3.36541273,  4.61973057,  2.91411156,  4.40453001,  6.58546157,\n",
+       "        2.7757014 ,  3.01468188,  5.81066908,  5.05751355,  5.88755477,\n",
+       "        1.95323729,  4.48432002,  6.13714302,  5.871795  ,  6.55378104,\n",
+       "        4.74741316,  1.34051813,  4.60075032,  4.67876247,  1.76049784,\n",
+       "        4.26908733,  3.28359133,  6.06148194,  6.10496016,  5.97534324,\n",
+       "        1.4518122 ,  5.47025845,  5.51023851,  4.49543642,  3.07934234,\n",
+       "        2.17090104,  5.22814572,  1.14146231,  4.89300204,  1.07823152,\n",
+       "        2.1531403 ,  3.89549831,  6.56283691,  1.62550806,  3.07808523])"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {
+     },
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "lis=np.random.uniform(1,7,100)\n",
+    "lis"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[6.9561466426308733]\n"
+     ]
+    }
+   ],
+   "source": [
+    "imedio=[]\n",
+    "\n",
+    "for i in range(0,99):\n",
+    "    imedio=[(lis[i]+lis[i+1])/2]\n",
+    "             \n",
+    "print imedio"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": false
+   },
+   "source": [
+    "## **Exercicio 2**\n",
+    "\n",
+    "Faça um programa que leia um número indeterminado de valores, correspondentes a notas, encerrando a entrada de dados quando for informado um valor igual a -1 (que não deve ser armazenado). Após esta entrada de dados, faça:\n",
+    "- Mostre a quantidade de valores que foram lidos;\n",
+    "- Exiba todos os valores na ordem em que foram informados, um ao lado do outro;\n",
+    "- Exiba todos os valores na ordem inversa à que foram informados, um abaixo do outro;\n",
+    "- Calcule e mostre a soma dos valores;\n",
+    "- Calcule e mostre a média dos valores;\n",
+    "- Calcule e mostre a quantidade de valores acima da média calculada;\n",
+    "- Calcule e mostre a quantidade de valores abaixo de sete;\n",
+    "- Encerre o programa com uma mensagem;"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 0,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+   ],
+   "source": [
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 2 (Ubuntu Linux)",
+   "language": "python",
+   "name": "python2-ubuntu"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 2
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython2",
+   "version": "2.7.10"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}

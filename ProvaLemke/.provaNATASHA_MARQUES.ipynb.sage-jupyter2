@@ -1,0 +1,6 @@
+{"type":"settings","backend_state":"running","kernel_state":"idle","kernel":"python2"}
+{"type":"cell","id":"865b79","pos":0,"input":"# Prova Final de Física Computacional\n## Nome do Arquivo: provaNATASHA_MARQUES.ipynb\n\n","cell_type":"markdown"}
+{"type":"cell","id":"0cfa99","pos":1,"input":"## Questão 1\nGere uma Lista contendo os primeiros 33 números impares.\nCalcule sua soma.\n","cell_type":"markdown"}
+{"type":"cell","id":"b480e2","pos":2,"input":"## Questão 2\nAbra o arquivo `jogadores.csv` e responda apresentando um código que:\n\n- Leia o arquivo e transforme em um DataFrame pandas. \n- Conte o número de colunas.\n- Quais jogadores nasceram antes de 1990?\n","cell_type":"markdown"}
+{"type":"cell","id":"b5851a","pos":3,"input":"## Questão 3\nGere um gráfico do peso e altura dos jogadores. Os eixos devem conter \nas quantidades que estão sendo representados e o título deve conter o nome do Aluno. \nO tamanho dos pontos deve representar a idade dos jogadores. A cor deve ser vermelha e\nas marcas devem ser quadrados.\n","cell_type":"markdown"}
+{"type":"file","last_load":1497145330128}

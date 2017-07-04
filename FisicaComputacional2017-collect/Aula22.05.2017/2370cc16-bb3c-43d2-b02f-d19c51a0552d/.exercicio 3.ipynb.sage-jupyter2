@@ -1,0 +1,5 @@
+{"output":{"0":{"name":"input","opts":{"password":false,"prompt":"Digite o valor de A da equação de 2 grau"},"value":"1"},"1":{"name":"input","opts":{"password":false,"prompt":"Digite o valor de B da equação de 2 grau"},"value":"1"}},"exec_count":2,"start":1495478227561,"input":"import math\n\na = float (input (\"Digite o valor de A da equação de 2 grau\"))\nb = float (input (\"Digite o valor de B da equação de 2 grau\"))\nc = float (input (\"Digite o valor de C da equação de 2 grau\"))\nprint a, b, c\ndelt = b**2 - 4*a*c\nprint delt\nx1 = ((-b -(delt**0.5))/(2*a))\nx2 = ((-b +(delt**0.5))/(2*a))\n\nprint x1, x2","state":"done","pos":0,"type":"cell","id":"92eb59","kernel":"python2"}
+{"type":"settings","trust":true,"kernel":"python2","backend_state":"ready","kernel_state":"idle"}
+{"type":"file","last_load":1495478171152}
+{"exec_count":1,"input":"","state":"done","pos":-1,"cell_type":"markdown","type":"cell","id":"474447","kernel":"python2"}
+{"type":"cell","id":"ee9da4","pos":1,"input":""}
